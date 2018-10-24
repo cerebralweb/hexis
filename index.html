@@ -1,24 +1,44 @@
 <!DOCTYPE html>
+
 <!-- Microdata markup agregado parcialmente con Google Structured Data Markup Helper. -->
+
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
+
     <!--Metas básicos-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Insights sobre comercio, marcas, marketing, retail, branding y 
+    <meta name="description" content="Insights y artículos sobre comercio, marcas, servicios de salud, arte, servicios culturales, marketing, apps, retail, branding y 
     hábitos de consumo de los colombianos, bogotanos y latinoamericanos">
     <meta name="keywords" content="hexislab, marketing, insights, marca, comercio, consumo, brand, Colombia, consuming, Bogotá, Latinoamérica">
     <meta name="author" content="hexislab.co"/>
+
+    <!-- Google Analytics -->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+        </script>
+    <script async src='https://www.google-analytics.com/analytics.js'>
+    </script>
+        
     <!--acá comienza el The Open Graph protocol para Facebook-->
+
     <meta property="og:title" content="el consumidor incógnito insights"/>
     <meta property="og:locale" content="es"/>
-    <meta property="og:description" content="Insights sobre comercio, marcas, marketing, retail, branding y 
+    <meta property="og:description" content="IInsights y artículos sobre comercio, marcas, servicios de salud, arte, servicios culturales, marketing, apps, retail, branding y 
     hábitos de consumo de los colombianos, bogotanos y latinoamericanos"/>
     <meta property="og:url" content="https://adablog.netlify.com/" />
     <meta property="og:site_name" content="el consumidor incógnito" />
+
+    <!--Esta imagen es para el preview de Facebook: rotarla-->
+
     <meta property="og:image" content="/_images_post/primer-deploy-de-el-consumidor-incognito.jpg"/>
+
     <!--esta es la conexión con los estilos CSS3-->
+
     <link rel="stylesheet" href="/css/style.css"/>
 
     <!--PENDIENTE DE RESOLVER BASE URL
@@ -26,7 +46,10 @@
     <base href="www.elcompradorincognito.me" target="_blank"/>
     -->
     <!--Declaración: esta URL es la "original", cotejada con "duplicados" por spyders-->
-    <link rel="canonical" href="https://adablog.netlify.com/"\> <!--PENDIENTE-->
+
+    <link rel="canonical" href="https://adablog.netlify.com/"\> 
+    
+    <!--PENDIENTE-->
 
     
     <title>
@@ -34,9 +57,15 @@
     </title>
 </head>
 <body>
+
+    <!--La siguiente línea declara la referencia que resuelve el alcance del contenido "artículo"-->
+
     <span itemscope itemtype="http://schema.org/Article">
     <header>
         <div>
+            
+            <!--Las siguientes 2 líneas declaran la referencia que resuelve el alcance del "autor" del artículo-->
+
             <span itemprop="author" itemscope= "http://schema.org/Person">
             <h1 itemprop="name"> El <br> consumidor <br> incógnito </h1>
             </span>
@@ -47,13 +76,38 @@
             <a href="/_sections/moda.html">Moda</a>|
             <a href="/_sections/apps.html">Apps</a>
         </nav>
+        <br>
+        <form name="contact" netlify>
+            <input name="correo" type="email">
+            <button type="button" onclick="alert('Ya eres parte de nuestra comunidad')"">
+            haz parte de nuestro seminario y recibe boletines!!
+            </button>
+        </form>
+        <form name="contact" netlify>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        <br>
     </header>
     <!--AQUÍ COMIENZA EL CONTENIDO (POSTS)-->
     <main>
     
         
     <div>
+
+        <!--La siguiente línea declara la referencia que resuelve el alcance del contenido "imagen"-->
+
         <img itemprop="image" src="/_imagenes_home/universidades-bogota-uniandes.jpg" style="max-width: 100%; height: auto">
+        
+        <!--La siguiente línea declara el "nombre" del contenido-->
+        
         <h2 itemprop="name">Hello post!!!!</h3>
     <p>
         <a href="/_insights/falsa-ciencia-en-facebook.html">Hace un par de años compartí en Facebook este interesante artículo:</a>
@@ -69,7 +123,9 @@
 </main>
     </span>>
 </body>
+
 <!--AQUÍ TERMINA EL CONTENIDO PRINCIPAL (POSTS)-->
+
 <footer>
     <p>Contacto: <a href="mailto:consumidoresincognitos@gmail.com">consumidoresincognitos@gmail.com</a></p>
     <p></p>
