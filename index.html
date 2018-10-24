@@ -23,30 +23,7 @@
         </script>
     <script async src='https://www.google-analytics.com/analytics.js'>
     </script>
-    <script>
-    function sendEmail(){
-   var answerArr = [];
-   $("input, textarea").each(function(){       
-       if($(this).attr("type") === "radio"){            
-           if($(this).is(":checked")){
-              answerArr.push($(this).val());
-           }
-       }else{
-          answerArr.push($(this).val());       
-       }
-   });
-
-    var body = answerArr.join("\n");
-    var mailto = "paulocleon@gmail.com";
-
-    var a = document.createElement('a');
-    a.href = "mailto:" + mailto + "?body=" + escape(body);
-    console.log(a.href);
-    a.click();
-}
-
-$(document).on("click",".submit",sendEmail);
-    </script>
+    
         
     <!--acá comienza el The Open Graph protocol para Facebook-->
 
@@ -101,18 +78,12 @@ $(document).on("click",".submit",sendEmail);
             <a href="/_sections/apps.html">Apps</a>
         </nav>
         <br>
-<textarea> your message </textarea>
-<input type="text" placeholder="name" name="name" />
-<input type="text" placeholder="lastname" name="lastname" />
-<label>
-<input type="radio" name="rboption" value="yes" /> YES
-</label>
-<label>
-<input type="radio" name="rboption" value="no" />NO
-</label>
-<!--TERMINA LA FORMA TEXTAREA-->
-<br>
-<a href="#" target="_blank" style="display:inline-block; background:#333; color:#FFF; padding:5px 10px 5px 10px; margin:15px 0 0 0; text-decoration:none" class="submit">Sent the email</a>
+        <form action="mailto:paulocleon@gmail.com" enctype="text/plain">
+            <textarea>ingresa tu mail </textarea>
+            <button type="button" onclick="alert('Ya eres parte de nuestra comunidad')">
+            haz parte de nuestro seminario y recibe boletines!!
+            </button>
+            </form>
         <form name="contact" data-netlify="true">
             <input name="mail" type="email">
             <button type="button" onclick="alert('Ya eres parte de nuestra comunidad')">
