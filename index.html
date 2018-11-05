@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-
-<!-- Microdata markup agregado parcialmente con Google Structured Data Markup Helper. -->
-
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
 
-    <!--Metas básicos-->
+                                            <!--<<<<<<<<<<< Metas básicos >>>>>>>>>>>-->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +10,11 @@
     <meta name="description" content="Insights y artículos sobre comercio, marcas, servicios de salud, arte, servicios culturales, marketing, apps, retail, branding y 
     hábitos de consumo de los colombianos, bogotanos y latinoamericanos">
     <meta name="keywords" content="hexislab, marketing, insights, marca, comercio, consumo, brand, Colombia, consuming, Bogotá, Latinoamérica">
-    <meta name="author" content="hexislab.co"/>
+    <meta name="author" content="hexis"/>
+    <meta name="author" content="Carmen Zavala Ramírez y Paulo César León Palacios"/>
 
-    <!-- Google Analytics -->
+                                            <!--<<<<<<<<<<< Google Analytics  >>>>>>>>>>>-->
+
     <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
         ga('create', 'UA-XXXXX-Y', 'auto');
@@ -25,7 +24,7 @@
     </script>
     
         
-    <!--acá comienza el The Open Graph protocol para Facebook-->
+                                    <!--<<<<<<<<<<< The Open Graph protocol para Facebook  >>>>>>>>>>>-->
 
     <meta property="og:title" content="el consumidor incógnito insights"/>
     <meta property="og:locale" content="es"/>
@@ -34,114 +33,135 @@
     <meta property="og:url" content="https://adablog.netlify.com/" />
     <meta property="og:site_name" content="el consumidor incógnito" />
 
-    <!--Esta imagen es para el preview de Facebook: rotarla-->
+                                  <!--<<<<<<<<<<< imagen para el preview de Facebook: ROTAR  >>>>>>>>>>>-->
+
 
     <meta property="og:image" content="/_images_post/primer-deploy-de-el-consumidor-incognito.jpg"/>
 
-    <!--esta es la conexión con los estilos CSS3-->
+                                         <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
 
     <link rel="stylesheet" href="/css/style.css"/>
-
-    <!--PENDIENTE DE RESOLVER BASE URL
-    <link rel="canonical" href="http://localhost:4000/" />
-    <base href="www.elcompradorincognito.me" target="_blank"/>
-    -->
-    <!--Declaración: esta URL es la "original", cotejada con "duplicados" por spyders-->
-
-    <link rel="canonical" href="https://adablog.netlify.com/"\> 
     
-    <!--PENDIENTE-->
+                    <!--<<<<<<<<<<< Declaración: esta URL es la "original", cotejada con "duplicados" por spyders >>>>>>>>>>>-->
 
-    
-    <title>
-        El consumidor incógnito 
-    </title>
+    <link rel="canonical" href="https://www.hexis.cc"/>
+    <base href="www.elcompradorincognito.me" target="_blank"/>  
+    <title> Hexis Investigación de mercados para servicios de salud y culturales </title>
 </head>
-<body>
+<body>  
+                                              <!--<<<<<<<<<<< HEADER  >>>>>>>>>>>-->
+                    
+  <header id="header" itemscope itemtype="http://schema.org/Blog"> <!--tipo CreativeWork/Blog según tipología Schema.org-->
+    <h1 id="encabezadoPrincipal" itemprop="name"> Hexis </h1>    
+    <h2 itemprop="about"> <br> Investigación sobre salud, marketing y branding</h2>
+    <section itemprop="description">
+    <h4>Comprender el comportamiento de <strong> personas en los servicios de salud </strong> y bienestar no es fácil: nosotros le ayudamos a tomar decisiones fundamentadas en la ciencia</h4>
+    </section>
+    <aside>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
+    </aside>
+    <nav>
+      <a href="/_sections/arte.html">Soluciones</a> |
+      <a href="/_sections/arte.html">Encuesta Hexis</a> |
+      <a href="/_sections/salud.html">Big Data</a>|   
+      <a href="/_sections/salud.html">etnografías</a> |  
+      <a href="/_sections/arte.html">Think Tank</a> |
+      <a href="/_sections/arte.html">Blog</a> |
+      <a href="/_sections/salud.html">Nosotros</a> 
+    </nav>    
+  </header>
 
-    <!--La siguiente línea declara la referencia que resuelve el alcance del contenido "artículo"-->
+                                               <!--<<<<<<<<<<< MAIN >>>>>>>>>>>-->
 
-    <span itemscope itemtype="http://schema.org/Article">
-    <header>
-        <div>
-            
-            <!--Las siguientes 2 líneas declaran la referencia que resuelve el alcance del "autor" del artículo-->
-
-            <span itemprop="author" itemscope= "http://schema.org/Person">
-            <h1 itemprop="name"> El <br> consumidor <br> incógnito </h1>
-            </span>
-        </div>
-        <nav>
-            <a href="/_sections/arte.html">Arte</a>|
-            <a href="/_sections/salud.html">Salud</a>|
-            <a href="/_sections/moda.html">Moda</a>|
-            <a href="/_sections/apps.html">Apps</a>
-        </nav>
-        <br>
-        
-        <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
-            <p>
-              <label>Tu Email: <input type="email" name="email" /></label>
-            </p>         
-    
-            <p>
-              <button type="submit">Enviar</button>
-            </p>
-          </form>
-       
-        <br>
-        
-    </header>
-    <!--AQUÍ COMIENZA EL CONTENIDO (POSTS)-->
-    <main>
-    
-        
-    <div>
-
-    <!--La siguiente línea declara la referencia que resuelve el alcance del contenido "imagen"-->
-
-        <img itemprop="image" src="/_imagenes_home/hombre-usando-saco-arturo-calle.jpg" style="max-width: 100%; height: auto">
-        
-        <!--La siguiente línea declara el "nombre" del contenido-->
-        
-        <h2 itemprop="name">Hello post!!!!</h3>
+  <main id="main" itemscope itemtype="http://schema.org/Blog">
+    <aside> <!--SUBSCRIBE-->
+      <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
         <p>
-        <a href="/_insights/prueba-1.html">Hace un par de años compartí en Facebook este interesante artículo:</a>
+          <label>Tu Email: <input type="email" name="email" /></label>
+        </p>         
 
+        <p>
+          <button type="submit">Enviar</button>
         </p>
-    
-    </div> 
-    <div>
+      </form>
+    </aside>
+                                      <!--<<<<<<<<<<< pasarela de posts en HOME >>>>>>>>>>>-->
+    <article id="bannerDePost">
+      <h1 id="postTitulo" itemprop="name">¿Qué es Hexis?</h1>
+      <aside>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
+          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
+      </aside>
+      <section itemprop="creator">Post por Carmen Zavala Ramírez <em itemprop="datePublished">2-11-2018</em></section>
+      <img itemprop="image" src="/_imagenes_home/universidades-bogota-uniandes.jpg" style="max-width: 100%; height: auto">
+      <section itemprop="description">
+        ¿Cuál es el futuro de los mercados de la salud y el bienestar? 
+        Hexis se especializa en investigar y diseñar estrategias para que las
+        empresas consagradas a estas áreas puedan llevar sus productos y servicios con los mejores estándares, y anticiparse
+        a los cambios sociales que afectan a los sistemas de salud. <q>La salud 
+        es un estado completo de bienestar, físico y mental</q> (OMS, 1948).
+      </section>
+      <a id="leerMasButton" href="/_insights/prueba-1.html">Leer más</a>      
+    </article>    
 
-        <!--La siguiente línea declara la referencia que resuelve el alcance del contenido "imagen"-->
-    
-            <img itemprop="image" src="/_imagenes_home/hombre-usando-camisa-arturo-calle.jpg" style="max-width: 100%; height: auto">
-            
-            <!--La siguiente línea declara el "nombre" del contenido-->
-            
-            <h2 itemprop="name">Hello Mo!</h3>
-            <p>
-            <a href="/_insights/prueba-2.html">Hace un par de años compartí en Facebook este interesante artículo:</a>
-    
-            </p>
-        
-        </div> 
-    
+    <article id="bannerDePost">
+        <h1 id="postTitulo" itemprop="name">Hello Post!!!!!</h1>
+        <aside>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
+        </aside>
+        <section itemprop="creator">Post por Carmen Zavala Ramírez <em itemprop="datePublished">2-11-2018</em></section>
+        <img itemprop="image" src="/_imagenes_home/muchacha-usando-audifonos-de-telefono.jpg" style="max-width: 100%; height: auto">
+        <section itemprop="description">Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
+          de la siguiente manera.</section>
+        <a id="leerMasButton" href="/_insights/prueba-1.html">Leer más</a>      
+    </article>   
 
-    
-       
-
-    </h1>
-
+    <article id="bannerDePost">
+        <h1 id="postTitulo" itemprop="name">Hola Mo!!!!</h1>
+        <aside>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
+        </aside>
+        <section itemprop="creator">Post por Paulo César León Palacios <em itemprop="datePublished">2-11-2018</em></section>
+        <img itemprop="image" src="/_imagenes_home/hombre-usando-camisa-arturo-calle.jpg" style="max-width: 100%; height: auto">
+        <section itemprop="description">Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
+          de la siguiente manera.</section>
+        <a id="leerMasButton" href="/_insights/prueba-2.html">Leer más</a>      
+    </article>
 </main>
-    </span>
 </body>
-
-<!--AQUÍ TERMINA EL CONTENIDO PRINCIPAL (POSTS)-->
-
-<footer>
-    <p>Contacto: <a href="mailto:consumidoresincognitos@gmail.com">consumidoresincognitos@gmail.com</a></p>
-    <p></p>
-
+<footer id="footer">
+  <aside> <!--SUBSCRIBE-->
+    <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
+      <p>
+          <label>Tu Email: <input type="email" name="email" /></label>
+        </p>
+      
+        <p>
+          <button type="submit">Enviar</button>
+      </p>
+  </form>
+  </aside>
+  <ul>
+    <li><a href="/_sections/arte.html">Soluciones</a></li>
+    <li><a href="/_sections/salud.html">Big Data</a></li>
+    <li><a href="/_sections/salud.html">Netnografía</a></li>
+    <li><a href="/_sections/salud.html">Microsegmentos</a></li>
+    <li><a href="/_sections/arte.html">Think Tank</a></li>
+    <li><a href="/_sections/arte.html">Blog</a></li>
+    <li><a href="/_sections/salud.html">Nosotros</a></li>
+  </ul>
+  <section>
+    <address>
+      Oficinas:
+      K 111c 88-15, piso 4 <br>
+      Coworking en Hub 
+    </address>
+  </section>
+  <section>
+    <p>Web diseñada por <a href="https://github.com/cerebralweb">cerebralweb.me</a></p>
+  </section>    
 </footer>
 </html>
