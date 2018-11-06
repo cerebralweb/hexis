@@ -12,11 +12,11 @@ header {
   display: flex;
   flex-flow: column wrap;
   background-color: aliceblue;
+  align-items: flex-start;
   font-size: 1em;
-  color: brown;
   }
     nav {
-    width: 400px;
+    width: auto;
     flex-flow: column wrap;
     }
     .redesEncabezado {
