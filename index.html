@@ -53,57 +53,51 @@
                     
   <header id="header" itemscope itemtype="http://schema.org/Blog"> <!--tipo CreativeWork/Blog según tipología Schema.org-->
     <h1 id="encabezadoPrincipal" itemprop="name"> Hexis </h1>    
-    <h2 itemprop="about"> <br> Investigación, marketing y branding de salud </h2>
-    <section itemprop="description">
-    <h4>Comprender el comportamiento de <strong> personas en los servicios de salud </strong> y bienestar no es fácil: nosotros <br> 
-    le ayudamos a tomar decisiones fundamentadas en la ciencia</h4>
-    </section>
+    <h2 itemprop="about"> Investigación, marketing y branding de salud </h2>
+    <h4 itemprop="description">Comprender el comportamiento de <strong> personas en los servicios de salud </strong> y bienestar no es fácil: nosotros <br> 
+        le ayudamos a tomar decisiones fundamentadas en la ciencia</h4>
     <aside>
       <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
       <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
     </aside>
     <nav>
-      <a href="/_sections/arte.html">Soluciones</a> |
-      <a href="/_sections/arte.html">Encuesta Hexis</a> |
-      <a href="/_sections/salud.html">Big Data</a>|   
-      <a href="/_sections/salud.html">etnografías</a> |  
-      <a href="/_sections/arte.html">Think Tank</a> |
-      <a href="/_sections/arte.html">Blog</a> |
-      <a href="/_sections/salud.html">Nosotros</a> 
-      <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
-        <p><label>Tu Email: <input type="email" name="email" /></label></p>  
-        <p><button type="submit">Enviar</button></p>
-      </form>
-    </nav>    
-  </header>  
-  <article id="bannerDeNuestrosServicios">
-    <h1 id="postTitulo" itemprop="name">Soluciones</h1>
-    <section itemscope itemtype="http://schema.org/Service" itemprop="serviceType	">Nuestras Soluciones </section>
-    <a id="leerMasButton" href="/_insights/prueba-1.html">Herramientas</a>      
-  </article>    
+        <a href="/_sections/arte.html">Soluciones</a> |
+        <a href="/_sections/arte.html">Encuesta Hexis</a> |
+        <a href="/_sections/salud.html">Big Data</a>|   
+        <a href="/_sections/salud.html">etnografías</a> |  
+        <a href="/_sections/arte.html">Think Tank</a> |
+        <a href="/_sections/arte.html">Blog</a> |
+        <a href="/_sections/salud.html">Nosotros</a> 
+      </nav> 
+  </header>     
+ 
+ 
   
                                                <!--<<<<<<<<<<< MAIN >>>>>>>>>>>-->
 
-  <main id="main"  itemscope itemtype="http://schema.org/Blog">
+  <main itemscope itemtype="http://schema.org/Blog">
+    
                                       <!--<<<<<<<<<<< pasarela de posts en HOME >>>>>>>>>>>-->
-    <article id="bannerDePost">
+    <div class="pasarelaPosts" >
+                                            <!--<<<<<<<<<<< ¿QUÉ ES HEXIS? >>>>>>>>>>>-->
+      <article id="bannerDePost">
       <h1 id="postTitulo" itemprop="name">¿Qué es Hexis?</h1>
       <aside>
           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
           <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html&text=">Twitter</a>
       </aside>
       <section itemprop="description">
-        ¿Cuál es el futuro de los mercados de la salud y el bienestar? Hexis se especializa en investigar y diseñar estrategias<br>
-        para que las empresas consagradas a estas áreas puedan llevar sus productos y servicios con los mejores estándares, y <br> 
-        anticiparse a los cambios sociales que afectan a los sistemas de salud. <q>La salud es un estado completo de bienestar, <br> 
+        ¿Cuál es el futuro de los mercados de la salud y el bienestar? Hexis se especializa en <br>
+        investigar y diseñar estrategias para que las empresas consagradas a estas áreas puedan <br>
+        llevar sus productos y servicios con los mejores estándares, y anticiparse a los cambios <br>
+         sociales que afectan a los sistemas de salud. <q>La salud es un estado completo de bienestar, <br> 
         físico y mental</q> (OMS, 1948).
       </section>
       <a id="leerMasButton" href="/_insights/prueba-1.html">Leer más</a>      
-    </article>   
-                                      <!--<<<<<<<<<<< BANNER HEXIS SOLUCIONES >>>>>>>>>>>-->
-    
 
-    <article id="bannerDePost">
+                                                <!--<<<<<<<<<<< POST 1 >>>>>>>>>>>-->
+      </article>     
+      <article id="bannerDePost">
         <h1 id="postTitulo" itemprop="name">Hello Post!!!!!</h1>
         <aside>
             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
@@ -111,12 +105,15 @@
         </aside>
         <section itemprop="creator">Post por Carmen Zavala Ramírez <em itemprop="datePublished">2-11-2018</em></section>
         <img itemprop="image" src="/_imagenes_home/muchacha-usando-audifonos-de-telefono.jpg" style="max-width: 100%; height: auto">
-        <section itemprop="description">Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
-          de la siguiente manera.</section>
-        <a id="leerMasButton" href="/_insights/prueba-1.html">Leer más</a>      
-    </article>   
-
-    <article id="bannerDePost">
+        <section itemprop="description">
+          Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
+          de la siguiente manera.
+        </section>
+        <a id="leerMasButton" href="/_insights/prueba-1.html">Leer más</a>  
+        
+                                                        <!--<<<<<<<<<<< POST 2 >>>>>>>>>>>-->    
+      </article>   
+      <article id="bannerDePost">
         <h1 id="postTitulo" itemprop="name">Hola Mo!!!!</h1>
         <aside>
             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadablog.netlify.com%2F_insights%2Fprueba-1.html">Facebook</a>
@@ -124,10 +121,21 @@
         </aside>
         <section itemprop="creator">Post por Paulo César León Palacios <em itemprop="datePublished">2-11-2018</em></section>
         <img itemprop="image" src="/_imagenes_home/hombre-usando-camisa-arturo-calle.jpg" style="max-width: 100%; height: auto">
-        <section itemprop="description">Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
-          de la siguiente manera.</section>
+        <section itemprop="description">
+          Descripción del artículo: El problema tal es ta ta ta. Con las fuentes tales analizamos, <br> resolvemos
+          de la siguiente manera.
+        </section>
         <a id="leerMasButton" href="/_insights/prueba-2.html">Leer más</a>      
-    </article>
+      </article>
+    </div>
+                                                <!--<<<<<<<<<<< BANNER HEXIS SOLUCIONES >>>>>>>>>>>-->
+    <div class="bannerDeNuestrosServicios">
+        <article >
+          <h1 id="postTitulo" itemprop="name">Soluciones</h1>
+          <section itemscope itemtype="http://schema.org/Service" itemprop="serviceType	">Nuestras Soluciones </section>
+          <a id="leerMasButton" href="/_insights/prueba-1.html">Herramientas</a>      
+        </article>  
+    </div>
 </main>
 </body>
 <footer id="footer">

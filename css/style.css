@@ -6,31 +6,36 @@
 
 body {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column wrap;
+
 }
 
 header {
-  flex: 2 2 1000px;
-}
-
+  display: flex;
+  height: 300px;
+  flex-flow: column wrap;
+  background-color: aliceblue;
+  }
 
 main {
-  flex: 1 1 500px;
+  display: flex;
+  
+  justify-content: center;  
 }
 
-#bannerDeNuestrosServicios {
-  flex: 1 1 500px;
+footer {
+  background-color: lavender;
 }
 
+.pasarelaPosts {
+  width: 500px;
 
-
-header {
-  background-color: aliceblue;
 }
 
-
-
+.bannerDeNuestrosServicios {
+  width: 300px;
+  background-color: beige;
+}
 
 #encabezadoPrincipal{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -89,4 +94,3 @@ header {
   }
   
  
-  }
