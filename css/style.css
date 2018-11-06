@@ -24,17 +24,27 @@ header {
     }
 
 
+.contenedorDeSoluciones {
+  display: flex;
+  justify-content: center;
+}
+.bannerDeNuestrosServicios {
+      display: flex;
+      flex-flow: row wrap;
+    }
+.bannerDeSoluciones{
+      width: 500px;
+    }
+
 main {
   display: flex;  
   justify-content: center;  
-  }
-    .pasarelaPosts {
-  width: 500px;
-  }
-    .bannerDeNuestrosServicios {
-  width: 300px;
-  background-color: beige;
 }
+
+    .pasarelaPosts {
+  width: 1000px;
+  }
+   
 
 
 
@@ -46,12 +56,8 @@ footer {
 
 
 
-#bannerDePost{
-  font-family: 'Courier New', Courier, monospace;
-}
-#bannerDeNuestrosServicios{
-  background-color: beige;
-}
+
+
 
 #postTitulo{
   font-size: 14pt;
