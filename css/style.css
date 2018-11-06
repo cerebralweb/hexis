@@ -4,17 +4,33 @@
 }
 
 
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header {
+  flex: 2 2 1000px;
+}
+
+
+main {
+  flex: 1 1 500px;
+}
+
+#bannerDeNuestrosServicios {
+  flex: 1 1 500px;
+}
+
+
+
 header {
   background-color: aliceblue;
 }
 
-main {
-  background-color: white;
-}
 
-footer{
-  background-color: lavenderblush;
-}
+
 
 #encabezadoPrincipal{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -23,6 +39,9 @@ footer{
 
 #bannerDePost{
   font-family: 'Courier New', Courier, monospace;
+}
+#bannerDeNuestrosServicios{
+  background-color: beige;
 }
 
 #postTitulo{
