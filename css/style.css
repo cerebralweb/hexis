@@ -10,16 +10,23 @@
 
 
 
-.contenedorPrincipal {
-  display: flex;    
-  flex-flow: column wrap;
-  justify-content: center;  
+.contenedorDeMain {
+    
 }
 .contenedorOrganizador {
 
 }
 .bannerDeNuestrosServicios {
   float: right;
+}
+
+
+#encabezado {
+  font-size: 4em;
+}
+
+.postTitulo{
+  font-size: 1.5em;
 }
 
 
