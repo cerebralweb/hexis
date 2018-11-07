@@ -1,6 +1,7 @@
-*{
+html{
   color: #333;
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-size: 16px;
 }
 
 
@@ -10,23 +11,31 @@
 
 
 
-.contenedorDeMain {
+.contenedor {
     
 }
 .contenedorOrganizador {
 
 }
-.bannerDeNuestrosServicios {
+.bannerFlotante {
   float: right;
+  
 }
 
 
-#encabezado {
-  font-size: 4em;
+.tituloEncabezado {
+  font-size: 4rem;
 }
 
-.postTitulo{
-  font-size: 1.5em;
+.tituloSubencabezado {
+  font-size: 1.5rem;
+}
+.tituloSubSubencabezado {
+  font-size: 1rem;
+}
+
+.tituloPost{
+  font-size: 1.2rem;
 }
 
 
