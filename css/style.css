@@ -3,72 +3,37 @@
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 }
 
-body {
-  display: flex;
+
+
+
+
+
+
+
+.contenedorPrincipal {
+  display: flex;    
   flex-flow: column wrap;
-}
-
-header {
-  display: flex;
-  flex-flow: column wrap;
-  background-color: aliceblue;
-  align-items: flex-start;
-  font-size: 1em;
-  }
-    nav {
-    width: auto;
-    flex-flow: column wrap;
-    }
-    .redesEncabezado {
-    width: 200px;
-    }
-
-
-.contenedorDeSoluciones {
-  display: flex;
-  justify-content: center;
-}
-.bannerDeNuestrosServicios {
-      display: flex;
-      flex-flow: row wrap;
-    }
-.bannerDeSoluciones{
-      width: 500px;
-    }
-
-main {
-  display: flex;  
   justify-content: center;  
 }
+.contenedorOrganizador {
 
-    .pasarelaPosts {
-  width: 1000px;
-  }
-   
-
-
-
-footer {
-  background-color: lavender;
+}
+.bannerDeNuestrosServicios {
+  float: right;
 }
 
 
 
+ 
+  
 
 
 
 
 
-#postTitulo{
-  font-size: 14pt;
-}
 
-#leerMasButton {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: crimson;
-}
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
 .icon-bar {
     position: fixed;
     top: 51%;
