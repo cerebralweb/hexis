@@ -11,14 +11,29 @@ html{
 
 
 
-.contenedor {
-    
+.contenedorCentralInterno {
+    width: 100%;
+    }
+.contenedorMain {
+  width: 100%;
+  
 }
-.contenedorOrganizador {
-
+.JustifyCenter {
+  justify-items: center;
 }
+.contenedorSectionArticles {
+  width: 75%;
+  
+  }
+  
+.contenedorQueEsHexis {
+  
+  }
 .bannerFlotante {
-  float: right;
+  float: right;  
+  
+}
+.contenedorDePosts {
   
 }
 
