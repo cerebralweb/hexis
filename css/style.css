@@ -5,12 +5,6 @@ html{
 }
 
 
-
-
-
-
-
-
 .contenedorCentralInterno {
     width: 100%;
     }
@@ -31,7 +25,7 @@ html{
   }
 .bannerFlotante {
   float: right;  
-  
+   
 }
 .contenedorDePosts {
   
