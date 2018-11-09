@@ -1,53 +1,135 @@
-html{
-  color: #333;
-  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-  font-size: 16px;
-}
-
-
-.contenedorCentralInterno {
-    width: 100%;
-    }
-.contenedorMain {
+main {
   width: 100%;
+  max-width: 1400px;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  max-width: 1400px;
+  background-color: #F7F7F8;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav {
   
+  float: right;
+  width: 55%;
+  margin: 0% -3% 2% 1%;
 }
-.JustifyCenter {
-  justify-items: center;
+
+.sectionTitulosHeader {
+width: 40%;
+float: left;
+margin: 0% 1% 1% 0%;
+padding: auto;
 }
+.tituloEncabezado {
+  font-size: 500%;
+}
+.subtitulo-h2 {
+  font-size: 250%;
+}
+.titulo-h3 {
+  width: 80%;
+  font-size: 110%;
+  position: absolute;
+  margin: -7% 1% 1% 25%;
+  padding: 2% 2% 2% 2%;
+  clear: both;
+}
+
+.redesEncabezado {
+  width: 20%;
+  float: right;
+  margin: 2% 0% 1% 2%;
+}
+
 .contenedorSectionArticles {
-  width: 75%;
-  
-  }
-  
-.contenedorQueEsHexis {
-  
-  }
+  width: 80%;
+  margin: 1% 10% 1% 10%;
+  max-width: 1200px;
+}
+.contenedorSectionArticles:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
 .bannerFlotante {
-  float: right;  
-   
+  float: right;
+  width: 50%;
+  margin: 1% 1% 1% 1%;  
 }
 .contenedorDePosts {
-  
+  float: left;  
+  width: 45%;
+  margin: 1% 1% 1% 1%;
+  padding: -3% 0% 1% 0%;
 }
 
-
+@media (max-width: 720px) {
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rosybrown;
+    margin: auto;
+  }
+nav {
+    width: 100%;
+    margin: -1% -1% 1% 1%;
+    padding: 0% 0% 0% 0%;
+    font-size: 11pt;
+  }
+.redesEncabezado {
+display: none;
+}
+.sectionTitulosHeader {
+    width: 100%;
+    margin: 0%;
+    }
 .tituloEncabezado {
-  font-size: 4rem;
+      font-size: 200%;
+    }
+.subtitulo-h2 {
+      font-size: 150%;
 }
 
-.tituloSubencabezado {
-  font-size: 1.5rem;
+.titulo-h3 {
+      display: none;
 }
-.tituloSubSubencabezado {
-  font-size: 1rem;
+  .contenedorSectionArticles {
+    width: 100%;
+    margin: 0%;
+  }
+.contenedorQueEsHexis {    
+  padding: 2%;
+  }
+.bannerFlotante {
+    float: none;
+    background-color: beige;
+    width: 100%;
+    padding: 1% 0% 1% 2%; 
+    margin: 0% -2% 1% -2%;
+    
+  }
+  .contenedorDePosts {
+    float: none;  
+    width: auto;
+  }
+
+.clearFooter {
+  clear: both;
 }
-
-.tituloPost{
-  font-size: 1.2rem;
 }
-
-
 
  
   
