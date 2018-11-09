@@ -13,17 +13,16 @@ header {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
-a:hover {
-  text-decoration: none;
-}
 
-nav {
-  
+
+nav {  
   float: right;
   width: 55%;
   margin: 0% -3% 2% 1%;
+  color: #000;
 }
 
 .sectionTitulosHeader {
