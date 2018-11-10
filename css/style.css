@@ -16,7 +16,7 @@ header {
 }
 
 A.class1 {color: white;}
-A.class1:link  {text-decoration: none; color: black;}
+A.class1:link  {text-decoration: none; color:  white;}
 A.class1:visited {text-decoration: none; color: white;}
 A.class1:hover {text-decoration: none; color: rgb(248, 156, 8);}
 A.class1:active {text-decoration: none; color: rgb(248, 156, 8);}
