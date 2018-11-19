@@ -1,27 +1,19 @@
-main {
-  width: 100%;
-  
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  font-style: normal;
-  src: url("https://fonts.googleapis.com/css?family=Source+Sans+Pro"); 
-  line-height: 1.4;
+* {box-sizing: border-box; margin: 0px;
+font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto", "Arial",sans-serif;
+  font-size: 1em;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, cite, code, small {
+    display: block;
 }
-
-
-header {
-  width: 100%;
-  height: 30rem;  
-  background-color: rgba(22, 138, 149, 0.87);  
+A.class1 {color: black;}
+A.class1 {font-size: .9rem;} @media (max-width: 1024px) {A.class1 {font-size: .7rem;}
 }
-
-
-A.class1 {color: white;}
-A.class1:link  {text-decoration: none; color:  white;}
-A.class1:visited {text-decoration: none; color: white;}
+A.class1:link  {text-decoration: none; color:  black;}
+A.class1:visited {text-decoration: none; color: black;}
 A.class1:hover {text-decoration: none; color: rgb(248, 156, 8);}
 A.class1:active {text-decoration: none; color: rgb(248, 156, 8);}
+
+
 
 A.class2 {color:  rgb(14, 151, 241);}
 A.class2:link  {text-decoration: none; color: rgb(14, 151, 241);}
@@ -29,221 +21,161 @@ A.class2:visited {text-decoration: none; color:  rgb(14, 151, 241);}
 A.class2:hover {text-decoration: underline; color:  rgb(14, 151, 241);}
 A.class2:active {text-decoration: none; color:  rgb(14, 151, 241);}
 
-A.class3 {color: white;}
-A.class3:link  {text-decoration: none; color: white;}
-A.class3:visited {text-decoration: none; color: white;}
-A.class3:hover {text-decoration: underline; color: white;}
-A.class3:active {text-decoration: none; color: white;}
+A.class3 {color: rgb(14, 151, 241);}
+A.class3:link  {text-decoration: none; color: rgb(14, 151, 241);}
+A.class3:visited {text-decoration: none; color: rgb(14, 151, 241);}
+A.class3:hover {text-decoration: underline; color: rgb(14, 151, 241);}
+A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
 
 
-nav {  
-  float: right;
-  margin-top: 1.5%;
-  color: white;  
+.contenedorCentralInterno {
+  display: block;
+  box-sizing: border-box;
 }
 
-.sectionTitulosHeader {
-width: 100%;
-float: left;
-margin: 0% 0% 0% 0%;
-}
+.contenedorHeader {  
+  display: flex;
+  height: 5rem;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  background-color: whitesmoke; 
+  box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
+} 
 
-.tituloEncabezado {  
-  float: left;
-  margin: -12% 0% 1% 12%;
-  color: rgb(248, 156, 8);
-  font-size: 200%;
+.logo {  
+  width: 10%;
+  margin-left: 10.9rem;
+  margin-top: 1rem;
+  color: rgb(12, 12, 11);
+  font-size: 2rem;
   font-weight: 300;
 }
 
-.subtitulo-h2 {  
-  margin: 4% 0% 3% 33%;
-  color: white;
-  line-height: 1.2;
-  font-family: 'Source Sans Pro', sans-serif;
+main {
+  display: grid;
+  grid-template-areas: 1fr;
   font-weight: 100;
   font-style: normal;
-  font-size: 4.2rem;
+  line-height: 1.4;  
+  margin-bottom: 3%;
 }
 
-.titulo-h3 {
-  
-  font-size: 1rem;
-  font-family: 'Work Sans', sans-serif;
+.paragrafo {
+font-size: 1.26rem;
+font-weight: 300;
+} 
+
+
+
+
+
+.logo a:hover, a:link, a:active, a:visited {
+  text-decoration: none;
+  color: rgb(248, 156, 8);
+}
+
+
+nav {      
+  width: 55%; 
+  margin-top: 2rem;
+  margin-left: 35rem;   
+} 
+
+.bannerVerdeEncabezado {
+height: 100%;
+background-color: rgba(22, 138, 149, 0.87); 
+}
+.subtitulo-h2 {  
+  margin-top: 8rem;
+  text-align: center;
+  color: white;
+  line-height: 1.2;
   font-weight: 100;
   font-style: normal;
-  position: absolute;
-  margin: -5% 1% 1% 28%;
-  
+  font-size: 3.5rem;
+}
+
+.titulo-h3 {  
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  text-align: center;  
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.3rem;  
   color: white;
 }
 
 .titulosMain {
-  color:  rgb(21, 202, 226);
-  font-size: 2rem;
+  margin-bottom: 4rem;
+  color:  rgb(14, 151, 241);
+  font-size: 3rem;
+  font-weight: 300;
 }
 
-.redesEncabezado {
-  
-  float: right;
-  padding: .5%;
-  margin-top: 10%;
-  margin-right: 2%;
-  border: .1rem solid  rgb(248, 156, 8);;
-  color: white;
-  
+.contenedorSectionHexis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  grid-gap: 5rem;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 130%;  
 }
 
-.contenedorSectionArticles {
-  
-  font-size: 130%;
-  margin: 1% 10% 1% 10%;
-  text-align: left;
-  
-}
-.contenedorSectionArticles:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.bannerFlotante {
-  float: right;
-   
-  padding: 2% 2% 2% 2%;
-  
-  
-}
-.contenedorDePosts {
-  float: left;  
-  width: 45%;
-  padding: 2% 2% 2% 2%;
-   
-}
-.facebook {
-  background: #3B5998;
-  background-color: white;
-}
 
-.twitter {
-  background: #55ACEE;
-  background-color: white;
+.svgIcon {
+  float: left;
+  margin-right: 2%; 
+  }
+
+
+
+.blog {
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5rem;
+  font-size: 100%;
+  margin: 1% 15% 1% 15%;
+  grid-auto-rows: minmax(120px, auto)
 }
 .contenedorFooter { 
-  width: 
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
   clear: both;
   border-top: 0.4rem solid rgb(14, 151, 241);
   padding: 2rem;  
+  justify-items: center;
+  align-items: center;
 }
 
 .contenedorSubscribirse {  
-  float: left;
+  width: 15rem;
   padding: 1rem;
   outline: 0.2rem solid rgb(14, 151, 241);
 }
-.contenedorLinksHexis {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 100;
-  width: 20%;
-  float: right;
-  margin-top: -3%;
-  margin-right: 10%;
-  padding: 1rem;
+
+.redesFooter {  
+  width: 10rem;
+  height: 3rem;
+  padding: 2.5%;
+  margin-top: 1%;
+  margin-right: 1%;
+  border: .1rem solid  rgb(248, 156, 8);;
+  color: rgb(14, 151, 241);  
 }
-.contenedorAdress {
- 
-  float: left;
-  margin-left: 5%;
-  margin-top: -2%;
-  font-family: "Source Sans Pro", sans-serif;
+
+.contenedorAdress { 
+  width: 20rem;
+  margin-left: .5%;
+  margin-top: 1.5%;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   padding: 1rem;
 }
-.cerebral {
-  float: left;
-  font-size: 70%;
-  padding: 1%;
-  margin-top: 7%;
-  
-  background-color: black;
-  color: azure;
-}
 
-/* MEDIA queries*/
-@media (max-width: 1024px) {
-  header {
-      width: 100%;
-      height: 50px;
-  
-      margin: auto;
-    }
-  nav {
-      width: 100%;
-      margin: 2% -2% 1% 1%;
-      font-size: 12pt;
-    position: absolute;
-    }
-  .tituloEncabezado {  
-    float: left;
-    margin: 5% 0% 1%;
-    color: rgb(248, 156, 8);
-    font-weight: 400;
-  }
-  .subtitulo-h2 {  
-  display: none;
-  }
-  .redesEncabezado {
-  position: relative;
-    
-  margin-left: 60%;
-  padding: 1%;
-  margin-top: 20%;
-  font-size: 90%;
-  color: white;
-    border: none;
-  line-height: 1.5;
-  background-color: rgb(63, 152, 224);;
-  }
-  .sectionTitulosHeader {
-      width: 100%;
-      margin: 0%;
-      }
-  .tituloEncabezado {
-        font-size: 200%;
-      }
-  
-  .titulo-h3 {
-        display: none;
-  }
-    .contenedorSectionArticles {
-      width: 100%;
-      margin: 0%;
-      font-size: 100%
-    }
-  .contenedorQueEsHexis {    
-    padding: 2%;
-    }
-  .bannerFlotante {
-      float: none;
-  
-      width: 100%;
-      padding: 1% 0% 1% 2%; 
-      margin: 0% -2% 1% -2%;
-      
-    }
-    .contenedorDePosts {
-      float: none;  
-      width: auto;
-    }
-  
-  .contenedorFooter {
-    clear: both;
-  }
-  } 
+/* MEDIA queries*//* MEDIA queries*//* MEDIA queries*//* MEDIA queries*//* MEDIA queries*//* MEDIA queries*//* MEDIA queries*//* MEDIA queries*/
+================================================================================================================================================
 
-  
-
-  
- 

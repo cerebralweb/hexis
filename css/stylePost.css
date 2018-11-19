@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+
+.logo {
+  float: left;
+}
+
+
+A.class1 {color: white;}
+A.class1:link  {text-decoration: none; color:  white;}
+A.class1:visited {text-decoration: none; color: white;}
+A.class1:hover {text-decoration: none; color: rgb(248, 156, 8);}
+A.class1:active {text-decoration: none; color: rgb(248, 156, 8);}
+
+A.class2 {color:  rgb(14, 151, 241);}
+A.class2:link  {text-decoration: none; color: rgb(14, 151, 241);}
+A.class2:visited {text-decoration: none; color:  rgb(14, 151, 241);}
+A.class2:hover {text-decoration: underline; color:  rgb(14, 151, 241);}
+A.class2:active {text-decoration: none; color:  rgb(14, 151, 241);}
+
+A.class3 {color: white;}
+A.class3:link  {text-decoration: none; color: white;}
+A.class3:visited {text-decoration: none; color: white;}
+A.class3:hover {text-decoration: underline; color: white;}
+A.class3:active {text-decoration: none; color: white;}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 2rem;
+  height: 4rem;  
+  background-color: rgba(0, 0, 0, 0.87);  
+}
+nav {    
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  color: white;  
+  text-align: right;
+}
+
+.tituloEncabezado {  
+  text-align: center;
+  margin-top: 1rem;
+  color: rgb(248, 156, 8);
+  font-size: 200%;
+  font-weight: 300;
+  
+}
+
+.contenedorMain {
+  display: grid;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
+  grid-template-columns: 1fr 2fr 0.5;
+  grid-template-rows: 1fr 5fr 2fr 2fr;
+  grid-gap: 2rem;
+}
+
