@@ -7,9 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Insights y Big Data sobre comercio, marcas y servicios de salud. Hexis es un sistema de investigación, marketing y branding
-    de servicios de salud">
-    <meta name="keywords" content="hexis, salud, marketing, marca, insights, comercio, consumo, brand, Colombia, consuming, investigación, Bogotá, Latinoamérica">
+    <meta name="description" content="Insights y Big Data sobre comercio, marcas y servicios de salud. Hexis es un sistema de investigación, marketing y branding.">
+    <meta name="keywords" content="hexis, salud, marketing, marca, branding, insights, comercio, e-commerce, consumo, consumer behavior, brand, Colombia, consuming, investigación, Bogotá, Latinoamérica">
     <meta name="author" content="hexis"/>
     <meta name="author" content="Carmen Zavala Ramírez y Paulo César León Palacios" />
     
@@ -38,7 +37,7 @@
                                   <!--<<<<<<<<<<< imagen para el preview de Facebook: ROTAR  >>>>>>>>>>>-->
 
 
-    <meta property="og:image" content="/_images_post/primer-deploy-de-el-consumidor-incognito.jpg"/>
+    <meta property="og:image" content="/imagenes5/home-hexis.jpg"/>
 
                                          <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
 
@@ -54,7 +53,7 @@
     <base href="www.hexis.cc" target="_blank"/>  
     <title> Hexis Investigación de mercados para servicios de salud y culturales </title>
 </head>
-<body class="contenedorBody">   
+<body class="contenedorBody" itemscope itemtype="http://schema.org/Blog">    
    <header class="contenedorHeader"> 
     <h1 class="logo" itemprop="name"><a href="https://www.hexis.cc" target="_self">Hexis</a></h1>
     <nav>
@@ -73,15 +72,13 @@
       <br>
     </div>
   
-  <main class="contenedorMain" itemscope itemtype="http://schema.org/Blog">
-    
-   
-    
+  <main class="contenedorMain">
+       
     <div class="contenedorSectionHexis">
       <!--<<<<<<<<<<< ¿QUÉ ES HEXIS? >>>>>>>>>>>-->
       <section class="contenedorQueEsHexis"> 
-        <h1 class="titulosMain" itemprop="name">La mejor investigación de mercados</h1>
-        <p class="paragrafo" itemprop="description">
+        <h1 class="titulosMain">La mejor investigación de mercados</h1>
+        <p class="paragrafo" itemscope itemtype="http://schema.org/Service"  itemprop="description">
           La oferta de investigación de mercados no es suficiente. Las tácticas tradicionales se han quedado cortas frente a la competencia en
           los mercados. Las empresas lidian hoy con costosos departamentos de marketing que apuestan por prácticas pasadas
           de moda, y frecuentemente reciben  estudios con enormes cantidades de datos que informan y describen, pero no explican la conducta de los consumidores
@@ -95,32 +92,32 @@
       <!--<<<<<<<<<<< BANNER FLOTANTE SOLUCIONES >>>>>>>>>>>-->
     
       <section class="bannerFlotante">        
-        <h1 class="titulosMain" itemscope itemtype="http://schema.org/Service" itemprop="serviceType	"> Lo hacemos fácil, y lo ponemos a su alcance  </h1>
+        <h1 class="titulosMain" itemprop="serviceType"> Lo hacemos fácil, y lo ponemos a su alcance  </h1>
         <p>Las <em>claves para generar conocimiento de calidad sobre los mercados</em>: 1) reclutar equipos multidisciplinarios de alta formación,
            2) utilizar tecnología. Hexis es capaz de activar  <strong>rápidamente</strong> equipos de psicólogos, sociólogos, antropólogos, historiadores, 
           analistas financieros, especialistas en estadística y mercadólogos. Además, estamos desarrollado herramientas para 
           seguir en tiempo real las marcas y los gustos de los consumidores. Todo lo hacemos <strong>con costos razonables</strong>, gracias a una
            metodología de trabajo Ágil. Somos científicos, nos apasiona el marketing y el branding, y no dependemos de burocracias costosas e ineficientes.</p>
            <br>
-        <h4>Investigue</h4>          
+        <h4 itemprop="isRelatedTo">Investigue</h4>          
         <p>Sus productos con estadística y etnografía. </p>
         <br>
-        <h4>Entienda</h4>
+        <h4 itemprop="isRelatedTo">Entienda</h4>
         <p>A sus (potenciales) clientes.</p>
         <br>
-        <h4>Obtenga</h4>
+        <h4 itemprop="isRelatedTo">Obtenga</h4>
         <p>Estudios comportamentales con agilidad y costos razonables.</p>
         <br>
-       <h4>Controle</h4>
+       <h4 itemprop="isRelatedTo">Controle</h4>
         <p>Trabajamos en ciclos cortos y nuestros clientes pueden participar.</p>
         <br>
-        <h4>Desarrolle</h4>
+        <h4 itemprop="isRelatedTo">Desarrolle</h4>
         <p>Apps híbridas y UX Testing.</p>
         <br>
       </section>
       
     </div>    
-    <div class="blog">
+    <div  class="blog" itemscope itemtype="http://schema.org/Blog">
       <section>1</section>
       <section>2</section>
       <section>3</section>
@@ -132,8 +129,7 @@
       <aside class="contenedorSubscribirse"> <!--SUBSCRIBE-->
         <p>Subscribirse (protegemos su privacidad)</p> <br>
         <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
-          <p><label>Tu email: <input type="email" name="email" /></label></p>
-          
+          <p><label>Tu email: <input type="email" name="email" /></label></p>          
             <p> <br> <button type="submit">Hello Hexis</button></p>
       </form>
       </aside>
