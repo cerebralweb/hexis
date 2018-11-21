@@ -43,6 +43,7 @@
 
   .contenedorHeader {   
     width: 100%;
+    min-height: 60px;
     position: fixed;
     top: 0px;
     background-color: whitesmoke; 
@@ -55,17 +56,17 @@
   
   .logo {  
     float: left; 
-    margin-left: 9%;    
+    margin-left: 9%;  
+    margin-top: 8px;  
     color: rgb(12, 12, 11);
     font-size: 2rem;
-    font-weight: 300;
-    
+    font-weight: 300;   
   }
     
   nav {      
       margin-right: 7%;
       float: right;
-      margin-top: 10px;
+      margin-top: 20px;
       box-sizing: border-box;
       width: 35%;
     } 
@@ -199,8 +200,7 @@ box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       margin: 0%;
-      padding: 0%;      
-      
+      padding: 0%;         
     }
       
       
@@ -213,13 +213,15 @@ box-sizing: border-box;
         width: 100%;
         position: fixed;
         top: 0px;        
-        box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
+        box-shadow:0 0 16px rgba(14, 0, 0, 0.3);
         }
 
    .logo {  
      width: 100%;
+     min-height: 60px;
      box-sizing: border-box;
         margin: 0%;
+        padding-top: 6px;
         text-align: center;
         color: rgb(12, 12, 11);
         font-size: 2.3rem;
