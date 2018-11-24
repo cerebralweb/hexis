@@ -1,3 +1,6 @@
+ /* DESKTOP
+  ================================================================================================================================================
+  ================================================================================================================================================*/
 * {box-sizing: border-box; margin: 0px;
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto", "Arial",sans-serif;
     font-size: 1em;
@@ -66,13 +69,9 @@
       width: 35%;
     } 
   
-
-     
   
 /*Article
 ============================================================================*/
-  
-
 .contenedorMain {
   width: 100%;
   margin-top: 100px;
@@ -144,10 +143,7 @@ p {
   border-radius: .7%;
   padding-left: 4%;
   padding-bottom: .1%;
-  
-
 }
-
 figcaption {
   font-size: .9rem;
   color: darkgray;
@@ -450,6 +446,68 @@ display: none;
   line-height: 1.4;
   margin: 40px 40px 40px 0px;
 }
+
+
+
+/*pop-up RESPONSIVE
+  =========================================================================*/
+  /* Popup container */
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on left) */
+  .popup .popuptext {
+    font-size: 1rem;
+    visibility: hidden;
+    width: 160px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0%;
+    left: 80%;
+    bottom: 70%;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(149, 149, 149) transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
+
+
 .bannerTwitero {
   width: 75%;
   margin: 0 auto;
@@ -458,7 +516,7 @@ display: none;
   box-sizing: border-box;
   background-color: rgb(235, 255, 248);
   border: 2pt solid rgba(22, 138, 149, 0.87);
-  font-size: .9em;
+  font-size: .7em;
   border-radius: 3px;
 }
 .bonus {
