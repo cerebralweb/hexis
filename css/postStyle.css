@@ -215,14 +215,6 @@ font-size: 1.6rem;
     margin: 70px auto;
   }
   
-  .blog {
-    display: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5rem;
-    font-size: 100%;
-    margin: 1% 15% 1% 15%;
-    grid-auto-rows: minmax(120px, auto)
-  }
   .contenedorFooter { 
     display: grid;
     width: 100%;
