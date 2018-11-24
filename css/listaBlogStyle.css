@@ -180,7 +180,7 @@ box-sizing: border-box;
 .class4:hover {
   background-color: azure;
   color: black;}  
-.class4:active {text-decoration: none; color: black;}
+.class4:active {text-decoration: none; color: rgb(14, 151, 241);}
 
 .postList {
   list-style: none;
