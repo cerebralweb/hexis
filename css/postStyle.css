@@ -330,15 +330,24 @@ font-size: 1.6rem;
 .bannerCompartirRedes {
   width: 100%;
   box-sizing: border-box;
-  border-top: 2pt solid gainsboro;
-  border-bottom: 2pt solid gainsboro;
+  margin: 5px auto;
+background-color: rgb(208, 230, 245);
+border-bottom-left-radius: 7%;
+border-top-left-radius: 7%;
 }
-
+.meGusta {
+  float: left;
+  margin-top: 1150px;
+  margin-left: 20px;
+}
   /* MEDIA queries
   ================================================================================================================================================*/
   
-  @media (max-width:  1024px){
+  @media (max-width:  980px){
 
+    .meGusta {
+    display: none;
+    }
     .contenedorBody {
       box-sizing: border-box;
       width: 100%;
