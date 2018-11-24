@@ -415,6 +415,7 @@ display: none;
 .responsiveImage {
   width: 100%;
   height: auto;
+  margin-top: 150px;
 }
 .contenedorArticle {
     width: 90%;
