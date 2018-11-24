@@ -29,7 +29,7 @@
   A.class3:hover {text-decoration: underline; color: rgb(14, 151, 241);}
   A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
 
-  .logo a:hover, a:link, a:active, a:visited {
+  .logo a:link, a:active, a:visited {
     text-decoration: none;
     color: rgb(248, 156, 8);}
   
