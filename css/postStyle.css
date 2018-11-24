@@ -330,8 +330,8 @@ font-size: 1.6rem;
 .bannerCompartirRedes {
   width: 100%;
   box-sizing: border-box;
-  border-top: 2pt solid black;
-  border-bottom: 2pt solid black;
+  border-top: 2pt solid gainsboro;
+  border-bottom: 2pt solid gainsboro;
 }
 
   /* MEDIA queries
