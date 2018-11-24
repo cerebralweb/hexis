@@ -165,7 +165,7 @@ box-sizing: border-box;
 /*POST STYLE
 ===============================================*/
 .class4 {
-  color: rgb(27, 212, 98);    
+  color: black;
   border: none;
   text-align: left;
   text-decoration: none;
@@ -180,7 +180,7 @@ box-sizing: border-box;
 .class4:hover {
   background-color: azure;
   color: black;}  
-.class4:active {text-decoration: none; color: rgb(14, 151, 241);}
+.class4:active {color: black;}
 
 .postList {
   list-style: none;
