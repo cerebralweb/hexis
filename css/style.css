@@ -97,10 +97,22 @@
 width: 100%;
 min-height: 300px;
 margin-top: 29px;
-background-color:  rgba(22, 138, 149, 0.87);
+background-color:  black;
+/*background-color: lightseagreen;*/
 box-sizing: border-box;
-
   }
+
+  .sloganSoluciones {
+    width: 100%;
+    margin-top: 29px;
+    background-color: lightseagreen;
+    box-sizing: border-box;
+      }
+.responsiveImage {
+    width: 100%;
+    height: auto;
+  }
+ 
      
   
 /*Main
@@ -122,6 +134,14 @@ box-sizing: border-box;
     font-weight: 100;
     font-style: normal;
     font-size: 3.5rem;
+  }
+
+  .subtitulo-h4 {  
+    color: black;
+    line-height: 1.1;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2.5rem;
   }
   
   .titulo-h3 {  
