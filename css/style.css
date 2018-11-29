@@ -7,6 +7,7 @@
   p {
     font-size: 1.26rem;
     font-weight: 300;
+    box-sizing: border-box;
     } 
   
   
@@ -30,23 +31,21 @@
   A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
 
   .class4 {
-    color: black;    
-    border: none;
+    width: 100%;
+    color: black;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-size: 2em;
-    margin: 40 auto;
-    transition-duration: 0.2s;
+    transition-duration: 1s;
+    border-right: 0px solid white;
     cursor: pointer;}
-
-  .class4:link  {text-decoration: none;}
-  .class4:visited { color: grey;}
+  
+  .class4:link  {text-decoration: none; padding: 3%;}
+  .class4:visited { color:black;}
   .class4:hover {
-    background-color: azure;
-    trans
-    color: grey;}
-  .class4:active {text-decoration: none; color: grey;}
+    border-right: 3px solid orange;
+    color: black;}  
+  .class4:active {color: black;}
   
   
   .contenedorBody {
@@ -142,6 +141,7 @@ box-sizing: border-box;
     font-weight: 100;
     font-style: normal;
     font-size: 2.5rem;
+    box-sizing: border-box;
   }
   
   .titulo-h3 {  
@@ -180,10 +180,18 @@ box-sizing: border-box;
     margin: 70px auto;
   }
 
-  .svgIcon {
+  .icon {
     float: left;
-    margin-right: 2%; 
+    margin-right: 5%;
+    margin-left: -10%;   
     }  
+
+    .iconBanner {
+      width: 100%;
+      margin: 2%;
+      float: left;
+      box-sizing: border-box;
+    }
   
   .blog {
     display: none; /*grid*/

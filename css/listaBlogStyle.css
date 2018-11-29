@@ -179,6 +179,7 @@ box-sizing: border-box;
   color: black;
   text-align: left;
   text-decoration: none;
+  background-color: gainsboro;
   display: inline-block;
   font-size: 2em;
   padding: 16px 0px;
@@ -190,7 +191,7 @@ box-sizing: border-box;
   padding: 3%;
 }
 .class4:visited { color:black;}
-.class4:hover {background-color: rgb(238, 236, 236); color: black;}  
+.class4:hover {background-color: whitesmoke; color: black;}  
 .class4:active {color: black;}
 
 
