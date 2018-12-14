@@ -40,7 +40,7 @@
     border-right: 0px solid white;
     cursor: pointer;}
   
-  .class4:link  {text-decoration: none; padding: 3%;}
+  .class4:link  {text-decoration: none; padding: 3%; color: black}
   .class4:visited { color:black;}
   .class4:hover {
     border-right: 3px solid orange;
@@ -64,7 +64,7 @@
 
   .contenedorHeader {   
     width: 100%;
-    min-height: 60px;
+    height: 60px;
     position: fixed;
     top: 0px;
     background-color: whitesmoke; 
@@ -85,7 +85,7 @@
   }
     
   nav {      
-      margin-right: 7%;
+      margin-right: -2%;
       float: right;
       margin-top: 20px;
       box-sizing: border-box;
@@ -94,12 +94,20 @@
   
   .slogan {
 width: 100%;
-min-height: 300px;
-margin-top: 29px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-top: 60px;
 background-color:  black;
-/*background-color: lightseagreen;*/
 box-sizing: border-box;
   }
+  .slogan-code {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color:  black;
+    box-sizing: border-box;
+      }  
 
   .sloganSoluciones {
     width: 100%;
@@ -119,7 +127,7 @@ box-sizing: border-box;
   .contenedorMain {
     width: 100%;    
     box-sizing: border-box;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.4;  
     margin-bottom: 3%;
@@ -127,13 +135,28 @@ box-sizing: border-box;
   }    
  .subtitulo-h2 {  
     text-align: center;
-    margin-top: 10%;
-    color: white;
+    margin-top: 90px;    
     line-height: 1.2;
     font-weight: 100;
     font-style: normal;
     font-size: 3.5rem;
   }
+
+  .subtitulo-code {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(51, 50, 50);    
+    margin-top: 90px; 
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
+    color: rgb(9, 247, 29);
+    line-height: 1.5;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  
 
   .subtitulo-h4 {  
     color: black;
@@ -146,10 +169,12 @@ box-sizing: border-box;
   
   .titulo-h3 {  
     text-align: center;
+    padding: 10px;
     font-weight: 100;
-    font-style: normal;
     font-size: 1.7rem;  
     color: white;
+    background-color: black;
+    height: 60px;
   }
   
   .titulosMain {
@@ -250,14 +275,6 @@ box-sizing: border-box;
     font-style: normal;
     padding: 1rem;
   }
-  
-
-/*POST STYLE
-===============================================*/
-
-
-
-
 
   /* MEDIA queries
   ================================================================================================================================================*/
@@ -299,7 +316,8 @@ box-sizing: border-box;
 nav {
   float: left;
   width: 100%;
-  margin-left: 5%;
+  text-align: center;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
@@ -307,22 +325,32 @@ nav {
   box-sizing: border-box;          
   background-color:whitesmoke;} 
       
-      .slogan {
-display: none;
-    
-      }  
+      .slogan {display: none;}  
+
     .contenedorMain {
       width: 100%;
       margin-top: 200px;      
       box-sizing: border-box;           
     }   
     
-    .subtitulo-h2 {  
-      display: none;    
-    }
-    
-    .titulo-h3 { 
-      display: none;}
+    .subtitulo-h2 {display: none;}
+
+
+    .subtitulo-code {
+      text-align: justify;
+      font-family: 'Roboto Mono', monospace;
+      background-color: rgb(51, 50, 50);    
+      margin-top: 90px; 
+      padding-left: 3%;
+      padding-right: 3%;
+      margin-bottom: -180px;
+      color: rgb(9, 247, 29);
+      line-height: 1.4;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 1rem;
+    }    
+    .titulo-h3 {display: none;}
     
     .titulosMain {
       margin-bottom: 1.5rem;
@@ -336,6 +364,7 @@ display: none;
     display: flex;
     width: 100%;
     flex-direction: column; 
+    margin-top: -35px;
     
     }
   
