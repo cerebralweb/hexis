@@ -6,11 +6,15 @@
   h1 {
     font-size: 2.2rem;
     font-weight: 400;}
-  p {font-family: 'Raleway', sans-serif; font-size: 1.2rem; font-weight: 100; line-height: 1.4; margin: 3%;}
+  p {font-family: 'Raleway', sans-serif; font-size: 1.2rem;
+     font-weight: 100; line-height: 1.4; margin: 3%;}
 
  
-/*==================header=================*/
-.mainTitle {font-size: 8rem; text-align: center}
+/* HEADER
+================================================================*/
+.mainTitle {font-size: 8rem; text-align: center;
+color: purple;}
+
 .purpleHeader {
 color: deepskyblue;
 background-color: purple;
@@ -26,15 +30,13 @@ a.clase1 {color: deepskyblue;}
 a.clase1:link {text-decoration: none; color: deepskyblue;}
 a.clase1:hover {text-decoration: none; color: rgb(67, 208, 255);}
 
-/*==================MEDIA QUERIES=================*/
+/* MEDIA QUERIES
+================================================================*/
 @media (max-width: 640px) {
-  .mainTitle {font-size: 4rem; text-align: center}
-  nav {  
-    display: block;
-    list-style: none;
-    justify-content: center;
-    padding-left: 2%;
-  }
+  .mainTitle {font-size: 4rem; text-align: center;
+    color: purple;}
+  nav { display: block;list-style: none;
+    justify-content: center; padding-left: 2%;  }
 
   h1 {
     font-size: 1.3rem;
@@ -42,6 +44,5 @@ a.clase1:hover {text-decoration: none; color: rgb(67, 208, 255);}
   p {font-family: 'Raleway', sans-serif; 
     font-size: 1.1rem; font-weight: 100;
      line-height: 1.2; margin: 3%;}
-
 }
 
