@@ -13,7 +13,7 @@
   A.class1 {color: grey;}
   A.class1:link  {text-decoration: none; color:  grey;}
   A.class1:visited {text-decoration: none; color:rgb(87, 87, 87);}
-  A.class1:hover {text-decoration: underline; color: rgb(131, 130, 130);}
+  A.class1:hover {text-decoration: none; color: rgb(131, 130, 130);}
   A.class1:active {text-decoration: none; color: lightgrey;}
   
   
@@ -23,11 +23,11 @@
   A.class2:hover {text-decoration: underline; color:  rgb(14, 151, 241);}
   A.class2:active {text-decoration: none; color:  rgb(14, 151, 241);}
   
-  A.class3 {color: rgb(14, 151, 241);}
-  A.class3:link  {text-decoration: none; color: rgb(14, 151, 241);}
-  A.class3:visited {text-decoration: none; color: rgb(14, 151, 241);}
-  A.class3:hover {text-decoration: underline; color: rgb(14, 151, 241);}
-  A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
+  A.class3 {color: black;}
+  A.class3:link  {text-decoration: none; color: black;}
+  A.class3:visited {text-decoration: none; color: black;}
+  A.class3:hover {text-decoration: underline; color: black;}
+  A.class3:active {text-decoration: none; color:black;}
 
   .logo a:link, a:active, a:visited {
     text-decoration: none;
