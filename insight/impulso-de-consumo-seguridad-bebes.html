@@ -72,7 +72,7 @@ function myFunction() {
 
     <div class="contenedorHeader">
       <header>
-        <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a href="https://www.hexis.cc" target="_self">Hexis</a></h1>
+        <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage" itemprop="copyrightHolder"><a href="https://www.hexis.cc" target="_self">Hexis</a></h1>
         <nav>
             <a href="/index.html#soluciones" target="_self" class="class1">SOLUCIONES &emsp; </a>
             <a href="/insights-blog.html" target="_self" class="class1"> INSIGHTS-BLOG &emsp;</a>
@@ -87,19 +87,23 @@ function myFunction() {
       </div>
 
     <main class="contenedorMain">      
-      <article class="contenedorArticle">
-          <img src="/imagenes5/ana-seguridad-ropa-bebe-bogota.jpg" alt="Foto de un traje en promoción, marca Carter's" class="responsiveImage">
+      <article itemscope itemtype="http://schema.org/Article" itemprop="articleBody" class="contenedorArticle">
+          <img   itemtype="image" src="/imagenes5/ana-seguridad-ropa-bebe-bogota.jpg" alt="Foto de un traje en promoción, marca Carter's" class="responsiveImage">
           <figcaption>Foto de un traje en promoción, marca Carter's</figcaption>
         <header>
-          <h1 class="titulosMain">La debilidad de las marcas para bebé</h1>
-          <div class="author">
+          <h1 itemtype="about" itemtype="headline" class="titulosMain">La debilidad de las marcas para bebé</h1>
+          <div itemtype="backstory" class="author">
             <a href="/nosotros.html" itemprop="author">Paulo César León Palacios</a>
-            <time itemprop="datePublished"> | Investigador | Socio de Hexis | Noviembre 23, 2018 </time>
+            <time itemprop="datePublished"> | Investigador | Socio de Hexis | <span itemtype="datePublished">Noviembre 23, 2018</span>
+              | <span itemtype="wordCount">1600 palabras</span> </time> | <span itemtype="isAccessibleForFree">Acceso gratuito</span>
+              | <span itemtype="isBasedOn">Fuentes: etnografía, estadísticas</span> | <span itemtype="keywords">Marcas analizadas:
+                Infanti, Bium, Medline, Clínica Mayo </span> | 
           </div>
         </header>
-        <p id="resumen">
+        <p itemtype="description" itemtype="speakable" id="resumen">
           ¿Cómo venderle a una generación de padres preocupada por la seguridad y el éxito? En este estudio analizamos
-          posibles vacíos de las marcas para bebé.
+          posibles vacíos de las marcas para bebé. La información es útil para <span itemtype="audience">gerentes, ingenieros
+            industriales y publicistas,</span> cuyo radio de acción es <span itemtype="spatialCoverage">América Latina</span>.
         </p>
         <p>Era la primera vez que entraba a Pepe Ganga pensando como padre. Puedo afirmar sin pudor que en el pasado
           solía aprovechar mis paseos por el centro comercial para entrar a ese mismo local para ver juguetes; mi
@@ -127,14 +131,14 @@ function myFunction() {
           continuación. </p>
         
         <div class="popup" onclick="myFunction()"> <p class="highlight">¿ <strong>Marcas</strong>  mencionadas en este este artículo?</p>
-              <span class="popuptext" id="myPopup">Infanti, Bium, Medline, Clínica Mayo, Lego, Hasbro</span>
+              <span class="popuptext" id="myPopup">Infanti, Bium, Medline, Clínica Mayo</span>
             </div>
         
         <h4>Pasos seguidos en la investigación</h4>
         <p>Luego de un par de vertiginosas visitas como comprador incógnito, decidí entrevistas algunas personas. Luego
           de algunas conversaciones elegí a una mujer, le explique mi oficio y los beneficios de acceder a ser
           entrevistada.</p>
-          <img src="/imagenes5/corral-bium-pepe-ganga.jpg" alt="Foto de un corral Bium en Pepeganga" class="responsiveImage">
+          <img itemtype="image" src="/imagenes5/corral-bium-pepe-ganga.jpg" alt="Foto de un corral Bium en Pepeganga" class="responsiveImage">
           <figcaption>Foto de un corral Bium en Pepeganga</figcaption>
         <ul>
           <li> Construimos un caso siguiendo técnicas cualitativas. Desarrollamos dos entrevistas
@@ -201,7 +205,7 @@ function myFunction() {
             la
             que abandonó (19), por el motivo (la celebración del matrimonio con su padre), y <em>las consecuencias</em>.
             Silencio.</p>
-        <img src="/imagenes5/casa-bogota-madre-ana.jpg" alt="Fachada de una casa bogotana al sur" class="responsiveImage">
+        <img  itemtype="image" src="/imagenes5/casa-bogota-madre-ana.jpg" alt="Fachada de una casa bogotana al sur" class="responsiveImage">
           <figcaption>Fachada de la casa materna de Ana.</figcaption>
         <div class="bannerCompartirRedes">
             <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.hexis.cc%2Finsight%2Fimpulso-de-consumo-seguridad-bebes.html&width=74&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId"
@@ -282,7 +286,11 @@ function myFunction() {
         <p>El <strong>estudio de caso </strong> es un método que demanda
           el rigor del investigador no debe competir con el sentido común–– </p>
 
-
+          <span class="author" >¿Cómo citar este artículo? <br>
+             Leon, P. Hexis . Recuperado de
+            https://www.hexis.cc/insight/impulso-de-consumo-seguridad-bebes.html + fecha de recuperación</span>
+            <br><br>
+            <span>Excepcional <strong>Dedicatoria</strong> : Este es mi primer post en Hexis, y por eso quiero dedicarlo a Mo.</span>
       </article>
     </main>
 
