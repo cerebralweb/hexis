@@ -217,7 +217,9 @@ box-sizing: border-box;
       float: left;
       box-sizing: border-box;
     }
-  
+
+  /*FOOTER desktop
+  ====================================================================================================*/
   .contenedorFooter { 
     display: grid;
     width: 100%;
@@ -371,41 +373,17 @@ nav {
       box-sizing: border-box;
       margin: 5% auto;
           }
-
-    .contenedorFooter { 
-    display: flex;
-    flex-direction: column;
-      clear: both;
-      min-width: 300px;
-      border-top: 0.4rem solid rgb(14, 151, 241);
-      padding: 2rem;       
-    }
+ /*FOOTER mobile MEDIA queries
+  ====================================================================================================*/
+.contenedorFooter {display: flex; flex-direction: column; padding: 2rem;
+clear: both;min-width: 300px; border-top: 0.4rem solid rgb(14, 151, 241);}
     
-    .contenedorSubscribirse {  
-      max-width: 380px;
-      float: left;
-      padding: 1rem;
-      outline: 0.2rem solid rgb(14, 151, 241);
-    }
+.contenedorSubscribirse {max-width: 380px;float: left;
+padding: 1rem;outline: 0.2rem solid rgb(14, 151, 241);}
     
-    .redesFooter {  
-      max-width: 180px;
-      float: left;
-      padding: 2.5%;
-      
-      
-      border: .1rem solid  rgb(248, 156, 8);;
-      color: rgb(14, 151, 241);  
-    }
+.redesFooter {max-width: 180px;float: left;padding: 2.5%;
+border: .1rem solid  rgb(248, 156, 8);color: rgb(14, 151, 241);}
     
-    .contenedorAdress { 
-      width: 100%;
-      text-align: center;
-      float: left;
-      font-size: 1rem;
-      font-weight: 400;
-      font-style: normal;
-      padding: 1rem;
-    }
-    
-    }
+.contenedorAdress {width: 100%;text-align: center;float: left;
+font-size: 1rem;font-weight: 400;font-style: normal;padding: 1rem;}
+}

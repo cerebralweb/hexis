@@ -205,17 +205,11 @@ font-size: 1.6rem;
 .forma {
   line-height: 2;
   }
-.button {
-  margin-top: 20px;
-}
 
-  .bannerFlotante {
-    float: right;
-    width: 45%;
-    box-sizing: border-box;
-    margin: 70px auto;
-  }
-  
+
+
+/*FOOTER desktop
+  ====================================================================================================*/
   .contenedorFooter { 
     display: grid;
     width: 100%;
@@ -231,15 +225,10 @@ font-size: 1.6rem;
     font-size: 1.1em;
   }
   
-  .contenedorSubscribirse {  
-    width: 15rem;
-    padding: 1rem;
-    outline: 0.2rem solid rgb(14, 151, 241);
-  }
+  .contenedorSubscribirse {padding: 1rem;
+    outline: 0.2rem solid rgb(14, 151, 241);}
   
   .redesFooter {  
-    width: 10rem;
-    height: 3rem;
     padding: 2.5%;
     margin-top: 1%;
     margin-right: 1%;
@@ -256,6 +245,8 @@ font-size: 1.6rem;
     font-style: normal;
     padding: 1rem;
   }
+
+ 
 
   /*pop-up
   =========================================================================*/
@@ -330,9 +321,7 @@ border-top-left-radius: 7%;
   margin-left: 20px;
 }
   /* MOBILE MEDIA queries
-  ================================================================================================================================================
-  ================================================================================================================================================
-  ================================================================================================================================================*/
+  =================================================================================================================*/
   
   @media (max-width:  980px){
 
@@ -382,18 +371,12 @@ nav {
   box-sizing: border-box;          
   background-color:whitesmoke;} 
       
-      .slogan {
-display: none;
-    
-      }  
+      .slogan {display: none;}  
  
     
-    .subtitulo-h2 {  
-      display: none;    
-    }
+    .subtitulo-h2 {display: none;}
     
-    .titulo-h3 { 
-      display: none;}
+    .titulo-h3 {display: none;}
     
     .titulosMain {
       margin-bottom: 1.5rem;
@@ -412,6 +395,20 @@ display: none;
   margin-top: 100px;
   box-sizing: border-box;
   margin-bottom: 3%;
+}
+.contenedorQueEsHexis {
+  float: left;  
+  width: 90%;    
+  box-sizing: border-box;
+ margin: 5% auto;
+  
+}
+.bannerFlotante {
+  float: left;      
+  width: 90%;
+  box-sizing: border-box;
+  margin: 5% auto;
+  
 }
 .responsiveImage {
   width: 100%;
@@ -574,12 +571,8 @@ ul {
   list-style-position: outside;
 }
 
-.forma {
-  line-height: 2;
-  }
-.button {
-  margin-top: 20px;
-}
+.forma {line-height: 2;}
+.button {margin-top: 20px;}
 
   .bannerFlotante {
     float: right;
@@ -588,108 +581,23 @@ ul {
     margin: 70px auto;
   }
 
-  .contenedorFooter { 
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    clear: both;
-    border-top: 0.4rem solid rgb(14, 151, 241);
-    padding: 2rem;  
-    justify-items: center;
-    align-items: center;
-  }
+  /*FOOTER mobile MEDIA queries
+  ====================================================================================================*/
+.contenedorFooter {display: flex; flex-direction: column; padding: 2rem;
+  clear: both;min-width: 300px; border-top: 0.4rem solid rgb(14, 151, 241);}
+      
+  .contenedorSubscribirse {max-width: 380px;float: left;
+  padding: 1rem;outline: 0.2rem solid rgb(14, 151, 241);}
+      
+  .redesFooter {max-width: 180px;float: left;padding: 2.5%;
+  border: .1rem solid  rgb(248, 156, 8);color: rgb(14, 151, 241);}
+      
+  .contenedorAdress {width: 100%;text-align: center;float: left;
+  font-size: 1rem;font-weight: 400;font-style: normal;padding: 1rem;}
+  
+  
+  
+    
 
-  .footerFont {
-    font-size: 1.1em;
-  }
-  
-  .contenedorSubscribirse {  
-    width: 15rem;
-    padding: 1rem;
-    outline: 0.2rem solid rgb(14, 151, 241);
-  }
-  
-  .redesFooter {  
-    width: 10rem;
-    height: 3rem;
-    padding: 2.5%;
-    margin-top: 1%;
-    margin-right: 1%;
-    border: .1rem solid  rgb(248, 156, 8);;
-    color: rgb(14, 151, 241);  
-  }
-  
-  .contenedorAdress { 
-    width: 20rem;
-    margin-left: .5%;
-    margin-top: 1.5%;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
-    padding: 1rem;
-  }
-    
-    .contenedorSectionHexis {
-    display: flex;
-    width: 100%;
-    flex-direction: column; 
-    
-    }
-  
-    .contenedorQueEsHexis {
-      float: left;  
-      width: 90%;    
-      box-sizing: border-box;
-     margin: 5% auto;
-      
-    }
-    .bannerFlotante {
-      float: left;      
-      width: 90%;
-      box-sizing: border-box;
-      margin: 5% auto;
-      
-    }
-  
-
-    
-    
-    
- 
-    .contenedorFooter { 
-    display: flex;
-    flex-direction: column;
-      clear: both;
-      border-top: 0.4rem solid rgb(14, 151, 241);
-      padding: 2rem;  
-     
-    }
-    
-    .contenedorSubscribirse {  
-      min-width: 75%;
-      float: left;
-      padding: 1rem;
-      outline: 0.2rem solid rgb(14, 151, 241);
-    }
-    
-    .redesFooter {  
-      min-width: 45%;
-      float: left;
-      padding: 2.5%;
-      
-      
-      border: .1rem solid  rgb(248, 156, 8);;
-      color: rgb(14, 151, 241);  
-    }
-    
-    .contenedorAdress { 
-      width: 100%;
-      text-align: center;
-      float: left;
-      font-size: 1rem;
-      font-weight: 400;
-      font-style: normal;
-      padding: 1rem;
-    }
     
     }
