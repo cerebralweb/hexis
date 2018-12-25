@@ -193,8 +193,8 @@ box-sizing: border-box;
     width: 50%;
     box-sizing: border-box;
     margin: 70px auto;
-
   }
+  .cajaVideoHexis {width: 100%; height: auto; margin-top: 40%;}
   .bannerFlotante {
     float: right;
     width: 45%;
@@ -323,7 +323,8 @@ nav {
     }   
     
     .subtitulo-h2 {display: none;}
-
+  
+    .cajaVideoHexis {width: 100%; margin-top: 5%;}
 
     .subtitulo-code {
       text-align: justify;
