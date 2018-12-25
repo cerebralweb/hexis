@@ -8,7 +8,7 @@
     font-size: 1.26rem;
     font-weight: 300;
     box-sizing: border-box;
-    } 
+    }
   
   
   A.class1 {color: black;}
@@ -115,10 +115,7 @@ box-sizing: border-box;
     background-color: lightseagreen;
     box-sizing: border-box;
       }
-.responsiveImage {
-    width: 100%;
-    height: auto;
-  }
+.responsiveImage {width: 100%; height: 450px;}
  
      
   
