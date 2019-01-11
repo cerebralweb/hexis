@@ -189,7 +189,7 @@
   cursor: pointer;}
 
 .class4:link  {text-decoration: none; 
-  border-bottom: 1pt dotted whitesmoke;
+  border-bottom: 1pt dotted rgb(47, 47, 47);
   padding: 3%;
 }
 .class4:visited { color:black;}
