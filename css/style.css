@@ -265,6 +265,17 @@ box-sizing: border-box;
   .bannerCallIzquierda {width: 40%; height: 500px; float: left; text-align: center; margin-top: 220px;}
 
 
+/*Convocatoria
+  ====================================================================================================*/
+
+.contenedorConvocatoria {text-align: center;}
+
+.botonParticipar {margin-left: 45%; margin-right: 45%; min-height: 35px; border: solid 1px orange; margin-bottom: 80px;}
+.bannerObjetivo {padding: 3%; margin-right: 20%; margin-left: 20%; background-color: rgb(248, 238, 220);}
+.contenedorPorqueHexis {background-color: azure; margin-left: 20%; margin-right: 20%; padding: 2%;}
+.contenedorPerfiles {background-color: azure; margin-left: 20%; margin-right: 20%; padding: 2%;}
+.bannerPerfil {padding: 3%; margin-right: 5%; margin-left: 5%; background-color: rgb(248, 238, 220);}
+
   /* MEDIA queries
   ================================================================================================================================================*/
   
@@ -371,6 +382,18 @@ nav {
       box-sizing: border-box;
       margin: 5% auto;
           }
+
+          /*Convocatoria
+  ====================================================================================================*/
+
+.contenedorConvocatoria {text-align: center;}
+
+.botonParticipar {min-width: 180px; max-width: 90%; margin-left: 5%; margin-right: 5%; min-height: 35px; border: solid 1px orange; margin-bottom: 80px;}
+.bannerObjetivo {padding: 3%; margin-right: 4%; margin-left: 4%; background-color: rgb(248, 238, 220);}
+.contenedorPorqueHexis {background-color: azure; margin-right: 4%; margin-left: 4%;  padding: 2%;}
+.contenedorPerfiles {background-color: azure; margin-right: 4%; margin-left: 4%;  padding: 2%;}
+.bannerPerfil {padding: 3%; margin-right: 2%; margin-left: 2%; background-color: rgb(248, 238, 220);}
+
  /*FOOTER mobile MEDIA queries
   ====================================================================================================*/
 .contenedorFooter {display: flex; flex-direction: column; padding: 2rem;
