@@ -25,6 +25,12 @@
   A.class3:visited {text-decoration: none; color: rgb(14, 151, 241);}
   A.class3:hover {text-decoration: underline; color: rgb(14, 151, 241);}
   A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
+
+  A.class5 {color: black;}
+  A.class5:link  {text-decoration: none; color:  black;}
+  A.class5:visited {text-decoration: none; color: black;}
+  A.class5:hover {text-decoration: none; color: rgb(59, 0, 59);}
+  A.class5:active {text-decoration: none; color: rgb(0, 0, 0);}
   
   
   .contenedorBody {
@@ -204,13 +210,14 @@ font-size: 1.6rem;
     display:inline-block;
 }
 
+
 .forma {
   line-height: 2;
   }
 
 
 
-/*FOOTER desktop
+ /*FOOTER desktop
   ====================================================================================================*/
   .contenedorFooter { 
     display: grid;
@@ -224,10 +231,9 @@ font-size: 1.6rem;
   }
 
   .footerFont {
-    font-size: 1.1em;
-  }
+    font-size: 1.1rem; margin-top: 1rem; margin-bottom: 1rem;}
   
-  .contenedorSubscribirse {padding: 1rem;
+  .contenedorSubscribirse {max-width: 330px;  padding: .6rem;
     outline: 0.2rem solid rgb(14, 151, 241);}
   
   .redesFooter {  
@@ -239,13 +245,13 @@ font-size: 1.6rem;
   }
   
   .contenedorAdress { 
-    width: 20rem;
+    width: 21rem;
     margin-left: .5%;
     margin-top: 1.5%;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    padding: 1rem;
+    padding: .7rem;
   }
 
  
