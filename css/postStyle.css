@@ -29,8 +29,8 @@
   A.class5 {color: black;}
   A.class5:link  {text-decoration: none; color:  black;}
   A.class5:visited {text-decoration: none; color: black;}
-  A.class5:hover {text-decoration: none; color: rgb(59, 0, 59);}
-  A.class5:active {text-decoration: none; color: rgb(0, 0, 0);}
+  A.class5:hover {text-decoration: none; color:  darkgreen;}
+  A.class5:active {text-decoration: none; color: darkolivegreen;}
   
   
   .contenedorBody {
@@ -211,9 +211,18 @@ font-size: 1.6rem;
 }
 
 
-.forma {
-  line-height: 2;
-  }
+.forma {line-height: 2;}
+
+/*TABLA desktop
+  ====================================================================================================*/
+
+table {width: 100%}
+tr:nth-child(even){background-color:rgb(235, 234, 236);}
+tr:hover{background-color: rgb(223, 217, 228);}
+th {padding: 1px; border: solid deeppink; font-weight: 100; font-family: "Raleway", sans-serif; font-size: 1.1rem; }
+td {padding: 5px; text-align: center; font-weight: 100; font-family: "Raleway", sans-serif; font-size: 1.1rem; } 
+th[scope="col"] {height: 3rem; color: white; background-color: deeppink;}
+th[scope="row"] {color: black; background-color: chartreuse; }
 
 
 
