@@ -80,18 +80,24 @@
 ============================================================================*/
 .contenedorMain {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 60px;
   box-sizing: border-box;
   margin-bottom: 3%;
 }
+.contenedorMainIllustration {position: relative;}
+
 .responsiveImage {
   width: 100%;
   height: auto;
 }
 .contenedorArticle {
-    width: 50%;
+    width: 50%;    
     box-sizing: border-box;
-    margin: 0 auto;
+    
+    margin-top:  50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
     font-size: 1.3rem;
     line-height: 1.58;
     font-weight: 300;
@@ -116,7 +122,8 @@
   font-weight: 300;
   }
 p {
-  margin: 40px 40px 40px 0px;
+  
+  margin: 20px 20px 20px 0px;
   line-height: 1.5;
 }
 #resumen {
@@ -127,15 +134,13 @@ p {
   margin: 40px 40px 40px 0px;
 }
 .bannerTwitero {
-  width: 75%;
-  margin: 0 auto;
+  width: 98%;
   padding: 2%;
-  text-align: center;
+  
   box-sizing: border-box;
-  background-color: rgb(235, 255, 248);
-  border: 2pt solid rgba(22, 138, 149, 0.87);
-  font-size: 1.1em;
-  border-radius: 3px;
+  background-color: rgb(231, 241, 248);
+  border-top: 2pt solid rgb(248, 156, 8)
+  
 }
 .bonus {
   width: 80%;
@@ -167,9 +172,10 @@ h2 {
 blockquote {
   text-align: left;
   color:  rgb(14, 151, 241);
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   font-weight: 300;
   line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -334,9 +340,12 @@ border-top-left-radius: 7%;
 }
 .meGusta {
   float: left;
-  margin-top: 1150px;
-  margin-left: 20px;
-}
+  
+  position: sticky;
+  top: 450px;
+  margin-left: 20px;}
+
+
   /* MOBILE MEDIA queries
   =================================================================================================================*/
   
@@ -345,6 +354,8 @@ border-top-left-radius: 7%;
     .meGusta {
     display: none;
     }
+
+    
     .contenedorBody {
       box-sizing: border-box;
       width: 100%;
@@ -413,25 +424,10 @@ nav {
   box-sizing: border-box;
   margin-bottom: 3%;
 }
-.contenedorQueEsHexis {
-  float: left;  
-  width: 90%;    
-  box-sizing: border-box;
- margin: 5% auto;
-  
-}
-.bannerFlotante {
-  float: left;      
-  width: 90%;
-  box-sizing: border-box;
-  margin: 5% auto;
-  
-}
-.responsiveImage {
-  width: 100%;
-  height: auto;
-  margin-top: 150px;
-}
+
+.contenedorMainIllustration {  position: relative; top: -70px; margin-bottom: -100px;}
+
+
 .contenedorArticle {
     width: 90%;
     box-sizing: border-box;
@@ -457,7 +453,11 @@ nav {
   margin: 40px 40px 40px 0px;
 }
 
-
+.responsiveImage {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
 
 /*pop-up RESPONSIVE
   =========================================================================*/
