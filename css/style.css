@@ -9,7 +9,7 @@
     font-weight: 300;
     box-sizing: border-box;
     }
-  
+    
     ol li:before {content: "►"; font-weight: 800;color: rgb(14, 151, 241); font-size: 2rem; padding: 20px; font-family: Helvetica, sans-serif; }
 
 ul {
@@ -229,7 +229,11 @@ box-sizing: border-box;
       box-sizing: border-box;
     }
 
-    
+    .responsiveImage {
+      width: 100%;
+      height: auto;
+      
+    } 
 
   /*FOOTER desktop
   ====================================================================================================*/
