@@ -31,6 +31,12 @@
   A.class5:visited {text-decoration: none; color: black;}
   A.class5:hover {text-decoration: none; color:  darkgreen;}
   A.class5:active {text-decoration: none; color: darkolivegreen;}
+
+  A.class6 {color: rgb(97, 95, 95);}
+  A.class6:link  {text-decoration: none; color:  rgb(153, 149, 149);}
+  A.class6:visited {text-decoration: none; color: rgb(153, 148, 148);}
+  A.class6:hover {text-decoration: none; color:  darkgreen;}
+  A.class6:active {text-decoration: none; color: darkolivegreen;}
   
   
   .contenedorBody {
@@ -90,6 +96,18 @@
   width: 100%;
   height: auto;
 }
+.responsiveImageComGif {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 3%;
+  box-sizing: border-box;
+  background-color: rgba(172, 181, 197, 0.774);
+  border-top: 6pt solid rgb(14, 151, 241);
+  list-style-position: outside;
+}
+
 .contenedorArticle {
     width: 50%;    
     box-sizing: border-box;
@@ -207,6 +225,8 @@ ul {
   border-left: 3pt solid rgb(248, 156, 8);
   list-style-position: outside;
 }
+
+
 .highlight {
 background: rgb(169, 243, 206);
 font-size: 1.6rem;
@@ -458,6 +478,7 @@ nav {
   height: auto;
   margin-top: 150px;
 }
+
 
 /*pop-up RESPONSIVE
   =========================================================================*/
