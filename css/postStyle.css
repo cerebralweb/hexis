@@ -129,6 +129,30 @@
     font-size: 4rem;    
     line-height: 1.2;
   }
+
+.tituloEncimaDelBanner1 {
+    position: absolute;
+    top: 450px;
+    left: 20%;  
+  text-align: center;
+      font-family: Helvetica, sans-serif;      
+      color:  white;
+      font-size: 4rem;    
+      line-height: 1.2;
+    }
+
+    .tituloEncimaDelBanner2 {
+      position: absolute;
+      top: 150px;
+      left: 10%;  
+    text-align: center;
+        font-family: Helvetica, sans-serif;      
+        color:  white;
+        font-size: 4rem;    
+        line-height: 1.2;
+      }
+
+
  .author {
   color: rgb(167, 167, 167);
   font-size: 1rem;
@@ -175,10 +199,11 @@ p {
   padding-bottom: .1%;
 }
 figcaption {
-  font-size: .9rem;
+  font-size: 1.1rem;
   color: darkgray;
   text-align: center;
   font-weight: 300;
+  margin-top: 15px;
 }
 h2 {
   font-size: 2rem;
@@ -204,17 +229,14 @@ h4 {
 }
 
 ol {  
-  font-weight: 600;
   list-style: none;
   line-height: 2;
-  margin: 40px auto;
-  padding: 5%;
+  margin: 20px auto;
+  padding: 1%;
   box-sizing: border-box;
-  background-color: rgba(245, 245, 245, 0.774);
-  border-left: 3pt solid rgb(14, 151, 241);
   list-style-position: outside;
 }
-ol li:before {content: "►"; font-weight: 800;color: rgb(14, 151, 241); font-size: 2rem; padding: 20px; font-family: Helvetica, sans-serif; }
+ol li:before {content: "►"; font-weight: 200;color: rgb(14, 151, 241);  padding: 20px;  }
 
 ul {
   line-height: 2;
@@ -225,8 +247,6 @@ ul {
   border-left: 3pt solid rgb(248, 156, 8);
   list-style-position: outside;
 }
-
-
 .highlight {
 background: rgb(169, 243, 206);
 font-size: 1.6rem;
@@ -432,6 +452,25 @@ nav {
       font-size: 2rem;
       font-weight: 200;
     }
+    .tituloEncimaDelBanner1 {
+      position: absolute;
+      top: 250px;
+      left: 20%;  
+        font-family: Helvetica, sans-serif;        
+        color:  white;
+        font-size: 2rem;    
+        
+      }
+
+      .tituloEncimaDelBanner2 {
+        position: absolute;
+        top: 250px;
+        left: 20%;  
+          font-family: Helvetica, sans-serif;        
+          color:  white;
+          font-size: 2rem;    
+          
+        }
 
 
     /*Article
