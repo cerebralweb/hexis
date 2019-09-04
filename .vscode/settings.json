@@ -2,5 +2,7 @@
   "python.pythonPath": "/usr/local/bin/python3",
   "cSpell.words": [
     "frameborder"
-  ]
+  ],
+  "editor.fontSize": 18,
+  "workbench.colorTheme": "Noctis"
 }
