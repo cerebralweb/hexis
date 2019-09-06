@@ -48,8 +48,9 @@
 
   .contenedorHeader {   
     width: 100%;
-    display: block;
-    min-height: 220px;
+    display: block;   
+    opacity: 0.9;
+    height: 60px;
     position: fixed;
     top: 0px;
     background-color: black; 
@@ -91,7 +92,13 @@
     font-style: normal;
     line-height: 1.4; }    
 
-.contenedorEncabezado {width: 100%; background-color: black; box-sizing: border-box; text-align: center; padding-top: 3rem;}
+.contenedorEncabezado {
+  width: 100%; 
+  background-color: black;
+  box-sizing: border-box; 
+  text-align: center; 
+  padding-top: 2rem;
+}
 
   
 .responsiveHelloBlog { display: none;}
@@ -105,7 +112,15 @@
 }
 
 
-.subEncabezadoBlog {font-size: 3.2rem; color: rgb(241, 239, 239); margin-top: 60px; }
+.subEncabezadoBlog {
+  font-size: 3.2rem;
+   color: rgb(241, 239, 239);
+    background: black; 
+    margin-top: 60px; 
+    padding-bottom: 50px; 
+    opacity: 0.7;
+    border-bottom: 10px solid rgb(14, 151, 241);
+   }
 
 
 .contenedorBlogPosts {
@@ -198,8 +213,12 @@
         position: fixed;
         top: 0px;        
         }
+/*media*/
 
-.contenedorEncabezado {display: none;}
+.contenedorEncabezado {width: 100%; background-color:white;box-sizing: border-box; text-align: center; padding-top: 2rem;}
+
+.subEncabezadoBlog {font-size: 2rem; color: black; margin-top: 140px; opacity: 0.7; }
+
 
 
    .logo {  
@@ -216,10 +235,11 @@
         }             
 nav {
   display: flex;
+  top: 30px;
+  position: absolute;
   float: left;
   width: 100%;
-  margin-left: 5%;
-  display: flex;
+  padding-left: 5%;
   flex-direction: column;
   font-size: 1rem;
   line-height: 2;
@@ -254,7 +274,6 @@ display: none;
     
 
 
- .subEncabezadoBlog {font-size: 2rem; color: rgb(229, 216, 216); margin-top: -200px; }
 
 
 .contenedorBlogPosts {
