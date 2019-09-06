@@ -4,5 +4,9 @@
     "frameborder"
   ],
   "editor.fontSize": 18,
-  "workbench.colorTheme": "Noctis"
+  "workbench.colorTheme": "Noctis",
+  "cSpell.ignoreWords": [
+  
+  
+  ]
 }
