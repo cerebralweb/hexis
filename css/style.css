@@ -104,7 +104,7 @@ ul {
 
   .logo {  
     float: left; 
-    margin-left: 0%;  
+    margin-left: 4%;  
     margin-top: 8px;  
     color: rgb(12, 12, 11);
     font-size: 2rem;
@@ -342,8 +342,7 @@ box-sizing: border-box;
         box-shadow:0 0 16px rgba(14, 0, 0, 0.3);
         }
  .logo1 {  
-    width: 100%;
-     
+    width: 100%;     
     max-height: 50px;
     box-sizing: border-box;
         margin: 0%;
