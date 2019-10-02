@@ -97,18 +97,20 @@ ul {
 
  .logo1 {  
     float: left; 
-    margin-left: 6%;  
+    margin-left: -2%;  
     margin-top: 8px;  
     max-height: 50px;
+    width: 15%;
   }
 
   .logo {  
     float: left; 
-    margin-left: 4%;  
+    margin-left: -5%;  
     margin-top: 8px;  
     color: rgb(12, 12, 11);
     font-size: 2rem;
     font-weight: 300;   
+    width: 15%;
   }
     
   nav {      
