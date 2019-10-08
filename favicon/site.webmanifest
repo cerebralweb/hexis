@@ -1,15 +1,15 @@
 {
-    "name": "www.hexis.cc",
-    "short_name": "www.hexis.cc",
+    "name": "https://www.hexis.cc",
+    "short_name": "https://www.hexis.cc",
     "icons": [
         {
-            "src": "/favicon/android-chrome-192x192.png",
+            "src": "https://www.hexis.cc/favicon/android-chrome-192x192.png?v=eEvWB2J65O",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/favicon/android-chrome-384x384.png",
-            "sizes": "384x384",
+            "src": "https://www.hexis.cc/favicon/android-chrome-512x512.png?v=eEvWB2J65O",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
