@@ -113,7 +113,7 @@
 
 .contenedorPodcastCompleto {
   width: 100%;  
-  padding: 2%; 
+  
   text-align: center;
   vertical-align: middle;
   border-radius: 10px;
@@ -140,7 +140,7 @@
 
 
 .contenedorBlogPosts {
-   width: 70%;
+   width: 50%;
    margin: 220px auto;
    max-width: 1600px;
   font-size: 130%;  
@@ -199,7 +199,6 @@
   cursor: pointer;}
 
 .class4:link  {text-decoration: none; 
-  border-bottom: 1pt dotted rgb(47, 47, 47);
   padding: 3%;
 }
 .class4:visited { color:black;}
@@ -211,6 +210,10 @@
 
 .textoBanner {float:right; width: 57%;}
 .imagenBanner {float: left; width: 40%; height: auto; margin-right: 3%; margin-top: 1%;}
+.contenedorBannerPost {
+  border-bottom: 1pt solid rgb(206, 204, 204);
+
+}
 
   /* MEDIA queries
   ================================================================================================================================================*/
