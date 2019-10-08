@@ -140,11 +140,18 @@
 
 
 .contenedorBlogPosts {
-   width: 50%;
+   width: 70%;
    margin: 220px auto;
    max-width: 1600px;
   font-size: 130%;  
   }
+
+  .contenedorPodcastList {
+    width: 50%;
+    margin: 220px auto;
+    max-width: 1600px;
+   font-size: 130%;  
+   }
 
   .responsiveImage {width: 100%; height: auto;}
 /*FOOTER desktop
