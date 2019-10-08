@@ -3,13 +3,13 @@
     "short_name": "https://www.hexis.cc",
     "icons": [
         {
-            "src": "https://www.hexis.cc/favicon/android-chrome-192x192.png?v=eEvWB2J65O",
+            "src": "https://www.hexis.cc//favicon/android-chrome-192x192.png?v=3eBYGpaGza",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://www.hexis.cc/favicon/android-chrome-512x512.png?v=eEvWB2J65O",
-            "sizes": "512x512",
+            "src": "https://www.hexis.cc//favicon/android-chrome-256x256.png?v=3eBYGpaGza",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ],
