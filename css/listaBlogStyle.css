@@ -89,6 +89,24 @@
       background-color:  black;
       box-sizing: border-box;
         }
+  
+  .subtitulo-h2 {  
+    text-align: center;
+    margin-top: -10px;    
+    font-size: 3.5rem;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    
+  }
+  .titulo-h3 {  
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 1.7rem;  
+    color: white;
+    height: 60px;
+  }
      
   
 /*Main List
@@ -246,12 +264,25 @@
         }
 /*media*/
 
+.subtitulo-h2 {      
+  margin-top: 30px;
+  background-color: black;
+  padding-top: 8%;    
+  
+}
+.titulo-h3 {  
+ display: none;
+}
+.logo {  
+  display: none;
+      }  
+
 .contenedorEncabezado {
   width: 100%; 
-  background-color:white;
+  background-color: whitesmoke;
   box-sizing: border-box; 
   text-align: center; 
-  padding-top: 2rem;
+  padding-top: .4rem;
   
 }
 
@@ -259,7 +290,7 @@
 .subEncabezadoBlog {
   font-size: 2rem;
   height: 90px;
-  background: white;
+  background: whitesmoke;
    color: black;
    margin-top: 140px;   
     padding-bottom: 50px;   
@@ -297,8 +328,7 @@ nav {
   font-size: 1.2rem;
   line-height: 2;
   box-sizing: border-box;          
-  background-color:whitesmoke;
-   box-shadow:0 0 5px rgba(14, 0, 0, 0.3);
+  background-color:whitesmoke;  
 }
       
       .slogan {
