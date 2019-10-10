@@ -167,6 +167,7 @@ box-sizing: border-box;
     
   }
   .titulo-h3 {  
+    margin-top: -15px;
     text-align: center;
     padding: 10px;
     font-weight: 100;
@@ -174,6 +175,10 @@ box-sizing: border-box;
     color: white;
     height: 60px;
   }
+
+
+
+
 
   .subtitulo-code {
     text-align: justify;
@@ -407,17 +412,15 @@ nav {
     }
     .titulo-h3 {  
      display: none;
-    }
-
-    .titulo-h3-index {  
-      margin: 0px;
+     margin: 0px;
       margin-top: -15px;
       text-align: center;      
-      font-weight: 100;
+      font-weight: 700;
       font-size: 1rem;  
       color: white;
     }
 
+  
     .slogan {
       width: 100%;
       padding-bottom: 0%;
