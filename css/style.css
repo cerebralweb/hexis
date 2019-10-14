@@ -443,7 +443,7 @@ p.bigTopRight {
     } 
 
 .bannerTusPreguntas {
-  padding: 3%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 80px; margin-bottom: 50px
+  padding: 3%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 12em; margin-bottom: 50px
 }
 
 #flexMediaBio {
@@ -451,7 +451,7 @@ p.bigTopRight {
   flex-flow: row wrap;
   padding: .4em;
   background-color: whitesmoke;
- 
+  margin: 2em 0em;
 }
 
 
