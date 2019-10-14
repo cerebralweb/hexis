@@ -655,15 +655,15 @@ font-size: 130%;
 
  /*==========================================HEADER ANIMATION===========================================*/
     .slogan {
-      animation: squaresBannerController 10s infinite;
-      animation-iteration-count: 1; /*REVISAR*/
+      animation: none;
+      animation-iteration-count: none; /*REVISAR*/
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       width: 100%;
       height: 32.7em;
       overflow: hidden; 
-      margin: 7em;     
+      margin: 7em 0em 2em ;     
       justify-content: center;    
       box-sizing: border-box;
       position: relative;
@@ -716,9 +716,18 @@ nav {
 
     .contenedorMain {
       width: 95%;
-      margin-top: 50px;      
+      margin-top: .1em;      
       box-sizing: border-box;           
     }   
+      
+    
+    .titulosMain {
+      margin-bottom: 1.5rem;
+      color:  rgb(14, 151, 241);
+      line-height: 1.1;
+      font-size: 2rem;
+      font-weight: 200;
+    }
 
     .contenedorMainParaDesarrollamos {
       width: 100%;
@@ -744,17 +753,7 @@ nav {
       font-size: 1rem;
     }    
 
-        
-
   
-    
-    .titulosMain {
-      margin-bottom: 1.5rem;
-      color:  rgb(14, 151, 241);
-      line-height: 1.1;
-      font-size: 2rem;
-      font-weight: 200;
-    }
     
     .contenedorSectionHexis {
     display: flex;
