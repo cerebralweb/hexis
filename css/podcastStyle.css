@@ -119,18 +119,18 @@ a.logoHexis {
   text-decoration: none;
 }
 
-a.sectionButtom {
+a.section-button {
   color: rgb(14, 151, 241);
   border: 2px solid rgb(248, 156, 8);
   padding: 5px;
   text-decoration: none;
   
 }
-a.sectionButtom:active {
+a.section-button:active {
   color: rgb(14, 151, 241);
 }
 
-a.sectionButtom:hover{
+a.section-button{
   color: rgb(14, 151, 241);
   background-color: rgb(247, 251, 253);
 }
