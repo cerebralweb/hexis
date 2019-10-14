@@ -188,7 +188,7 @@ ul {
     width: 100%;
     height: 32.7em;
     overflow: hidden; 
-    margin-top: 10em;     
+    margin: 10em 0em;     
     justify-content: center;    
     box-sizing: border-box;
     position: relative;
@@ -663,7 +663,7 @@ font-size: 130%;
       width: 100%;
       height: 32.7em;
       overflow: hidden; 
-      margin: 7em 0em;     
+      margin: 7em;     
       justify-content: center;    
       box-sizing: border-box;
       position: relative;
