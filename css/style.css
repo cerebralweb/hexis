@@ -105,12 +105,12 @@ ul {
 /*soluciones animated button==========================*/
 
 .animatedButton {
+  font-size: 1.5rem;
   width: 100%;
-  color: black;
-  text-align: left;
+  text-align: right;
   text-decoration: none;
   display: inline-block;
-  transition-duration: 1s;
+  transition-duration: .6s;
   border-right: 0px solid white;
   cursor: pointer;}
 
@@ -266,7 +266,7 @@ ul {
 
 .child {
     animation: colorController 10s infinite;
-    animation-iteration-count: 4;
+    animation-iteration-count: 5;
     background-color: rgb(239, 242, 243);
     width: 10em;
     height: 10em;
@@ -417,29 +417,22 @@ p.bigTopRight {
   }
   
   .contenedorSectionHexis {
-   width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
    margin: 30px auto;
    max-width: 1600px;
   font-size: 130%;  
+  text-align: justify;
   }
   
- 
-
-  .contenedorQueEsHexis {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    margin: 70px auto;
-  }
-
-  .cajaVideoHexis {width: 100%; height: auto; margin-top: 40%;}
 
   .bannerFlotante {
-    float: right;
-    width: 45%;
-    box-sizing: border-box;
-    margin: 70px auto;
-  }
+    width: 50%;
+    padding: 2%;
+    margin: 3% 0% 0%;
+}
+
 
   .icon {
     float: left;
@@ -461,6 +454,12 @@ p.bigTopRight {
 
 .bannerTusPreguntas {
   padding: 3%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 12em; margin-bottom: 50px
+}
+
+.bottom-banner {
+  content: url(/imagenes1/bannerIndexIlustracion.jpg);
+  width: 100%;
+  height: auto;
 }
 
 
@@ -513,7 +512,7 @@ p.media-bio {
   margin: 1em 0em;
 }
 
-/*Main List
+/*Main List BLOG
 ============================================================================*/
 .contenedorMain {
   width: 100%;    
@@ -563,6 +562,7 @@ font-size: 130%;
 
 .responsiveImage {width: 100%; height: auto;}
 
+/*PODCAST=============================================*/
 
 .contenedorPodcastList {
   width: 50%;
@@ -760,7 +760,7 @@ nav {
  
 
     .contenedorMain {
-      width: 95%;
+      width: 100%;
       margin-top: .1em;      
       box-sizing: border-box;           
     }   
@@ -798,29 +798,29 @@ nav {
       font-size: 1rem;
     }    
 
-  
-    
     .contenedorSectionHexis {
-    display: flex;
-    width: 100%;
-    flex-direction: column; 
-    margin-top: 35px;
+      display: flex;
+      flex-flow: column wrap;
+      width: 96%;
+     margin: auto;
+    font-size: 90%;  
+    text-align: justify;
+    }
     
-    }
   
-    .contenedorQueEsHexis {
-      float: left;  
-      width: 90%;    
-      box-sizing: border-box;
-     margin: 5% auto;
-      
-    }
     .bannerFlotante {
-      float: left;      
-      width: 90%;
-      box-sizing: border-box;
-      margin: 5% auto;
-          }
+      width: 100%;
+      padding: 2%;
+      margin: 3% 0% 0%;
+  }
+
+/* @media bottomBanner===============================*/
+
+.bottom-banner {
+  content: url(/imagenes1/bottomBannerMediaQuery.jpg);
+  width: 100%;
+  height: auto;
+}
 
 
 
