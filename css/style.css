@@ -10,7 +10,7 @@
 
   .slogan {
     animation: squaresBannerController 10s infinite;
-    animation-iteration-count: 2; /*REVISAR*/
+    animation-iteration-count: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -442,11 +442,6 @@ ul {
 }
 
 
-  .icon {
-    float: left;
-    margin-right: 5%;
-    margin-left: -10%;   
-    }  
 
     .iconBanner {
       width: 100%;
