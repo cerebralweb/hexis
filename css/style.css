@@ -481,8 +481,13 @@ ul {
   }
   
   .contenedorSectionHexis {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     width: 90%;
    margin: 30px auto;
    max-width: 1600px;
