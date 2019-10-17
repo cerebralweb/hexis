@@ -535,8 +535,13 @@ ul {
 /*=========NOSOTROS=========================================================*/
 
 #flexMediaBio {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   padding: .4em;
   background-color: whitesmoke;
   margin: 2em 0em;
