@@ -180,6 +180,12 @@ h4 {
   font-weight: 400; 
 }
 
+h6{
+  font-family: Source Sans Pro; 
+  font-size: .8em; 
+  color: grey; margin: 1em;}
+
+
 p {
   font-size: 1.2em;
   line-height: 1.5;
