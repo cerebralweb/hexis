@@ -505,10 +505,6 @@ nav {
       box-sizing: border-box;
     }
 
-    .responsiveImage {
-      width: 100%;
-      height: auto;
-    } 
 
 .bannerTusPreguntas {
   padding: 3%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 12em; margin-bottom: 50px
@@ -610,7 +606,7 @@ font-size: 4.2rem;
  max-width: 1600px;
 }
 
-.responsiveImage {width: 100%; height: auto;}
+
 
 
 .contenedorPodcastList {
@@ -673,6 +669,8 @@ font-size: 4.2rem;
   vertical-align: middle;
   border-radius: 10px;
 }
+
+
 
 
   /*FOOTER desktop
@@ -822,6 +820,7 @@ font-size: 4.2rem;
         font-weight: 300;
         } 
   
+
 
 
 /*============================ @media HEADER MAIN================*/
