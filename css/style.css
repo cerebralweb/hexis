@@ -676,7 +676,7 @@ font-size: 4.2rem;
   .contenedorFooter { 
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: right;
     text-align: justify;
     align-items: center;
     border-top: 5px solid rgb(14, 151, 241);
