@@ -247,24 +247,27 @@ ul {
 
   
 a {
-  color: rgb(14, 151, 241);
+  color: black;
 }
 a:visited {
-  color: rgb(14, 151, 241);
+  color: black;
   text-decoration: none;
 }
 
 a:link {
-  color: rgb(14, 151, 241);
+  color: black;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(14, 151, 241);
+  color: black;
 }
 
 a:active {
-  color: rgb(14, 151, 241);
+  color: black;
 }
+
+
+
 
 a.class1 {
   color: black;
