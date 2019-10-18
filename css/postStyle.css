@@ -8,9 +8,37 @@
       "Arial", sans-serif;
     font-size: 1em;
   }
+
+p {
+  font-size: 1.2em;
+  margin: 1em 0em;
+}
+
+a {
+  color: rgb(14, 151, 241);
+}
+
+a:visited {
+  color: rgb(14, 151, 241);
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(14, 151, 241);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(14, 151, 241);
+}
+
+a:active {
+  color: rgb(14, 151, 241);
+}
+
   
   a.class1 {
     color: black;
+    font-size: 1.3em;
   }
   a.class1:link {
     text-decoration: none;
@@ -119,51 +147,74 @@
   /*header
   ============================================================================*/
   
-  .contenedorHeader {
+
+  .contenedorHeader {   
     width: 100%;
-    min-height: 60px;
+    height: 60px;
     position: fixed;
+    background-color: whitesmoke; 
+    box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
+    z-index: 2;
     top: 0px;
-    background-color: whitesmoke;
-    box-shadow: 0 0 30px rgba(14, 0, 0, 0.3);
-    z-index: 1;
+    }
+  
+
+ .logo1 {  
+    float: left; 
+    margin-left: -2%;  
+    margin-top: 8px;  
+    height: 50px;
+    width: 15%;
   }
   
-  .logo a:hover,
-  a:link,
-  a:active,
-  a:visited {
-    text-decoration: none;
+  .logo {  
+    float: left; 
+    margin-left: -4%;  
+    margin-top: 8px;  
     color: rgb(248, 156, 8);
+    font-size: 1.5rem;
+    font-weight: 300;   
+    width: 15%;
   }
-  
-  .logo {
-    float: left;
-    margin-left: 9%;
-    margin-top: 8px;
-    color: rgb(12, 12, 11);
-    font-size: 2rem;
-    font-weight: 300;
-  }
-  
-  nav {
-    margin-right: 7%;
-    float: right;
-    margin-top: 20px;
+
+  nav {      
+      
+      float: right;
+          padding: 1em 0em;
+
+      box-sizing: border-box;
+      width: 35%;
+     
+    } 
+
+    
+  .slogan-code {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color:  black;
     box-sizing: border-box;
-    width: 35%;
-  }
-  
+      }  
+
+  .sloganSoluciones {
+    width: 100%;
+    margin-top: 29px;
+    background-color: lightseagreen;
+    box-sizing: border-box;
+      }
+.responsiveImage {
+  width: 100%;
+  margin: 2em 0;
+  height: auto;
+}
+
   /*Article
   ============================================================================*/
   .contenedorMain {
     width: 100%;
-    margin-top: 60px;
     box-sizing: border-box;
     margin-bottom: 3%;
-  }
-  .contenedorMainIllustration {
-    position: relative;
   }
   
   .responsiveImage {
@@ -173,7 +224,7 @@
   .responsiveImageComGif {
     width: 100%;
     height: auto;
-    margin-top: 60px;
+    margin: 2em 0em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     padding: 3%;
     box-sizing: border-box;
@@ -247,10 +298,7 @@
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 300;
   }
-  p {
-    margin: 20px 20px 20px 0px;
-    line-height: 1.5;
-  }
+
   #resumen {
     font-size: 1.5rem;
     font-weight: 600;
@@ -261,15 +309,16 @@
   .bannerTwitero {
     width: 98%;
     padding: 2%;
-  
+    margin: 2em 0;
     box-sizing: border-box;
     background-color: rgb(231, 241, 248);
     border-top: 2pt solid rgb(248, 156, 8);
   }
   
   .bonus {
-    width: 80%;
-    margin: 10px auto;
+    width: 100%;
+    padding: 1em;
+    margin: 3em 0em;
     box-sizing: border-box;
     font-size: 0.8em;
     line-height: 1.3;
@@ -278,8 +327,7 @@
     background-color: rgba(0, 0, 0, 0.712);
     color: whitesmoke;
     border-radius: 0.7%;
-    padding-left: 4%;
-    padding-bottom: 0.1%;
+    
   }
   figcaption {
     font-size: 1.1rem;
@@ -289,7 +337,7 @@
     margin-top: 15px;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
     line-height: 1.2;
     margin: 40px 40px 40px 0px;
@@ -350,7 +398,16 @@
   .youtubeVideo {
     width: 100%;
     height: 415px;
+    margin: 2em 0;
     border: 8px solid rgb(14, 151, 241);
+  }
+  .podcastQuote {
+    border-left: 3pt solid rgb(14, 151, 241);
+    padding: 2em;
+    margin: 2em 0em;
+  }
+  .podcast-section {
+    margin: 3em 0em;
   }
   
   /*TABLA desktop
@@ -358,6 +415,7 @@
   
   table {
     width: 100%;
+    overflow: scroll;
   }
   tr:nth-child(even) {
     background-color: rgb(235, 234, 236);
@@ -367,7 +425,7 @@
   }
   th {
     padding: 1px;
-    border: solid deeppink;
+    border: solid rgb(14, 151, 241);
     font-weight: 100;
     font-family: "Raleway", sans-serif;
     font-size: 1.1rem;
@@ -382,7 +440,7 @@
   th[scope="col"] {
     height: 3rem;
     color: white;
-    background-color: deeppink;
+    background-color: rgb(14, 151, 241);
   }
   th[scope="row"] {
     color: black;
@@ -394,46 +452,54 @@
   
   /*FOOTER desktop
     ====================================================================================================*/
-  .contenedorFooter {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    clear: both;
-    border-top: 0.4rem solid rgb(14, 151, 241);
-    padding: 2rem;
-    justify-items: center;
-    align-items: center;
-  }
+ 
   
-  .footerFont {
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+    p.typo-for-footer {
+      font-size: 1em;
+      font-style: normal;
+    }
+    
+    .contenedorFooter { 
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      text-align: justify;
+      align-items: center;
+      border-top: 5px solid rgb(14, 151, 241);
+    }
   
-  .contenedorSubscribirse {
-    max-width: 330px;
-    padding: 0.6rem;
-    outline: 0.2rem solid rgb(14, 151, 241);
-  }
+    .caja-child-footer {
+      margin: 4em;   
+    }
   
-  .redesFooter {
-    padding: 2.5%;
-    margin-top: 1%;
-    margin-right: 1%;
-    border: 0.1rem solid rgb(248, 156, 8);
-    color: rgb(14, 151, 241);
+    
+    .contenedorSubscribirse {    
+      max-width: 22em;
+      max-height: 10em;
+      flex: 0 1 auto;
+      padding: 1em 5em 1em 1em;
+      outline: 0.2rem solid rgb(14, 151, 241);
+    }
+    
+  .contenedor-site-map {
+    flex: 0 1 auto;
+    padding-top: 0;
   }
+
+  .contenedorAdress {   
+    flex: 0 2 auto;
+    padding: .7rem;
+  }  
+    .redesFooter {  
+      margin: 2em;
+      padding: .5em 1em;
+      border: .1rem solid  rgb(248, 156, 8);
+      color: rgb(14, 151, 241);  
+    }
+    
+
   
-  .contenedorAdress {
-    width: 21rem;
-    margin-left: 0.5%;
-    margin-top: 1.5%;
-    font-size: 1rem;
-    font-weight: 300;
-    font-style: normal;
-    padding: 0.7rem;
-  }
+
   
   /*pop-up
     =========================================================================*/
@@ -502,12 +568,10 @@
   /* Sharing social
     ================================================================================================================================================*/
   .bannerCompartirRedes {
+    text-align: center;
     width: 100%;
     box-sizing: border-box;
-    margin: 5px auto;
-    background-color: rgb(208, 230, 245);
-    border-bottom-left-radius: 7%;
-    border-top-left-radius: 7%;
+    margin: 3em 0em;
   }
   .meGusta {
     float: left;
@@ -520,7 +584,19 @@
   /* MOBILE MEDIA queries
     =================================================================================================================*/
   
-  @media (max-width: 980px) {
+  @media (max-width: 760px) {
+ 
+    p {
+      font-size: 1em;
+      margin: 1em 0em;
+    }
+
+
+    a.class1 {
+      color: black;
+      font-size: 1em;
+    }
+ 
     .meGusta {
       display: none;
     }
@@ -537,36 +613,39 @@
       font-weight: 300;
     }
   
-    .contenedorHeader {
+
+    .contenedorHeader {   
       width: 100%;
+      height: 60px;
       position: fixed;
       top: 0px;
-      box-shadow: 0 0 16px rgba(14, 0, 0, 0.3);
-    }
+      }
+
+
+.logo1 {  
+width: 100%;    
+max-height: 50px;
+box-sizing: border-box;    
+text-align: right;
+
+}
+
+.logo {  
+display: none;
+    }             
+nav {
+width: 100%;
+margin-top: 0px;
+margin-right: 0px;
+text-align: center;
+font-size: 1.2rem;
+line-height: 2;
+box-sizing: border-box;          
+background-color:whitesmoke;  
+}
   
-    .logo {
-      width: 100%;
-      min-height: 60px;
-      box-sizing: border-box;
-      margin: 0%;
-      padding-top: 6px;
-      text-align: center;
-      color: rgb(12, 12, 11);
-      font-size: 2.3rem;
-      font-weight: 300;
-      background-color: black;
-    }
-    nav {
-      float: left;
-      width: 100%;
-      margin-left: 5%;
-      display: flex;
-      flex-direction: column;
-      font-size: 1rem;
-      line-height: 2;
-      box-sizing: border-box;
-      background-color: whitesmoke;
-    }
+
+
   
     .slogan {
       display: none;
@@ -580,12 +659,7 @@
       display: none;
     }
   
-    .titulosMain {
-      margin-bottom: 1.5rem;
-      color: rgb(14, 151, 241);
-      font-size: 2rem;
-      font-weight: 200;
-    }
+
     .tituloEncimaDelBanner1 {
       position: absolute;
       top: 250px;
@@ -596,12 +670,7 @@
     }
   
     .tituloEncimaDelBanner2 {
-      position: absolute;
-      top: 250px;
-      left: 20%;
-      font-family: Helvetica, sans-serif;
-      color: white;
-      font-size: 2rem;
+display: none;
     }
   
     figcaption {
@@ -622,11 +691,7 @@
       margin-bottom: 3%;
     }
   
-    .contenedorMainIllustration {
-      position: relative;
-      top: -70px;
-      margin-bottom: -100px;
-    }
+
   
     .contenedorArticle {
       width: 90%;
@@ -643,7 +708,9 @@
       color: black;
       font-size: 2rem;
       line-height: 1.2;
+      margin: 1em 0em;
     }
+
   
     #resumen {
       font-size: 1.2rem;
@@ -676,12 +743,11 @@
     .responsiveImage {
       width: 100%;
       height: auto;
-      margin-top: 150px;
     }
   
     .tituloEncimaDelBanner1 {
       position: absolute;
-      top: 190px;
+      top: 10px;
       left: 20%;
       text-align: center;
       font-family: Helvetica, sans-serif;
@@ -703,7 +769,7 @@
   
     .tituloEncimaDelBanner3 {
       position: absolute;
-      top: 250px;
+      top: 200px;
       left: 25%;
       text-align: center;
       font-family: Helvetica, sans-serif;
@@ -778,14 +844,15 @@
     }
   
     .bannerTwitero {
-      margin: 0 auto;
+      margin: 2em 0;
       box-sizing: border-box;
       font-size: 0.8em;
       border: none;
     }
     .bonus {
-      width: 80%;
+      width: 100%;
       margin: 10px auto;
+      padding: 1em;
       box-sizing: border-box;
       font-size: 0.8em;
       line-height: 1.3;
@@ -794,14 +861,11 @@
       background-color: rgba(0, 0, 0, 0.712);
       color: whitesmoke;
       border-radius: 0.7%;
-      padding-left: 4%;
-      padding-bottom: 0.1%;
+      
     }
     h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      line-height: 1;
-      margin: 40px 40px 40px 0px;
+      font-size: 1.3rem;
+      font-weight: 400;     
     }
   
     blockquote {
@@ -833,10 +897,10 @@
   
     ul {
       line-height: 1.4;
-      margin: 40px auto;
-      padding: 5%;
+      margin: 1em 1em;
+      padding: 1%;
       box-sizing: border-box;
-      background-color: rgb(245, 245, 245, 0.774);
+      background-color: white;
       border-left: 0pt solid rgb(248, 156, 8);
       list-style-position: outside;
     }
@@ -857,38 +921,30 @@
   
     /*FOOTER mobile MEDIA queries
     ====================================================================================================*/
-    .contenedorFooter {
+   
+    .contenedorFooter { 
       display: flex;
-      flex-direction: column;
-      padding: 2rem;
-      clear: both;
-      min-width: 300px;
-      border-top: 0.4rem solid rgb(14, 151, 241);
+      flex-flow: row wrap;
+      justify-content: left;
+      text-align: justify;
+      align-items: center;
+      border-top: 5px solid rgb(14, 151, 241);
     }
-  
-    .contenedorSubscribirse {
-      max-width: 380px;
-      float: left;
-      padding: 1rem;
-      outline: 0.2rem solid rgb(14, 151, 241);
+   
+   
+    .caja-child-footer {
+      margin: 1em;   
     }
-  
-    .redesFooter {
-      max-width: 180px;
-      float: left;
-      padding: 2.5%;
-      border: 0.1rem solid rgb(248, 156, 8);
-      color: rgb(14, 151, 241);
-    }
-  
-    .contenedorAdress {
-      width: 100%;
-      text-align: center;
-      float: left;
-      font-size: 1rem;
-      font-weight: 400;
-      font-style: normal;
-      padding: 1rem;
-    }
+
+    .contenedorAdress {   
+      flex: 0 2 auto;
+      padding: .7rem 0em;
+    }  
+      .redesFooter {  
+        margin: 2em 1em;
+        padding: .5em 1em;
+        border: .1rem solid  rgb(248, 156, 8);
+        color: rgb(14, 151, 241);  
+      }
   }
   

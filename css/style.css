@@ -9,11 +9,10 @@
   
 
   .slogan {
-    animation: squaresBannerController 10s infinite;
+    /*animation: squaresBannerController 10s infinite;*/
     animation-iteration-count: 2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     width: 100%;
     height: 32.7em;
     overflow: hidden; 
@@ -107,10 +106,17 @@ hr.short-Hr-Line {
   border-top: 2px solid black;
   width: 30px;
 }
+
+p.smallBasic {
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
 p.small {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 600;
   text-align: left;
   padding-top: 1em;
   line-height: .4em;
@@ -125,7 +131,7 @@ p.smallEnough {
 }
 p.smallLight {
   font-family: Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: 200;
   text-align: left;
   line-height: 1em;
@@ -134,7 +140,7 @@ p.big {
   font-family: Helvetica, sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1em;
+  
 }
 p.bigEnoughBottomLeft {
   font-family: Helvetica, sans-serif;
@@ -168,11 +174,18 @@ p.bigTopRight {
     font-weight: 400;
     margin-top: 5px;
   }
-  p {
-    font-size: 1.26rem;
-    font-weight: 300;
-    box-sizing: border-box;
-    }
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400; 
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+
 
    
 hr {
@@ -231,21 +244,49 @@ ul {
   
 
 /*========================================================== BUTTONS ==============================================================*/
-  a {color: rgb(14, 151, 241);}
-  a:link  {text-decoration: none; font-weight: 400;}
-  a:visited {text-decoration: none; color:black;}
-  a:hover {text-decoration-line: underline;}
-  a:active {text-decoration: none;}
 
   
-  
-  
-  a.class1:link  {text-decoration: none; color:black;}
-  a.class1:visited {text-decoration: none; color:black;}
-  a.class1:hover {text-decoration: none; color: rgb(248, 156, 8);}
-  a.class1:active {text-decoration: none; color: rgb(248, 156, 8);}
-  
-  
+a {
+  color: rgb(14, 151, 241);
+}
+a:visited {
+  color: rgb(14, 151, 241);
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(14, 151, 241);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(14, 151, 241);
+}
+
+a:active {
+  color: rgb(14, 151, 241);
+}
+
+a.class1 {
+  color: black;
+  font-size: 1.3em;
+}
+a.class1:link {
+  text-decoration: none;
+  color: black;
+}
+a.class1:visited {
+  text-decoration: none;
+  color: black;
+}
+a.class1:hover {
+  text-decoration: none;
+  color: rgb(248, 156, 8);
+}
+a.class1:active {
+  text-decoration: none;
+  color: rgb(248, 156, 8);
+}
+
   a.class2 {color:  rgb(14, 151, 241);}
   a.class2:link  {text-decoration: none; color: rgb(14, 151, 241);}
   a.class2:visited {text-decoration: none; color:  rgb(14, 151, 241);}
@@ -264,10 +305,10 @@ ul {
   a.class4:hover {text-decoration: none; color: rgb(248, 156, 8);}
   a.class4:active {text-decoration: none; color: rgb(248, 156, 8);}
 
-/*soluciones animated button==========================*/
+/*--------------------------------------soluciones animated button==========================*/
+
 
 .animatedButton {
-  font-size: 1.5rem;
   width: 100%;
   text-align: right;
   text-decoration: none;
@@ -298,43 +339,44 @@ ul {
 /*header
 ============================================================================*/
 
-  .contenedorHeader {   
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0px;
-    background-color: whitesmoke; 
-    box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
-    z-index: 2;
-    }
-  
-
- .logo1 {  
-    float: left; 
-    margin-left: -2%;  
-    margin-top: 8px;  
-    height: 50px;
-    width: 15%;
-  }
-  
-  .logo {  
-    float: left; 
-    margin-left: -4%;  
-    margin-top: 8px;  
-    color: rgb(248, 156, 8);
-    font-size: 2rem;
-    font-weight: 300;   
-    width: 15%;
+.contenedorHeader {   
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: whitesmoke; 
+  box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
+  z-index: 2;
+  top: 0px;
   }
 
-  nav {      
-      margin-right: -2%;
-      float: right;
-      margin-top: 20px;
-      box-sizing: border-box;
-      width: 35%;
-     
-    } 
+
+.logo1 {  
+  float: left; 
+  margin-left: -2%;  
+  margin-top: 8px;  
+  height: 50px;
+  width: 15%;
+}
+
+.logo {  
+  float: left; 
+  margin-left: -4%;  
+  margin-top: 8px;  
+  color: rgb(248, 156, 8);
+  font-size: 1.5rem;
+  font-weight: 300;   
+  width: 15%;
+}
+
+nav {      
+    
+    float: right;
+        padding: 1em 0em;
+
+    box-sizing: border-box;
+    width: 35%;
+   
+  } 
 
     
   .slogan-code {
@@ -420,17 +462,16 @@ ul {
   .titulosMain {
     margin-bottom: 5rem;
     color:  rgb(14, 151, 241);
-    font-size: 3rem;
     font-weight: 300;
   }
   
   .contenedorSectionHexis {
+    font-size: 1.3em;
     display: flex;
     flex-flow: row wrap;
     width: 90%;
    margin: 30px auto;
    max-width: 1600px;
-  font-size: 130%;  
   text-align: justify;
   }
   
@@ -439,6 +480,10 @@ ul {
     width: 50%;
     padding: 2%;
     margin: 3% 0% 0%;
+}
+
+.videoHexis {
+  padding-top: 4.7em;
 }
 
 
@@ -515,8 +560,11 @@ p.media-bio {
   margin: 1em 0em;
 }
 
-/*Main List BLOG
+/* desktop Blog List BLOG
 ============================================================================*/
+
+
+
 .contenedorMain {
   width: 100%;    
   margin-top: -10%;
@@ -536,17 +584,6 @@ border-bottom: 10px solid rgb(14, 151, 241);
 }
 
 
-.responsiveHelloBlog { display: none;}
-
-
-.titulosMain {
-margin-bottom: 4rem;
-color:  rgb(14, 151, 241);
-font-size: 3rem;
-font-weight: 300;
-}
-
-
 .subEncabezadoBlog {
 font-size: 4.2rem;
  color: black;
@@ -558,12 +595,58 @@ font-size: 4.2rem;
 
 .contenedorBlogPosts {
  width: 70%;
+ font-size: .5em;
  margin: 220px auto;
  max-width: 1600px;
-font-size: 130%;  
 }
 
 .responsiveImage {width: 100%; height: auto;}
+
+
+.contenedorPodcastList {
+  width: 50%;
+  margin: 220px auto;
+  max-width: 1600px;
+ }
+
+ .contenedorPodcastCompleto {
+  width: 100%;    
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+
+
+/*Class4 bannerPost*/
+.class8 {
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.3em;
+  transition-duration: .2s;
+  cursor: pointer;
+}
+
+.class8:link  {text-decoration: none; 
+  padding: 3%;
+  border-bottom: 1pt solid rgb(206, 204, 204);
+
+}
+.class8:visited { color:black;}
+.class8:hover {color:black;}  
+.class8:active {color: black;}
+
+.tituloArticle { font-family: Helvetica, sans-serif;}
+
+
+.textoBanner {float:right; width: 57%;}
+.imagenBanner {float: left; width: 40%; height: auto; margin-right: 3%; margin-top: 1%;}
+.contenedorBannerPost {
+  border-bottom: 1pt solid rgb(206, 204, 204);
+
+}
 
 /*PODCAST=============================================*/
 
@@ -584,41 +667,52 @@ font-size: 130%;
 
   /*FOOTER desktop
   ====================================================================================================*/
+  
+  p.typo-for-footer {
+    font-size: 1.1em;
+    font-style: normal;
+  }
+  
   .contenedorFooter { 
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    clear: both;
-    border-top: 0.4rem solid rgb(14, 151, 241);
-    padding: 2rem;  
-    justify-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: justify;
     align-items: center;
+    border-top: 5px solid rgb(14, 151, 241);
   }
 
-  .footerFont {
-    font-size: 1.1em;
+  .caja-child-footer {
+    margin: 4em;   
+  }
+
+  
+  .contenedorSubscribirse {    
+    max-width: 22em;
+    max-height: 10em;
+    flex: 0 1 auto;
+    padding: 1em 5em 1em 1em;
+    outline: 0.2rem solid rgb(14, 151, 241);
   }
   
-  .contenedorSubscribirse {padding: 1rem;
-    outline: 0.2rem solid rgb(14, 151, 241);}
-  
+.contenedor-site-map {
+  flex: 0 1 auto;
+  padding-top: 0;
+}
+
   .redesFooter {  
-    padding: 2.5%;
-    margin-top: 1%;
-    margin-right: 1%;
+    margin: 2em;
+    padding: .5em 1em;
     border: .1rem solid  rgb(248, 156, 8);
     color: rgb(14, 151, 241);  
   }
   
-  .contenedorAdress { 
-    width: 21rem;
-    margin-left: .5%;
-    margin-top: 1.5%;
-    font-size: 1rem;
-    font-weight: 300;
-    font-style: normal;
+  .contenedorAdress {   
+    flex: 0 2 auto;
     padding: .7rem;
   }
+
+
 
   /*BANNER telephone
   ====================================================================================================*/
@@ -685,7 +779,7 @@ font-size: 130%;
       width: 100%;
       height: 32.7em;
       overflow: hidden; 
-      margin: 7em 0em 2em ;     
+      margin: 10em 0em 2em ;     
       justify-content: center;    
       box-sizing: border-box;
       position: relative;
@@ -718,46 +812,38 @@ font-size: 130%;
         font-weight: 300;
         } 
   
-.contenedorHeader {    
-        width: 100%;
-        position: fixed;
-        top: 0px;        
-        background-color: whitesmoke; 
-        box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
-        z-index: 2;
-        box-shadow:0 0 16px rgba(14, 0, 0, 0.3);
-        }
 
 
-        .contenedorHeader {   
-          width: 100%;
-          height: 60px;
-          position: fixed;
-          top: 0px;
-          
-          }
+/*============================ @media HEADER MAIN================*/
 
-
- .logo1 {  
-    width: 100%;    
-    max-height: 50px;
-    box-sizing: border-box;    
-    text-align: right;
-   
+.contenedorHeader {   
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0px;
   }
 
-   .logo {  
-    display: none;
-        }             
+
+.logo1 {  
+width: 100%;    
+max-height: 50px;
+box-sizing: border-box;    
+text-align: right;
+
+}
+
+.logo {  
+display: none;
+}             
 nav {
-  width: 100%;
-  margin-top: 0px;
-  margin-right: 0px;
-  text-align: center;
-  font-size: 1.2rem;
-  line-height: 2;
-  box-sizing: border-box;          
-  background-color:whitesmoke;  
+width: 100%;
+margin-top: 0px;
+margin-right: 0px;
+text-align: center;
+font-size: 1.2rem;
+line-height: 2;
+box-sizing: border-box;          
+background-color:whitesmoke;  
 }
       
  
@@ -806,7 +892,7 @@ nav {
       flex-flow: column wrap;
       width: 96%;
      margin: auto;
-    font-size: 90%;  
+    font-size: 1.1em;  
     text-align: justify;
     }
     
@@ -817,10 +903,47 @@ nav {
       margin: 3% 0% 0%;
   }
 
+  .videoHexis {
+  padding-top: 2em; 
+  }
+
+
+/*--------------------------------------@media soluciones animated button==========================*/
+
+
+.animatedButton {
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: .6s;
+  border-right: 0px solid white;
+  cursor: pointer;}
+
+.animatedButton:link  {text-decoration: none; padding: 3%; color: black}
+.class4:visited { color:black;}
+.animatedButton:hover {
+  border-right: 3px solid orange;
+  color: black;}  
+.animatedButton:active {color: black;}
+
+  
+  .contenedorBody {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  
+  .postList {
+    list-style: none;
+  }
+
+
 /* @media bottomBanner===============================*/
 
 .bottom-banner {
-  content: url(/imagenes1/bottomBannerMediaQuery.jpg);
+  content: url(/imagenes1/bottomBannerMediaQuery.png);
   width: 100%;
   height: auto;
 }
@@ -843,7 +966,44 @@ nav {
   padding: 2%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 20rem; margin-bottom: 50px
 }
 
- 
+
+
+
+
+
+/*@media BLOG
+  ====================================================================================================*/
+
+
+  .subEncabezadoBlog {
+    font-size: 2rem;
+     color: black;
+      background: white; 
+      margin-top: 4em; 
+      padding-bottom: 1em; 
+     }
+
+  .contenedorBlogPosts {
+    display: flex;
+    width: 100%;
+    flex-direction: column; 
+    margin-top: 0em;
+  }
+
+
+  
+  .textoBanner {width: 95%;}
+  .imagenBanner {width: 100%; height: auto; margin-top: 1%; margin-bottom: 1%;}
+   
+
+  }
+
+   .contenedorPodcastCompleto {
+    width: 100%;    
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+  }
 
           /*Convocatoria
   ====================================================================================================*/
@@ -865,15 +1025,35 @@ nav {
 
  /*FOOTER mobile MEDIA queries
   ====================================================================================================*/
-.contenedorFooter {display: flex; flex-direction: column; padding: 2rem;
-clear: both;min-width: 300px; border-top: 0.4rem solid rgb(14, 151, 241);}
-    
-.contenedorSubscribirse {max-width: 380px;float: left;
-padding: 1rem;outline: 0.2rem solid rgb(14, 151, 241);}
-    
-.redesFooter {max-width: 180px;float: left;padding: 2.5%;
-border: .1rem solid  rgb(248, 156, 8);color: rgb(14, 151, 241);}
-    
-.contenedorAdress {width: 100%;text-align: center;float: left;
-font-size: 1rem;font-weight: 400;font-style: normal;padding: 1rem;}
+  .contenedorFooter { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    text-align: justify;
+    align-items: center;
+    border-top: 5px solid rgb(14, 151, 241);
+  }
+ 
+  .caja-child-footer {
+    margin: 1em;   
+  }
+
+  .contenedorSubscribirse {    
+    max-width: 22em;
+    max-height: 10em;
+    flex: 1 0 auto;
+    padding: 1em 3em 1em 1em;
+    outline: 0.2rem solid rgb(14, 151, 241);
+  }
+
+  .contenedorAdress {   
+    flex: 0 2 auto;
+    padding: .7rem 0em;
+  }  
+    .redesFooter {  
+      margin: 2em 1em;
+      padding: .5em 1em;
+      border: .1rem solid  rgb(248, 156, 8);
+      color: rgb(14, 151, 241);  
+    }
 }

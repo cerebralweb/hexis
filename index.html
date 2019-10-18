@@ -80,18 +80,21 @@
 </head>
 
 <body class="contenedorBody" itemscope itemtype="http://schema.org/Service">
-  <header class="contenedorHeader">
-    <img class="logo1" src="/favicon/logoHexis1.svg">
-    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class4" href="https://www.hexis.cc"
-        target="_self">Hexis</a></h1>
-    <nav>
-      <a href="https://www.hexis.cc/#soluciones" target="_self" class="class1">SOLUCIONES &emsp; </a>
 
-      <a href="/blog.html" target="_self" class="class1"> IDEAS &emsp;</a>
-      <a href="/nosotros.html" target="_self" class="class1">NOSOTROS &emsp;</a>
+ <!-------------------------------------------------- HEADER  ----------------------------------------------------------->
+
+
+ <header class="contenedorHeader">
+    <img class="logo1" src="/favicon/logoHexis1.svg">
+    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class1" style="color: rgb(248, 156, 8);"
+        href="https://www.hexis.cc">Hexis</a></h1>
+    <nav>
+      <a href="https://www.hexis.cc/#soluciones" class="class1">Soluciones &emsp; </a>
+      <a href="/blog.html" class="class1"> Ideas &emsp;</a>
+      <a href="/nosotros.html" class="class1">Nosotros &emsp;</a>
     </nav>
   </header>
-  <!--  <h3 class="titulo-h3" itemprop="serviceOutput">  Para vender hay que conocer al consumidor </h3>-->
+  
  
  
  <!-------------------------------------------------- HEADER ANIMATION ----------------------------------------------------------->
@@ -175,10 +178,10 @@
     </div>
   
     <div class="child">
-      <p>menos</p>
-      <p>data</p>
-      <p>más</p>
-      <p>compromiso</p>
+      <p class="smallBasic">menos</p>
+      <p class="smallBasic">data</p>
+      <p class="smallBasic">más</p>
+      <p class="smallBasic">compromiso</p>
     </div>
   
     <div class="childForImage">
@@ -186,13 +189,13 @@
     </div>
   
     <div class="child">
-      <p style=" padding-left: .5em; padding-top: .5em;">qué compra</p>
+      <p class="smallBasic" style=" padding-left: .5em; padding-top: .5em;">qué compra</p>
     </div>
   
   
     <div class="child">
-      <p style="text-align: right; padding-right: .5em; padding-top: .5em;">el cliente</p>
-      <p style="text-align: right; padding-right: .5em; padding-top: .5em;">final</p>
+      <p class="smallBasic" style="text-align: right; padding-right: .5em; padding-top: .5em;">el cliente</p>
+      <p class="smallBasic" style="text-align: right; padding-right: .5em; padding-top: .5em;">final</p>
     </div>
   
     <div class="childForImage">
@@ -312,7 +315,7 @@
 
   </section>
 
-  <div class="bannerFlotante" style="padding-top: 6.5%; ">
+  <div class="bannerFlotante videoHexis" >
     <iframe width="100%" height="300" style="border: 4px solid black;"
       src="https://www.youtube-nocookie.com/embed/_ilupHz54Nw?controls=0&branding=0&cc_load_policy=0&controls=0&fs=0&iv_load_policy=3&modestbranding=0&playsinline=1&quality=hd720&rel=0&showinfo=0&wmode=opaque&enablejsapi=1"
       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -320,14 +323,14 @@
   </div>
 
   <div class="bannerFlotante">
-    <a href="/investigamos.html" target="_self" class="animatedButton">
+    <a href="/investigamos.html" style="color: black;" class="animatedButton">
 
       <h4 itemprop="isRelatedTo">Insights</h4>
-      <p>Hacemos investigación de mercado para atender las necesidades de conocimiento de tu empresa </p>
+      <p >Hacemos investigación de mercado para atender las necesidades de conocimiento de tu empresa </p>
 
     </a>
 
-    <a href="/consultoria.html" target="_self" class="animatedButton">
+    <a href="/consultoria.html" style="color: black;" class="animatedButton">
 
       <h4 itemprop="isRelatedTo">Consultoría</h4>
       <p>Te brindamos un proceso personalizado. El resultado es la construcción de ventajas comparativas ¡dentro de tu
@@ -335,7 +338,7 @@
 
     </a>
 
-    <a href="/technology.html" target="_self" class="animatedButton">
+    <a href="/technology.html" style="color: black;" class="animatedButton">
 
       <h4 itemprop="isRelatedTo">Tecnología</h4>
       <p>Tienes una startup? ¿Estás buscando inversionistas? Te ayudamos a prototipar, testear y monetizar; sin
@@ -360,36 +363,48 @@
       
     </div>
   </main>
-  <footer class="contenedorFooter">
+
+
+    <!--<<<<<<<<<<< ---------------------------------------------- FOOTER -------------------------------------------- >>>>>>>>>>>-->
+
+<footer class="contenedorFooter">
+
+  <div class="caja-child-footer">
     <aside class="contenedorSubscribirse">
       <!--SUBSCRIBE-->
-      <p class="footerFont">Subscribirse (protegemos tu privacidad)</p> <br>
+      <p class="typo-for-footer">Subscribirse al Newsletter</p> <br>
       <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
-        <label>Su email: <input type="email" name="email" /></label>
-        <p class="footerFont"> <br> <button type="submit">Hello Hexis</button></p>
+        <label>Correo: <input type="email" name="email" /></label>
+        <p class="typo-for-footer" style="margin-top: 2em;"> <button type="submit">Hello Hexis</button></p>
       </form>
     </aside>
+  </div>
 
-    <address class="contenedorAdress" style="font-size: 1rem;">
-      <h3> Oficina virtual y reuniones:</h3>
-      <p class="footerFont">
-        Bogotá, Autopista Norte # 108a-50, Piso 6 <br>
+  <div class=" caja-child-footer contenedor-site-map">
+    <p><a class="class2" href="/nosotros.html">Equipo</a></p>
+    <p><a class="class2" href="/consultoria.html">Consultoría</a></p>
+    <p><a class="class2" href="/investigamos.html">Insights</a></p>
+    <p><a class="class2" href="/technology.html">Tecnología</a></p>
+    <p><a class="class2" href="/podcast.html">Podcast</a></p>
+    <p><a class="class2" href="/blog.html">Blog</a></p>
+  </div>
 
-        <span itemprop="availableChannel"> Teléfono (+57 1) 465 5570 </span> <br>
-
-        <a href="skype:paulocleon1?call"><span itemprop="availableChannel"> Hablar por Skype</span></a><br>
-        Web diseñada por <a href="https://magicweb.netlify.com/" target="_blank" class="class2">magicweb.pw</a><br>
-        Usamos <a href="https://www.netlify.com/" target="_blank">Netlify</a> y a <a href="https://github.com/"
-          target="_blank">Github</a>.
-
-      </p>
+  <div class="caja-child-footer">
+    <address class="contenedorAdress">
+      <h1 style="font-style: normal;"> Oficina virtual:</h1>
+      <p class="typo-for-footer">Bogotá, Autopista Norte # 108a-50, Piso 6 </p>
+      <p class="typo-for-footer"><span itemprop="availableChannel"> Teléfono (+57 1) 465 5570 </span> </p>
+      <p class="typo-for-footer"><a href="skype:paulocleon1?call"><span itemprop="availableChannel"> Hablar por Skype</span></a> </p>
     </address>
 
+  </div>
+
+  <div>
     <aside class="redesFooter">
-      <a href="https://www.facebook.com/Hexis-marketing-research-2221157944613481" class="class3">Facebook</a> |
-      <a href="https://twitter.com/hexismarketing" class="class3"> Twitter</a>
+      <a href="https://www.linkedin.com/company/36013664/admin/" class="class3"> LinkedIn</a>
     </aside>
-  </footer>
+  </div>
+</footer>
 
 
 </body>
