@@ -9,7 +9,7 @@
   
 
   .slogan {
-    /*animation: squaresBannerController 10s infinite;*/
+    animation: squaresBannerController 10s infinite;
     animation-iteration-count: 2;
     display: flex;
     flex-wrap: wrap;
