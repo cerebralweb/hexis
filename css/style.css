@@ -944,7 +944,7 @@ background-color:whitesmoke;
   }
 
 
-/* @media bottomBanner===============================*/
+/* @mediabottomBanner===============================*/
 
 .bottom-banner {
   content: url(/imagenes1/bottomBannerMediaQuery.png);
@@ -955,7 +955,7 @@ background-color:whitesmoke;
 
 
 
-/*========= @media NOSOTROS=========================================================*/
+/*========= @mediaNOSOTROS=========================================================*/
 
 #flexMediaBio {
   display: flex;
@@ -975,7 +975,7 @@ background-color:whitesmoke;
 
 
 
-/*@media BLOG
+/*@mediaBLOG
   ====================================================================================================*/
 
 
@@ -1046,7 +1046,7 @@ background-color:whitesmoke;
     max-width: 22em;
     max-height: 10em;
     flex: 1 0 auto;
-    padding: 1em 3em 1em 1em;
+    padding: 1em 2em 1em 1em;
     outline: 0.2rem solid rgb(14, 151, 241);
   }
 
@@ -1060,4 +1060,3 @@ background-color:whitesmoke;
       border: .1rem solid  rgb(248, 156, 8);
       color: rgb(14, 151, 241);  
     }
-}
