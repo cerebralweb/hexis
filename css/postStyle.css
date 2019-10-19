@@ -727,6 +727,12 @@ display: none;
   margin: 1em 0em;
   height: auto;
 }
+
+.contenedorPodcastButton{
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+}
   
     /*Article
   ============================================================================*/
