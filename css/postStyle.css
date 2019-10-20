@@ -632,7 +632,7 @@ a:active {
     
     q {
       font-size: 1em;
-      margin: 1em 0em;
+      
       background-color: whitesmoke;
     }
 
@@ -745,8 +745,7 @@ display: none;
   margin-top: 90px;
 }
   
-    /*Article
-  ============================================================================*/
+    /*------------------------------  @media Article  ============================================================================*/
   
     .contenedorMain {
       width: 100%;
@@ -775,7 +774,8 @@ display: none;
       margin: 1em 0em;
     }
 
-  
+     /*------------------------------  @media encabezado  ============================================================================*/
+ 
     #resumen {
       font-size: 1.2rem;
       font-weight: 600;
@@ -786,7 +786,7 @@ display: none;
   
     .author {
       color: rgb(167, 167, 167);
-      font-size: 0.8rem;
+      font-size: 1rem;
       margin-top: 20px;
       line-height: 1.4;
       text-align: left;
@@ -797,7 +797,7 @@ display: none;
   
     .highlight {
       background: rgb(169, 243, 206);
-      font-size: 1rem;
+      font-size: 1.3rem;
       align-items: flex-end;
       line-height: 0.7;
       border-radius: 3px;
@@ -839,7 +839,7 @@ display: none;
       line-height: 1.5;
     }
   
-    /*pop-up RESPONSIVE
+    /* @media pop-up RESPONSIVE
     =========================================================================*/
     /* Popup container */
     .popup {
@@ -944,14 +944,18 @@ display: none;
       margin: 40px 40px 40px 0px;
     }
   
+    /*------------------------------  @media LISTAS  ============================================================================*/
+
+
+
     ol {
       list-style: none;
       line-height: 1.5;
       content: o;
       margin: 10px auto;
-      padding: 5%;
+      
       box-sizing: border-box;
-      background-color: rgba(245, 245, 245, 0.774);
+      
   
       list-style-position: outside;
     }
