@@ -104,34 +104,38 @@ a:active {
     color: rgb(14, 151, 241);
   }
   
-  a.class5 {
+
+
+
+  a.blue-marker {
     background-color: rgb(201, 231, 251);
     color: black;
-    line-height: 0.7;
+    
     border-radius: 3px;
-    display: inline-block;
+    
   }
-  a.class5:link {
+  a.blue-marker:link {
     text-decoration: none;
     color: black;
   }
-  a.class5:visited {
+  a.blue-marker:visited {
     text-decoration: none;
     color: black;
   }
-  a.class5:hover {
+  a.blue-marker:hover {
     text-decoration: none;
     color: black;
-    background-color: whitesmoke;
+    background-color: rgb(140, 206, 250);
     color: black;
-    line-height: 0.7;
+    
     border-radius: 3px;
-    display: inline-block;
+    
   }
-  a.class5:active {
+  a.blue-marker:active {
     text-decoration: none;
     color: darkolivegreen;
   }
+
   
   a.class6 {
     color: rgb(97, 95, 95);
@@ -623,6 +627,13 @@ a:active {
     p {
       font-size: 1em;
       margin: 1em 0em;
+    }
+
+    
+    q {
+      font-size: 1em;
+      margin: 1em 0em;
+      background-color: whitesmoke;
     }
 
 
