@@ -27,6 +27,8 @@
     gtag('config', 'UA-129024543-4');
   </script>
 
+
+
   <!--<<<<<<<<<<< Twitter cards USAR URL ABSOLUTA  >>>>>>>>>>>-->
 
   <meta name="twitter:card" content="summary_large_image">
@@ -50,10 +52,12 @@
 
   <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
 
-  <link rel="stylesheet" href="/css/style.css"">
-    <link href=" https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="/css/section-style.css">
+  <link href=" https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Work+Sans:200" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap" rel="stylesheet">
 
 
   <!--<<<<<<<<<<< Declaración: esta URL es la "original", cotejada con "duplicados" por spyders >>>>>>>>>>>-->
@@ -80,13 +84,16 @@
   <title>Consultoría —— Hexis</title>
 </head>
 
+
+
 <body class="contenedorBody" itemscope itemtype="http://schema.org/Service">
+
 
   <!------------------------------------------ HEADER ------------------------------------->
 
-  <header class="contenedorHeader">
+  <header id="contenedorHeader">
     <img class="logo1" src="/favicon/logoHexis1.svg">
-    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class1" style="color: rgb(248, 156, 8);"
+    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class1"
         href="https://www.hexis.cc">Hexis</a></h1>
     <nav>
       <a href="https://www.hexis.cc/#soluciones" class="class1">Soluciones &emsp; </a>
@@ -95,108 +102,187 @@
     </nav>
   </header>
 
-  <div>
+  <script>
+
+    window.onscroll = function () { myTopHexisScroll() };
+
+    function myTopHexisScroll() {
+      document.body.scrollTop > 500 || document.documentElement.scrollTop > 500
+        ? document.getElementById('contenedorHeader').style.top = '0'
+        : document.getElementById('contenedorHeader').style.top = '-60px';
+    }
+  </script>
 
 
 
-  </div>
+
+  <main>
 
 
-  <main class="contenedorMain">
-    <!--<<<<<<<<<<< CONTENEDOR HEXIS >>>>>>>>>>>-->
-    <div class="contenedorSectionHexis">
+    <article class="containerFlexRow">
+
+      <!------------------------------------------ PORTADA ------------------------------------->
+
+      <section class="contentUnit">
+        <h1 class="titulosMain">Un nuevo tipo de Consultoría</h1>
+        <hr class="small">
+      </section>
+
+      <section class="contentUnit">
+        <img src="/section-icons/headerPrincipalConsultoria.svg" alt="consultoría de Hexis" class="imageIllustration">
+      </section>
+
+      <!------------------------------------------ SERVICIOS ------------------------------------->
 
 
+      <section class="contentUnit lista">
+        <img src="/section-icons/001-superhero.svg" alt="superhero" class="imageForContentUnit">
+        <h2>Para un mundo hyper</h2>
+        <ul class="content">
+          <li>Navega en la información de tu empresa y entiende la cadena de valor</li>
+          <li>Entiende el nuevo mapa de las redes sociales y el ecosistema tecnológico</li>
+          <li>Es un pensador lateral consumado... y adora resolver problemas</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/marketing-de-contenidos-en-comunidades-online-colombia-fotografia.html" class="section-button">Más </a></li>
+        </ul>
+      </section>
+      <div class="contentUnit contentUnitButter">
+        <p class="typographyForButterBanner" id="noRotateNinetyDegrees" style="position: relative; top: -1em; left: 0em;">Digital</p>
 
-      <div class="bannerTusPreguntas" style="background-color: whitesmoke; margin-top: 10em;">
-        <h1 class="titulosMain">Estamos trabajando en una actualización</h1>
       </div>
 
 
-      <div class="bannerTusPreguntas" style="margin-top: 0em;">
-        <h1 class="titulosMain">Tus preguntas, nuestras respuestas</h1>
-        <p>
-          Hexis es una startup colombo-mexicana de investigación de mercados, tecnología y consultoría. Fue fundada el 2
-          de
-          noviembre de 2018.
-        </p>
-        <hr>
-        <p>Hacemos:</p>
-        <ol>
-          <li><a class="class3" href="https://www.hexis.cc/consultoria.html">consultoría</a></li>
-          <li>apoyada en <a class="class3" href="/investigamos.html">investigación</a></li>
-          <li>y ayudamos a desarrollar <a class="class3" href="/technology.html">tecnología con insights</a></li>
-        </ol>
-        <h2 itemprop="availableChannel"> (+57) 465 5570</h2>
-        <h2 itemscope itemtype="https://www.hexis.cc/podcast.html">Escucha Small Data, el <a class="class3"
-            href="https://www.hexis.cc/podcast.html">podcast</a> de hexis</h2>
-        <h2 itemscope itemtype="https://www.hexis.cc/blog.html">Lee artículos en nuestro <a class="class3"
-            href="https://www.hexis.cc/blog.html">blog</a></h2>
+      <section class="contentUnit lista">
+        <img src="/section-icons/003-stormy.svg" alt="superhero" class="imageForContentUnit">
+        <h2>El proceso</h2>
+        <ul class="content">
+          <li>Tienes un problema</li>
+          <li>Nos cuentas tu reto</li>
+          <li>Nuestro equipo encuentra los insights y el contexto para ayudarte</li>
+          <li>Nos sentamos a discutir los hallazgos y co-creamos soluciones</li>
+          <li>Te ofrecemos seguimiento de los resultados de nuestra consultoría durante varios meses</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/impulso-de-consumo-seguridad-bebes.html" class="section-button">Más </a></li>
+        </ul>
+      </section>
 
-        <h2>Síguenos en <a class="class3" href="https://www.linkedin.com/company/36013664/admin/">LinkedIn,</a> <a
-            href="https://www.facebook.com/Hexis-marketing-research-2221157944613481" class="class3">Facebook</a> y
-          <a href="https://twitter.com/hexisresearch" class="class3"> Twitter</a> </h2>
+      <div class="contentUnit contentUnitButter" style="background-color: rgb(198, 200, 202);">
+        <p class="typographyForButterBanner" id="rotateNinetyDegrees"
+          style="position: relative; top: -1em; left: 1em; width: 7em; font-family: 'Permanent Marker', cursive;">¿Tienes un problema?</p>
+
+      </div>
+
+      <section class="contentUnit lista">
+        <img src="/section-icons/005-muscles.svg" alt="superhero" class="imageForContentUnit">
+        <h2>Cada proyecto es un encargo de alta costura</h2>
+        <ul class="content">
+          <li>Creamos soluciones para cada situación, a la medida de las características y necesidades específicas de
+            cada cliente</li>
+          <li>Con mentes brillantes y entrenadas</li>
+          <li>Brindando objetividad</li>
+          <li>Garantizando la confidencialidad</li>
+          <li>Fomentando decisiones sanas e informadas</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/recetas-desgastadas-del-marketing.html" class="section-button">Más </a></li>
+        </ul>
+      </section>
+
+      <div class="contentUnit contentUnitButter" style="background-color: rgb(147, 149, 152);">
+
+        <p class="typographyForButterBanner" id="rotateNinetyDegreesToRight"
+          style="position: relative; top: 3em; left: 5em; font-family: 'Permanent Marker', cursive;">¡¡Rápido!!</p>
       </div>
 
 
 
+      <section class="contentUnit lista">
+        <img src="/section-icons/001-files-and-folders.svg" alt="superhero" class="imageForContentUnit">
+        <h2>Confianza</h2>
 
-      <!--<<<<<<<<<<< ¿QUÉ ES HEXIS? >>>>>>>>>>>-->
-      <section style="text-align: center;">
-
-        <h1 class="titulosMain" style="margin-top: 8%;">Expandir los límites del mercado periódicamente</h1>
-        <p>Una de las estrategias de desarrollo empresarial es cuestionar los límites de los mercados.
-          Entendido en un sentido positivo, esto quiere decir jugar con las reglas del mercado para <strong>convertir en
-            clientes a
-            quienes antes no lo eran</strong>, o crear productos que antes no existían. Expandir los límites del mercado
-          es distinto a
-          describir las ventas de una empresa, o cualquier otro elemento <em>del presente</em>. Se trata más bien de
-          entender
-          la marca, su historia, sus talentos para innovar en lo que se ofrece a los consumidores.</p>
-
-
-
-
-        <div style="background-color: azure; margin-left: 15%; margin-right: 15%; margin-top: 8%; padding: 3%;">
-          <h2 class="titulosMain">¿Cómo lo hacemos?</h2>
-          <p>Model Business Generation
-
-            Análisis microeconómico + Behavioral economics (o economía conductual)
-
-            Contextualización en entorno macroeconómico y política económica
-
-            Investigación bibliográfica a la medida y análisis de reportes previos
-
-            Análisis histórico
-
-            <strong>Confidencialidad</strong>: protegemos la información de los clientes
-
-          </p>
-        </div>
-
-
-
-
-        <h1 class="titulosMain">Investigación cualitativa para políticas públicas</h1>
-        <p>Nos sumergimos en las comunidades, convivimos con su gente, las observamos con las herramientas de la
-          etnografía y
-          comprendemos su cultura y su contexto. Con ese conocimiento contribuimos a resolver la complejidad social,
-          política y
-          cultural que hay detrás de cada proyecto de política pública. Realizamos:</p>
-
-        <p> <strong>Evaluación de necesidades</strong> que podrían ser satisfechas con políticas púbicas.
-          <strong>Análisis de los actores</strong> que intervienen en proyectos de políticas públicas.
-          <strong>Evaluación del impacto </strong> de políticas públicas. </p>
-
-
-
-
+        <ul class="content">
+          <li>Escuchamos</li>
+          <li>Preguntamos lo que hay que preguntar, cuando hay que preguntarlo</li>
+          <li>Las preguntas para cada cliente son distintas</li>
+          <li>Creamos una Hipótesis Inicial (HI)</li>
+          <li>Buscamos insighs sobre el consumidor</li>
+          <li>Sometemos a test todas las Hipótesis</li>
+          <li>Traducimos el conocimiento en consejos, estrategias y tácticas</li>
+          <li>Ofrecemos confidencialidad y paciencia</li>
+          <li>Aportamos elementos cruciales en la toma de decisiones</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/brand-awareness-distroller-bogota.html" class="section-button">Más </a></li>
+        </ul>
 
       </section>
-      <!--<<<<<<<<<<< BANNER FLOTANTE SOLUCIONES >>>>>>>>>>>-->
+
+      <div class="contentUnit contentUnitButter" style="background-color: rgb(99, 100, 102);">
+
+        <p class="typographyForButterBanner" id="rotateNinetyDegrees" style="position: relative; top: 3em; left: 5em; font-family: 'Permanent Marker', cursive;">
+          Ciencia</p>
+      </div>
+
+      <section class="contentUnit lista">
+        <img src="/section-icons/018-appleFalling.svg" alt="superhero" class="imageForContentUnit">
+        <h2>Entender el contexto no es fácil</h2>
+        <ul class="content">
+          <li>Te ayudamos a entender que está pasando en los mercados, qué funciona y qué no</li>
+          <li>Esconderse de los hechos es la receta para el fracaso.</li>
+          <li>La información: acotar, enfocar, depurar, sintetizar</li>
+          <li>Conseguimos Data en la que puedas confiar</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/mercado-inmobiliario-behavioral-economics.html" class="section-button">Más </a></li>
+        </ul>
+
+      </section>
+
+      <div class="contentUnit contentUnitButter" style="background-color: black;">
+
+        <p class="typographyForButterBanner" id="rotateNinetyDegreesToRight"
+          style="position: relative; top: 3em; left: 5em; font-family: 'Permanent Marker', cursive;">Hechos</p>
+      </div>
 
 
-    </div>
+      <section class="contentUnit lista">
+        <img src="/section-icons/003-adn.svg" alt="superhero" class="imageForContentUnit">
+        <h2>Analizamos el ADN de tu marca</h2>
+
+        <ul class="content">
+          <li>la marca.</li>
+          <li>su historia </li>
+          <li>sus activos </li>
+          <li>Así, te ayudamos a crear una mejor versión de ti mismo</li>
+          <li style="list-style: none; margin-top: .7em;"><a href="/insight/mensajeria-bogota-comprador-incognito-dhl-vs-servientrega.html" class="section-button">Más </a></li>
+        </ul>
+
+      </section>
+
+      <section class="contentUnit">
+          <p class="postItAbsolutePosition" id="rotateNinetyDegrees" style=" font-family: 'Permanent Marker', cursive;">Las ventas se dispararon</p>
+          <img src="/section-icons/headerStoryEnd.svg" alt="consultoría de Hexis" class="imageIllustration">
+        </section>
+
+        <div class="contentUnit contentUnitButter">
+            <p class="typographyForButterBanner" id="noRotateNinetyDegrees" style="position: relative; top: -1em; left: 0em;">The End</p>
+    
+          </div>
+
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </main>
 
 
@@ -231,6 +317,12 @@
         <p class="typo-for-footer"><span itemprop="availableChannel"> Teléfono (+57 1) 465 5570 </span> </p>
         <p class="typo-for-footer"><a class="class2" href="skype:paulocleon1?call"><span itemprop="availableChannel">
               Hablar por Skype</span></a> </p>
+
+        <div>Icons by <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead">Payungkead</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
       </address>
 
     </div>

@@ -50,7 +50,7 @@
 
   <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/section-style.css">
   <link href=" https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Work+Sans:200" rel="stylesheet">
@@ -77,16 +77,17 @@
 
   <!--<<<<<<<<<<< title >>>>>>>>>>>-->
 
-  <title> User Insights For Agile Development </title>
+  <title> Tecnología </title>
 </head>
 
 <body class="contenedorBody" itemscope itemtype="http://schema.org/Service">
 
   <!------------------------------------------ HEADER ------------------------------------->
 
-  <header class="contenedorHeader">
+
+  <header id="contenedorHeader">
     <img class="logo1" src="/favicon/logoHexis1.svg">
-    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class1" style="color: rgb(248, 156, 8);"
+    <h1 class="logo" itemprop="brand" itemprop="mainEntityOfPage"><a class="class1"
         href="https://www.hexis.cc">Hexis</a></h1>
     <nav>
       <a href="https://www.hexis.cc/#soluciones" class="class1">Soluciones &emsp; </a>
@@ -94,61 +95,106 @@
       <a href="/nosotros.html" class="class1">Nosotros &emsp;</a>
     </nav>
   </header>
-  <div class="slogan-code">
 
-    <div class="subtitulo-code"> <br>
-      def Hexis-loop(you): <br>
-      &emsp; return app() + investigamos()<br>
-      &emsp; &emsp; print ("ok") <br> <br>
-      while True: <br>
-      &emsp; developer => 1: <br>
-      &emsp; &emsp; Hexis-lopp(developer) <br>
-      |
-    </div>
+  <script>
 
-    <h3 class="titulo-h3" itemprop="serviceOutput"> --------------------------------- </h3>
+    window.onscroll = function () { myTopHexisScroll() };
 
-  </div>
+    function myTopHexisScroll() {
+      document.body.scrollTop > 500 || document.documentElement.scrollTop > 500
+        ? document.getElementById('contenedorHeader').style.top = '0'
+        : document.getElementById('contenedorHeader').style.top = '-60px';
+    }
+  </script>
 
-  <main class="contenedorMainParaDesarrollamos">
-    <!--<<<<<<<<<<< CONTENEDOR HEXIS >>>>>>>>>>>-->
 
-    <div class="contenedorSectionHexis">
-      <div style="margin: -10em 0em 1em;">
+  <main>
 
-        <div class="bannerTusPreguntas" style="background-color: whitesmoke; margin-top: 10em;">
-          <h1 class="titulosMain">We're working on an update</h1>
-        </div>
-      </div>
+    <article>
 
-      <div class="bannerTusPreguntas" style="margin-top: 0em;">
-        <h1 class="titulosMain">Tus preguntas, nuestras respuestas</h1>
-        <p>
-          Hexis es una startup colombo-mexicana de investigación de mercados, tecnología y consultoría. Fue fundada el 2
-          de
-          noviembre de 2018.
-        </p>
-        <hr>
-        <p>Hacemos:</p>
-        <ol>
-          <li><a href="https://www.hexis.cc/consultoria.html">consultoría</a></li>
-          <li>apoyada en <a href="/investigamos.html">investigación</a></li>
-          <li>y ayudamos a desarrollar <a href="/desarrollo-de-apps.html">tecnología con insights</a></li>
-        </ol>
-        <h2 itemprop="availableChannel"> (+57) 465 5570</h2>
-        <h2 itemscope itemtype="https://www.hexis.cc/podcast.html">Escucha Small Data, el <a class="class3"
-            href="https://www.hexis.cc/podcast.html">podcast</a> de hexis</h2>
-        <h2 itemscope itemtype="https://www.hexis.cc/blog.html">Lee artículos en nuestro <a class="class3"
-            href="https://www.hexis.cc/blog.html">blog</a></h2>
-
-        <h2>Síguenos en <a class="class3" href="https://www.linkedin.com/company/36013664/admin/">LinkedIn,</a> <a
-            href="https://www.facebook.com/Hexis-marketing-research-2221157944613481" class="class3">Facebook</a> y
-          <a href="https://twitter.com/hexisresearch" class="class3"> Twitter</a> </h2>
-      </div>
-    </div>
+      <section>
+        <h1 class="titulosMain">UX Research y Comunidades Online</h1>
+      </section>
 
 
 
+      <section class="containerFlexRowBaseline">
+
+        <section class="contentUnit lista">
+          <img src="/section-icons/coder.svg" alt="superhero" class="imageForContentUnit">
+          <h2>UX Research y UI Design</h2>
+          <ul class="content">
+            <li>Desciframos la experiencia de los usuarios en tu app</li>
+            <li>Etnografía digital</li>
+            <li>Prototipado en papel y digital</li>
+            <li>Trabajamos de la mano con ingenieros y diseñadores</li>
+            <li style="list-style: none; margin-top: .7em;"><a href="/insight/b2b-sala-de-lactacia-y-productividad.html" class="section-button">Más </a></li>
+          </ul>
+        </section>
+
+
+        <section class="contentUnit lista">
+          <img src="/section-icons/022-video-call.svg" alt="superhero" class="imageForContentUnit">
+          <h2>Test de usabilidad</h2>
+          <ul class="content">
+            <li>Escuchamos qué reto tienes con tu app</li>
+            <li>Reclutamos las personas indicadas para el test</li>
+            <li>Usamos Screen Cast y video</li>
+            <li>Así, capturamos situaciones reales, el lenguaje y las emociones</li>
+            <li>Evaluamos la experiencia del usuario</li>
+            <li>Co-creamos soluciones basadas en los hallazgos</li>
+            <li style="list-style: none; margin-top: .7em;"><a href="/insight/ux-research-en-Brasil-itau.html" class="section-button">Más </a></li>
+          </ul>
+        </section>
+
+        <section class="contentUnit">
+            <img src="/section-icons/headerPrincipalTechnologyA.svg" alt="consultoría de Hexis" class="imageIllustrationUX">
+          </section>
+
+          <section class="contentUnit">
+              <img src="/section-icons/headerPrincipalTechnologyB.svg" alt="consultoría de Hexis" class="imageIllustrationUX">
+            </section>
+        
+
+
+        <section class="contentUnit lista">
+          <img src="/section-icons/019-online-order.svg" alt="superhero" class="imageForContentUnit">
+          <h2>Impacto</h2>
+          <ul class="content">
+            <li>Retener usuarios</li>
+            <li>Resucitar usuarios</li>
+            <li>Reducción en las solicitudes de soporte</li>
+            <li>Disminuir el Bounce Rate</li>
+            <li>Disminuir la deserción en las cartas de compra de tu e-commerce </li>
+            <li>Incrementar clicks y conversiones</li>
+            <li style="list-style: none; margin-top: .7em;"><a href="/insight/arbnb-y-sus-estrategias-para-obtener-insights.html" class="section-button">Más </a>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="contentUnit lista">
+          <img src="/section-icons/002-inner.svg" alt="superhero" class="imageForContentUnit">
+          <h2>Comunidades online</h2>
+          <ul class="content">
+            <li>cerradas</li>
+            <li>abiertas</li>
+            <li>Híbridas</li>
+            <li>moderación con calidad</li>
+            <li>Co-creación con usuarios</li>
+            <li>Gamificación de la configuración de un producto</li>
+            <li style="list-style: none; margin-top: .7em;"><a href="/insight/b2b-sala-de-lactacia-y-productividad.html" class="section-button">Más </a></li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section class="containerFlexRow">
+
+
+        </section>
+
+    </article>
 
   </main>
 

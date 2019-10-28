@@ -9,6 +9,18 @@
     font-size: 1em;
   }
 
+  hr.small {
+    border: 1.5px solid black;
+  }
+
+  hr.medium {
+    border: 2px solid black;
+  }
+
+  hr.big {
+    border: 3px solid black;
+  }
+
 p {
   font-size: 1.2em;
   margin: 1em 0em;
@@ -189,14 +201,13 @@ a:active {
   ============================================================================*/
   
 
-  .contenedorHeader {   
+  #contenedorHeader {   
     width: 100%;
     height: 60px;
+    top: -60px;
     position: fixed;
     background-color: whitesmoke; 
-    box-shadow:0 0 30px rgba(14, 0, 0, 0.3);
-    z-index: 2;
-    top: 0px;
+    transition: top 0.3s; 
     }
   
 
@@ -221,10 +232,9 @@ a:active {
   nav {      
       
       float: right;
-          padding: 1em 0em;
-
+      padding: 1em 0em;
       box-sizing: border-box;
-      width: 35%;
+      
      
     } 
 
@@ -246,13 +256,14 @@ a:active {
       }
 .responsiveImage {
   width: 100%;
-  margin: 2em 0;
+  
   height: auto;
 }
 
   /*Article
   ============================================================================*/
   .contenedorMain {
+    
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 3%;
@@ -272,10 +283,9 @@ a:active {
   }
   
   .contenedorArticle {
+
     width: 50%;
-    box-sizing: border-box;
-  
-    margin-top: 50px;
+    box-sizing: border-box;  
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
@@ -495,6 +505,7 @@ a:active {
     p.typo-for-footer {
       font-size: 1em;
       font-style: normal;
+      
     }
     
     .contenedorFooter { 
@@ -502,6 +513,7 @@ a:active {
       flex-flow: row wrap;
       justify-content: center;
       text-align: justify;
+      line-height: .5em;
       align-items: center;
       border-top: 5px solid rgb(14, 151, 241);
     }
@@ -533,6 +545,7 @@ a:active {
       padding: .5em 1em;
       border: .1rem solid  rgb(248, 156, 8);
       color: rgb(14, 151, 241);  
+      line-height: 1.5em;
     }
     
 
@@ -622,6 +635,20 @@ a:active {
   /* MOBILE MEDIA queries
     =================================================================================================================*/
   
+@media (max-width: 1024) {
+
+  .titulosMain {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 1em 0em;
+  }
+}
+
+
+
   @media (max-width: 760px) {
  
     p {
@@ -664,10 +691,12 @@ a:active {
       height: 50px;
       position: fixed;
       top: 0px;
+      box-shadow: none;
       }
 
 
- .logo1 {  
+ .logo1 { 
+   display: none; 
     float: left; 
     
     margin: 9px 2px 0px 0px;  
@@ -692,7 +721,7 @@ margin-top: 0px;
 margin-right: 0px;
 text-align: center;
 font-size: .9rem;
-line-height: 2;
+
 box-sizing: border-box;          
 background-color:whitesmoke;  
 }
@@ -735,7 +764,6 @@ display: none;
 
     .responsiveImage {
   width: 100%;
-  margin: 1em 0em;
   height: auto;
 }
 
@@ -769,8 +797,8 @@ display: none;
       text-align: center;
       font-family: Helvetica, sans-serif;
       color: black;
-      font-size: 2rem;
-      line-height: 1.2;
+      font-size: 1.7rem;
+      line-height: 1;
       margin: 1em 0em;
     }
 
