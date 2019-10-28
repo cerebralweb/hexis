@@ -275,8 +275,8 @@ ul li {
   }
 
   ul li {
-    
-    text-indent: 2em hanging;
+    margin-left: 1em;
+    text-indent: hanging;
     background-color: whitesmoke;
   }
 
