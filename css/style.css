@@ -607,7 +607,7 @@ font-size: 4.2rem;
 
 .contenedorBlogPosts {
  width: 70%;
- font-size: .5em;
+ font-size: 1.4em;
  margin: 220px auto;
  max-width: 1600px;
 }
@@ -616,7 +616,7 @@ font-size: 4.2rem;
 
 
 .contenedorPodcastList {
-  width: 50%;
+  width: 80%;
   margin: 220px auto;
   max-width: 1600px;
  }
@@ -663,7 +663,7 @@ font-size: 4.2rem;
 /*PODCAST=============================================*/
 
 .contenedorPodcastList {
-  width: 50%;
+  width: 90%;
   margin: 220px auto;
   max-width: 1600px;
  font-size: 130%;  
