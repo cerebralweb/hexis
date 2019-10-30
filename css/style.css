@@ -418,16 +418,26 @@ nav {
   
 /*Main
 ============================================================================*/
-  .contenedorMain {
-    width: 100%;    
-    box-sizing: border-box;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.4; 
-    margin-top: 50px; 
-    margin-bottom: 3%;
-    
-  }    
+ 
+.contenedorMainIndexNegativeMarginTop {
+  width: 100%;    
+  margin-top: -10%;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 1.4; 
+}  
+
+.contenedorMain {
+  width: 100%;    
+  margin-top: 0%;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 1.4; 
+}  
+
+
  .subtitulo-h2 {  
     text-align: center;
     margin-top: -10px;    
@@ -541,6 +551,10 @@ a.section-button {
   padding: 3px;
   text-decoration: none; 
 }
+a.section-button-bigger {
+  font-size: 1em;
+  
+}
 a.section-button:active {
   color: rgb(14, 151, 241);
 }
@@ -575,98 +589,100 @@ p.media-bio {
 /* desktop Blog List BLOG
 ============================================================================*/
 
-
-
-.contenedorMain {
-  width: 100%;    
-  margin-top: -10%;
-  box-sizing: border-box;
-  font-weight: 100;
-  font-style: normal;
-  line-height: 1.4; 
-}    
-
 .contenedorEncabezado {
-width: 100%; 
-background-color: white;
-box-sizing: border-box; 
-text-align: center; 
-padding-top: 2rem;
-border-bottom: 10px solid rgb(14, 151, 241);
+  width: 100%; 
+  color: white;
+  font-size: 4.2rem; 
+  border-bottom: 10px solid rgb(248, 156, 8);
+  background-color: rgb(248, 156, 8);
+  text-align: center;
+  }
+
+
+
+
+.flexBlog {
+  display: flex;
+  flex-flow: row wrap;
+  margin: .5em;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  align-items: baseline;
+  justify-content: center;    
+}
+
+.postPreviewTitleUnit {
+  width: 98%;
+  max-width: 98%;  
+  padding: 2em;
+  padding: 1em;
+  flex: none;
+}
+
+.postPreviewContentUnit {
+  width: 25em;
+  max-width: 30em;  
+  max-height: 60em;
+  padding: 1em;
+  flex: auto;
+  font-weight: 300;
 }
 
 
-.subEncabezadoBlog {
-font-size: 4.2rem;
- color: black;
-  background: white; 
-  margin-top: 80px; 
-  padding-bottom: 50px; 
- }
+.imageInPostPreview {
+  width: 100%;
+  height: auto;
+}
 
+.imageInPostPreviewForSquares {
+  width: auto;
+  height: 15em;
+}
+
+
+.tituloPostPreview {
+  font-size: 1.7em;
+  font-weight: 400;
+  margin: 1em 0em;
+}
+
+.sectionButtonContainer{
+  width: 20em;
+  margin-top: 1em;
+}
+
+
+
+/*-------------------------------------- PODCAST -----------------=============================================*/
+
+
+.contenedorEncabezadoPodcast {
+  
+  width: 100%; 
+  height: 5em;
+  color: white;
+  font-size: 4.2rem; 
+  background-color: rgb(248, 156, 8);
+  padding: 2em;
+  text-align: center;
+  }
 
 .contenedorBlogPosts {
- width: 70%;
- font-size: 1.4em;
- margin: 220px auto;
- max-width: 1600px;
-}
-
-
-
-
-.contenedorPodcastList {
-  width: 80%;
-  margin: 220px auto;
+  
+  width: 100%;
+  padding: 2em;
+  font-size: 1.4em;
+  
   max-width: 1600px;
  }
-
- .contenedorPodcastCompleto {
-  width: 100%;    
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 10px;
-}
-
-
-
-/*Class4 bannerPost*/
-.class8 {
-  color: black;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2.3em;
-  transition-duration: .2s;
-  cursor: pointer;
-}
-
-.class8:link  {text-decoration: none; 
-  padding: 3%;
-  border-bottom: 1pt solid black;
-
-}
-.class8:visited { color:black;}
-.class8:hover {color:black;}  
-.class8:active {color: black;}
-
-.tituloArticle { font-family: Helvetica, sans-serif;}
-
-
-.textoBanner {float:right; width: 57%;}
-.imagenBanner {float: left; width: 40%; height: auto; margin-right: 3%; margin-top: 1%;}
-.contenedorBannerPost {
-  border-bottom: 1pt solid rgb(206, 204, 204);
-
-}
-
-/*PODCAST=============================================*/
+ 
 
 .contenedorPodcastList {
   width: 90%;
-  margin: 220px auto;
-  max-width: 1600px;
- font-size: 130%;  
+  padding: 2em;
+  margin-top: 1em;
+ font-size: 1.2em;
  }
 
  .contenedorPodcastCompleto {
@@ -987,37 +1003,59 @@ background-color:whitesmoke;
   ====================================================================================================*/
 
 
-  .contenedorEncabezado {
-    width: 100%; 
-    background-color: white;
-    box-sizing: border-box; 
-    text-align: center; 
-    padding-top: .5rem;
-    border-bottom: 5px solid rgb(14, 151, 241);
-    }
+/* -----------------------------------@media desktop Blog List BLOG ============================================================================*/
 
-  .subEncabezadoBlog {
-    font-size: 2rem;
-     color: black;
-      background: white; 
-      margin-top: 2.5em; 
-      padding-bottom: 1em; 
-     }
-
-  .contenedorBlogPosts {
-    display: flex;
-    width: 100%;
-    flex-direction: column; 
-    margin-top: 0em;
+.contenedorEncabezado {
+  width: 100%; 
+  color: white;
+  font-size: 2.2rem; 
+  background-color: rgb(248, 156, 8);
+  text-align: center;
+  box-sizing: border-box;
   }
 
 
+.flexBlog {
+  display: flex;
+  flex-flow: row wrap;  
+  width: 100%;  
+  box-sizing: border-box;
+  justify-content: center;   
+  margin: .3em; 
+}
+
+
+.postPreviewContentUnit {
+  width: 25em;
+  max-width: 30em;  
+  max-height: 60em;
   
-  .textoBanner {width: 95%;}
-  .imagenBanner {width: 100%; height: auto; margin-top: 1%; margin-bottom: 1%;}
-   
+  flex: auto;
+  font-weight: 300;
+}
 
-  }
+
+.imageInPostPreview {
+  width: 100%;
+  height: auto;
+}
+
+.imageInPostPreviewForSquares {
+  width: auto;
+  height: 15em;
+}
+
+
+.tituloPostPreview {
+  font-size: 1.7em;
+  font-weight: 400;
+  margin: 1em 0em;
+}
+
+.sectionButtonContainer{
+  width: 20em;
+  margin-top: 1em;
+}
 
    .contenedorPodcastCompleto {
     width: 100%;    
@@ -1025,6 +1063,47 @@ background-color:whitesmoke;
     vertical-align: middle;
     border-radius: 10px;
   }
+
+
+/*-------------------------------------- @media PODCAST -----------------=============================================*/
+
+
+.contenedorEncabezadoPodcast {
+  
+  width: 100%; 
+  height: 3em;
+  color: white;
+  font-size: 2.2rem; 
+  background-color: rgb(248, 156, 8);
+  padding: .5em;
+  text-align: center;
+  }
+
+.contenedorBlogPosts {  
+  width: 100%;
+  padding: .2em;
+  font-size: 1em;
+ }
+
+ .contenedorPodcastList {
+  width: 95%;
+  padding: 1em;
+  margin-top: 1em;
+ font-size: 1.2em;
+ }
+
+ 
+ 
+
+
+ .contenedorPodcastCompleto {
+  width: 100%;    
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+
 
           /*Convocatoria
   ====================================================================================================*/
