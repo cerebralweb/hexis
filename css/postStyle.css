@@ -288,9 +288,7 @@ a:active {
 
     width: 50%;
     box-sizing: border-box;  
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
+    margin: 3em auto;
     font-size: 1.3rem;
     line-height: 1.58;
     font-weight: 300;
@@ -639,10 +637,10 @@ a:active {
   }
   .meGusta {
     float: left;
-  
+    top: 400px;
     position: sticky;
-    top: 450px;
-    margin-left: 20px;
+    margin: 3em 1em 0em;
+    
   }
   
   /* MOBILE MEDIA queries
