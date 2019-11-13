@@ -345,7 +345,6 @@ a.class1:active {
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
-    max-width: 1600px;
   }
   
   .postList {
@@ -497,7 +496,6 @@ nav {
     flex-flow: row wrap;
     width: 90%;
    margin: 30px auto;
-   max-width: 1600px;
   text-align: justify;
   }
   
@@ -673,9 +671,7 @@ p.media-bio {
   width: 100%;
   padding: 2em;
   font-size: 1.4em;
-  
-  max-width: 1600px;
- }
+   }
  
 
 .contenedorPodcastList {
@@ -960,7 +956,6 @@ background-color:whitesmoke;
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
-    max-width: 1600px;
   }
   
   .postList {
@@ -1028,8 +1023,7 @@ background-color:whitesmoke;
 .postPreviewContentUnit {
   width: 25em;
   max-width: 30em;  
-  max-height: 60em;
-  
+  max-height: 60em;  
   flex: auto;
   font-weight: 300;
 }

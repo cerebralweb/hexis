@@ -175,7 +175,6 @@ a:active {
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
-    max-width: 1600px;
   }
 
   a.section-button {
