@@ -540,6 +540,8 @@ nav {
   padding: .4em;
   background-color: whitesmoke;
   margin: 2em 0em;
+  
+  z-index: -2;
 }
 
 
@@ -568,7 +570,6 @@ a.section-button:hover{
   max-height: 150px;
   clip-path: inset(1% 1% 1% 1% round 1%);
   position: relative;
-  z-index: 0;    
 }
 .bio-paragraph {
   flex: 1;
