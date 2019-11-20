@@ -1,4 +1,15 @@
 /*------------------------------------------ DESKTOP -----------------------------------------*/
+
+.linearGrandientCoralViolet {
+    width: 100%;
+    height: 35em;
+    top: 0px;
+    padding: 8em;
+    box-sizing: border-box;
+    background: linear-gradient(to right,  #FF6F61,  #6B5B95 );
+}
+
+
 .linearGrandientButter {
     width: 100%;
     height: 35em;
