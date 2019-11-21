@@ -1022,8 +1022,8 @@ background-color:whitesmoke;
 
 
 .postPreviewContentUnit {
-  width: 22em;
-  max-width: 22em;  
+  width: 25em;
+  max-width: 25em;  
   max-height: 60em; 
   padding: .5em; 
   flex: auto;
