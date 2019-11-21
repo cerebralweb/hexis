@@ -388,7 +388,7 @@ nav {
         padding: 1em 0em;
 
     box-sizing: border-box;
-    width: 35%;
+    width: 38%;
    
   } 
 
@@ -596,8 +596,6 @@ p.media-bio {
   background-color: rgb(248, 156, 8);
   text-align: center;
   }
-
-
 
 
 .flexBlog {
@@ -1019,13 +1017,15 @@ background-color:whitesmoke;
   box-sizing: border-box;
   justify-content: center;   
   margin: .3em; 
+  padding: 1em; 
 }
 
 
 .postPreviewContentUnit {
   width: 25em;
   max-width: 30em;  
-  max-height: 60em;  
+  max-height: 60em; 
+  padding: .2em; 
   flex: auto;
   font-weight: 300;
 }
@@ -1088,9 +1088,6 @@ background-color:whitesmoke;
  font-size: 1.2em;
  }
 
- 
- 
-
 
  .contenedorPodcastCompleto {
   width: 100%;    
@@ -1152,3 +1149,4 @@ background-color:whitesmoke;
       border: .1rem solid  rgb(248, 156, 8);
       color: rgb(14, 151, 241);  
     }
+  }
