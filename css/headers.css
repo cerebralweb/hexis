@@ -9,6 +9,15 @@
     background: linear-gradient(to right,  #9fd8f5,  #f5ef9f );
 }
 
+.linearGrandientRedToBlackRed {
+    width: 100%;
+    height: 35em;
+    top: 0px;
+    padding: 8em;
+    box-sizing: border-box;
+    background: linear-gradient(to top,  #D2797B, #E6B3B3, #B3CDE5);
+}
+
 .linearGrandientCoralViolet {
     width: 100%;
     height: 35em;
@@ -42,6 +51,15 @@
 /*------------------------------------------ @media queries  -----------------------------------------*/
 
 @media screen and (min-width: 760px) and (max-width: 1024px) {
+
+    .linearGrandientRedToBlackRed {
+        width: 100%;
+        height: 30em;
+        top: 0px;
+        padding: 5em;
+        box-sizing: border-box;
+        background: linear-gradient(to top,  #D2797B, #E6B3B3, #B3CDE5);
+    }
 
     .linearGrandientBlueToButter {
         width: 100%;
@@ -81,6 +99,15 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
+
+    .linearGrandientRedToBlackRed {
+        width: 100%;
+        height: 15em;
+        top: 0px;
+        padding: 3em;
+        box-sizing: border-box;
+        background: linear-gradient(to top,  #D2797B, #E6B3B3, #B3CDE5);
+    }
 
     .linearGrandientBlueToButter {
         width: 100%;
