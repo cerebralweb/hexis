@@ -11,6 +11,10 @@
     font-size: 1em;
   }
 
+  dfn {
+    font-style: normal;
+  }
+
   hr.small {
     border: 1.5px solid black;
   }
@@ -83,7 +87,7 @@ a:active {
   }
   a.class2:link {
     text-decoration: none;
-    color: rgb(14, 151, 241);
+    color: rgb(14, 151, 241); 
   }
   a.class2:visited {
     text-decoration: none;
@@ -156,7 +160,7 @@ a:active {
   }
   a.class6:link {
     text-decoration: none;
-    color: rgb(104, 101, 101);
+    color: grey;
   }
   a.class6:visited {
     text-decoration: none;
@@ -164,11 +168,11 @@ a:active {
   }
   a.class6:hover {
     text-decoration: none;
-    color: darkgreen;
+    color: grey;
   }
   a.class6:active {
     text-decoration: none;
-    color: darkolivegreen;
+    color: grey;
   }
   
   .contenedorBody {
@@ -441,7 +445,7 @@ a:active {
     list-style-position: outside;
   }
   .highlight {
-    background: rgb(169, 243, 206);
+    background: rgb(201, 231, 251);    
     font-size: 1.6rem;
     align-items: flex-end;
     line-height: 0.7;
@@ -834,11 +838,11 @@ display: none;
     }
   
     .highlight {
-      background: rgb(169, 243, 206);
+      background: rgb(201, 231, 251);    
       font-size: 1.3rem;
       align-items: flex-end;
-      line-height: 0.7;
-      border-radius: 3px;
+      line-height: 1;
+      border-radius: 5px;
       display: inline-block;
     }
   
