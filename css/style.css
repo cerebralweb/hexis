@@ -540,7 +540,6 @@ nav {
   padding: .4em;
   background-color: whitesmoke;
   margin: 2em 0em;
-  z-index: -2;
 }
 
 
@@ -567,8 +566,7 @@ a.section-button:hover{
   margin-right: 1em;
   max-width: 150px; 
   max-height: 150px;
-  clip-path: inset(1% 1% 1% 1% round 1%);
-  position: relative;
+  border: 2px solid gainsboro;
 }
 .bio-paragraph {
   flex: 1;
@@ -840,10 +838,7 @@ p.media-bio {
     .bio-picture {
       margin-right: 1em;
       max-width: 150px; 
-      max-height: 150px;
-      clip-path: inset(1% 1% 1% 1% round 1%);
-      position: relative;
-      z-index: 0;    
+      max-height: 150px;   
     }
 
 
