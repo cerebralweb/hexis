@@ -642,10 +642,22 @@ a:active {
     float: left;
     top: 400px;
     position: sticky;
-    margin: 3em .8em 0em;
-    
+    margin: 3em .8em 0em;    
   }
   
+  .twitterBox {
+    float: left;
+    top: 400px;
+    position: sticky;
+    margin: 3em .5em 0em 2em;    
+  }
+  .twitterBoxIcon {
+    width: 100px;
+    height: 60px;
+  }
+
+
+
   /* MOBILE MEDIA queries
     =================================================================================================================*/
   
@@ -684,6 +696,10 @@ a:active {
     }
  
     .meGusta {
+      display: none;
+    }
+
+    .twitterBox {
       display: none;
     }
   
