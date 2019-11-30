@@ -17,7 +17,8 @@
     "index",
     "main",
     "titulos",
-    "unit"
+    "unit",
+    "veintitantos"
   ],
   "editor.fontSize": 18,
   "workbench.colorTheme": "Noctis",
