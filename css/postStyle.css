@@ -1,4 +1,5 @@
 @import url(/css/headers.css);
+@import url(/css/style.css);
 
 /* DESKTOP
   ================================================================================================================================================
@@ -297,7 +298,7 @@ a:active {
     font-weight: 300;
   }
   
-  .titulosMain {
+  .titulosMainForArticles {
     text-align: center;
     font-family: Helvetica, sans-serif;
     margin-top: 50px;
@@ -382,15 +383,13 @@ a:active {
     padding: 1em;
     margin: 3em 0em;
     box-sizing: border-box;
-    font-size: 0.8em;
-    line-height: 1.3;
-    text-align: center;
-    border-left: 10pt solid rgb(14, 151, 241);
-    background-color: rgba(0, 0, 0, 0.712);
-    color: whitesmoke;
-    border-radius: 0.7%;
-    
+    border-left: 5pt solid rgb(14, 151, 241);
+    background-color: whitesmoke;
+    border-radius: 0.7%;    
   }
+  
+
+  
   figcaption {
     font-size: 1.1rem;
     color: darkgray;
@@ -663,7 +662,7 @@ a:active {
   
 @media (max-width: 1024) {
 
-  .titulosMain {
+  .titulosMainForArticles {
     text-align: center;
     font-family: Helvetica, sans-serif;
     color: black;
@@ -823,14 +822,7 @@ display: none;
       font-weight: 300;
     }
   
-    .titulosMain {
-      text-align: center;
-      font-family: Helvetica, sans-serif;
-      color: black;
-      font-size: 1.7rem;
-      line-height: 1;
-      margin: 1em 0em;
-    }
+
 
      /*------------------------------  @media encabezado  ============================================================================*/
  
@@ -968,20 +960,7 @@ display: none;
       font-size: 0.8em;
       border: none;
     }
-    .bonus {
-      width: 100%;
-      margin: 10px auto;
-      padding: 1em;
-      box-sizing: border-box;
-      font-size: 0.8em;
-      line-height: 1.3;
-      text-align: center;
-      border-left: 7pt solid rgb(14, 151, 241);
-      background-color: rgba(0, 0, 0, 0.712);
-      color: whitesmoke;
-      border-radius: 0.7%;
-      
-    }
+
     h2 {
       font-size: 1.3rem;
       font-weight: 400;     

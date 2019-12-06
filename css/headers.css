@@ -79,6 +79,15 @@
         background: repeating-linear-gradient(103deg, #4ABF40, #B3B3E6 3px);
     }
 
+    .linearGrandientRedToPink {
+        width: 100%;
+        height: 30em;
+        top: 0px;
+        padding: 5em;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgb(76, 106, 190), #B3C0E6);
+    }
+
     .linearGrandientRedToBlackRed {
         width: 100%;
         height: 30em;
@@ -134,6 +143,15 @@
         padding: 3em;
         box-sizing: border-box;
         background: repeating-linear-gradient(103deg, #4ABF40, #B3B3E6 3px);
+    }
+
+    .linearGrandientRedToPink {
+        width: 100%;
+        height: 15em;
+        top: 0px;
+        padding: 3em;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgb(76, 106, 190), #B3C0E6);
     }
 
     .linearGrandientRedToBlackRed {
