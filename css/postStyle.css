@@ -821,6 +821,15 @@ display: none;
       line-height: 1.58;
       font-weight: 300;
     }
+
+    .titulosMainForArticles {
+      text-align: center;
+      font-family: Helvetica, sans-serif;
+      color: black;
+      font-size: 1.7rem;
+      line-height: 1;
+      margin: 1em 0em;
+    }
   
 
 
