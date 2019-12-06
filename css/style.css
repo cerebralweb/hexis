@@ -1182,4 +1182,25 @@ background-color:whitesmoke;
       border-radius: .2em;
       text-align: left;
       }
+
+
+.flexBlog {
+  display: flex;
+  flex-flow: row wrap;  
+  width: 100%;  
+  box-sizing: border-box;
+  justify-content: center;   
+  margin: .3em; 
+  padding: 1em; 
+}
+
+
+.postPreviewContentUnit {
+  width: 22em;
+  max-width: 22em;  
+  max-height: 60em; 
+  padding: 2em; 
+  flex: auto;
+  font-weight: 300;
+}
   }
