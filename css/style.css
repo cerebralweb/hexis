@@ -545,26 +545,6 @@ nav
 .contenedorButtonPodcastList{
   margin: 1.7em 0em;
 }
-
-a.section-button {
-  font-size: .7em;
-  color: rgb(14, 151, 241);
-  border: 1px solid rgb(248, 156, 8);
-  padding: 3px;
-  text-decoration: none; 
-}
-a.section-button-bigger {
-  font-size: 1em;
-  
-}
-a.section-button:active {
-  color: rgb(14, 151, 241);
-}
-
-a.section-button:hover{
-  color: rgb(14, 151, 241);
-  background-color: rgb(247, 251, 253);
-}
 .bio-picture {
   margin-right: 1em;
   max-width: 150px; 
@@ -585,6 +565,27 @@ p.media-bio {
     font-weight: 300;
   margin: 1em 0em;
 }
+
+a.section-button {
+  font-size: .7em;
+  color: rgb(14, 151, 241);
+  border: 1px solid rgb(248, 156, 8);
+  padding: 3px;
+  text-decoration: none; 
+}
+a.section-button-bigger {
+  font-size: 1em;
+  
+}
+a.section-button:active {
+  color: rgb(14, 151, 241);
+}
+
+a.section-button:hover{
+  color: rgb(14, 151, 241);
+  background-color: rgb(247, 251, 253);
+}
+
 
 /* desktop Blog List BLOG
 ============================================================================*/
@@ -1031,9 +1032,7 @@ background-color:whitesmoke;
   display: flex;
   flex-flow: column wrap;
   padding: .4em;
-  background-color: whitesmoke;
-  position: relative;
-  
+  background-color: whitesmoke;  
 }
 
 .bannerTusPreguntas {
