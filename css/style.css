@@ -887,17 +887,15 @@ p.media-bio {
 }
 
 .logo {  
-  float: right; 
-  
-  margin: 5px 20px 0px 0px;  
-  color: rgb(248, 156, 8);
+  float: right;   
+  margin: 5px 30px 0px 0px;  
   font-size: 2rem;
   font-weight: 300;   
   width: 20%;
 }
 
 nav {
-  display: none;
+display: none;
 width: 100%;
 margin-top: 0px;
 margin-right: 0px;
