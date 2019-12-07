@@ -6,6 +6,8 @@
 
   /*==========================================HEADER ANIMATION===========================================*/
 
+/* #contenedorHeader ≠ .contenedorHeader. #contenedorHeader is for pages like insights.html, where the navBar is animated */
+
   #contenedorHeader {   
     width: 100%;
     height: 60px;
@@ -871,13 +873,23 @@ p.media-bio {
 
 /*============================ @media HEADER MAIN================*/
 
+#contenedorHeader {   
+  width: 100%;
+  height: 60px;
+  top: -60px;
+  position: fixed;
+  background-color: whitesmoke; 
+  transition: top 0.3s; 
+  } 
+
 /* .contenedorHeader is for index, where the navBar is not animated */
-.contenedorHeader {   
+.contenedorHeader {    
   width: 100%;
   height: 60px;
   position: fixed;
   top: 0px;
   box-shadow: none;
+  background-color: white;
   }
 
 
@@ -899,8 +911,9 @@ display: none;
 width: 100%;
 margin-top: 0px;
 margin-right: 0px;
-text-align: center;
-font-size: .8rem;
+padding-right: 4px;
+text-align: right;
+font-size: .7rem;
 box-sizing: border-box;          
 background-color:whitesmoke;  
 }
