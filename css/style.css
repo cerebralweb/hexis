@@ -622,7 +622,6 @@ a.section-button:hover{
 .postPreviewContentUnit {
   width: 25em;
   max-width: 30em;  
-  max-height: 60em;
   padding: 1em;
   flex: auto;
   font-weight: 300;
@@ -1213,20 +1212,27 @@ background-color:whitesmoke;
 .flexBlog {
   display: flex;
   flex-flow: row wrap;  
-  width: 100%;  
+  width: 95%;  
   box-sizing: border-box;
   justify-content: center;   
-  margin: .3em; 
+  margin: 1em; 
   padding: 1em; 
 }
 
 
 .postPreviewContentUnit {
-  width: 22em;
-  max-width: 22em;  
+  width: 20em;
   max-height: 60em; 
-  padding: 2em; 
+  padding: 1.8em; 
   flex: auto;
   font-weight: 300;
+}
+
+.logo {  
+  float: right;   
+  margin: 5px 72px 0px 0px;  
+  font-size: 1.8rem;
+  font-weight: 300;   
+  width: 20%;
 }
   }
