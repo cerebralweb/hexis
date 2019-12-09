@@ -1063,16 +1063,15 @@ background-color:whitesmoke;
   width: 100%;  
   box-sizing: border-box;
   justify-content: center;   
-  margin: .3em; 
+  margin: 0em; 
   padding: 1em; 
 }
 
 
 .postPreviewContentUnit {
-  width: 25em;
-  max-width: 25em;  
-  max-height: 60em; 
-  padding: .5em; 
+  width: 20em;
+  max-width: 21em;  
+  padding: 2em; 
   flex: auto;
   font-weight: 300;
 }
@@ -1093,6 +1092,7 @@ background-color:whitesmoke;
   font-size: 1.7em;
   font-weight: 400;
   margin: 1em 0em;
+  text-align: left;
 }
 
 .sectionButtonContainer{
@@ -1196,36 +1196,4 @@ background-color:whitesmoke;
     }
   }
 
-  @media (max-width: 570px){
-    .child {
-      animation: colorController 10s infinite;
-      animation-iteration-count: 5;
-      background-color: rgb(239, 242, 243);
-      width: 9em;
-      height: 9em;
-      margin: 0.4em;    
-      border-radius: .2em;
-      text-align: left;
-      }
-
-
-.flexBlog {
-  display: flex;
-  flex-flow: row wrap;  
-  width: 100%;  
-  box-sizing: border-box;
-  justify-content: center;   
-  margin: .3em; 
-  padding: 1em; 
-}
-
-
-.postPreviewContentUnit {
-  width: 22em;
-  max-width: 22em;  
-  max-height: 60em; 
-  padding: 2em; 
-  flex: auto;
-  font-weight: 300;
-}
-  }
+  
