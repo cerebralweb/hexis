@@ -1063,8 +1063,7 @@ background-color:whitesmoke;
   width: 100%;  
   box-sizing: border-box;
   justify-content: center;   
-  margin: .3em; 
-  padding: 1em; 
+  padding: .5em; 
 }
 
 
@@ -1215,7 +1214,6 @@ background-color:whitesmoke;
   width: 95%;  
   box-sizing: border-box;
   justify-content: center;   
-  margin: 1em; 
   padding: 1em; 
 }
 
@@ -1223,14 +1221,14 @@ background-color:whitesmoke;
 .postPreviewContentUnit {
   width: 20em;
   max-height: 60em; 
-  padding: 1.8em; 
+  padding: 1.8em 2em 1.8em 2.2em 1em; 
   flex: auto;
   font-weight: 300;
 }
 
 .logo {  
   float: right;   
-  margin: 5px 40px 0px 0px;  
+  margin: 5px 20px 0px 0px;  
   font-size: 1.8rem;
   font-weight: 300;   
   width: 20%;
