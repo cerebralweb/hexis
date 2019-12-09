@@ -1046,7 +1046,13 @@ background-color:whitesmoke;
 /*@mediaBLOG
   ====================================================================================================*/
 
-
+  .logo {  
+    float: right;   
+    margin: 5px 35px 0px 0px;  
+    font-size: 1.7rem;
+    font-weight: 300;   
+    width: 20%;
+  }
 /* -----------------------------------@media desktop Blog List BLOG ============================================================================*/
 
 .contenedorEncabezado {
@@ -1073,6 +1079,7 @@ background-color:whitesmoke;
   max-width: 21em;  
   padding: 2em; 
   flex: auto;
+  margin: 0em;
   font-weight: 300;
 }
 
@@ -1140,6 +1147,7 @@ background-color:whitesmoke;
   vertical-align: middle;
   border-radius: 10px;
 }
+
 
 
 
