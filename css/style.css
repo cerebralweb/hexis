@@ -900,7 +900,7 @@ a.section-button:hover{
 
 .logo {  
   float: right;   
-  margin: 5px 20px 0px 0px;  
+  margin: 5px 30px 0px 0px;  
   font-size: 2rem;
   font-weight: 300;   
   width: 20%;
@@ -1212,27 +1212,20 @@ background-color:whitesmoke;
 .flexBlog {
   display: flex;
   flex-flow: row wrap;  
-  width: 95%;  
+  width: 100%;  
   box-sizing: border-box;
   justify-content: center;   
-  margin: 1em; 
+  margin: .3em; 
   padding: 1em; 
 }
 
 
 .postPreviewContentUnit {
-  width: 20em;
+  width: 22em;
+  max-width: 22em;  
   max-height: 60em; 
-  padding: 1.8em 2em 1.8em 2.2em 1em; 
+  padding: 2em; 
   flex: auto;
   font-weight: 300;
-}
-
-.logo {  
-  float: right;   
-  margin: 5px 30px 0px 0px;  
-  font-size: 1.8rem;
-  font-weight: 300;   
-  width: 20%;
 }
   }
