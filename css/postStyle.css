@@ -365,7 +365,7 @@ a:active {
     font-weight: 400;
     color: gray;
   }
-  x
+  
 
   .highlight {
     background: rgb(201, 231, 251);    
@@ -503,7 +503,7 @@ a:active {
     visibility: hidden;
     width: 160px;
     background-color: black;
-    color: #fff;
+    color: whitesmoke;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
@@ -518,7 +518,7 @@ a:active {
   .popup .popuptext::after {
     display: none;
     content: "";
-    position: absolute;
+    position: absolute; 
     top: 100%;
     left: 50%;
     margin-left: -5px;
@@ -560,6 +560,12 @@ a:active {
     width: 100%;
     box-sizing: border-box;
     margin: 3em 0em;
+  }
+  .arrowToGoUp{
+    float: right;
+    top: 400px;
+    position: sticky;
+    margin: 3em 15em 0em 0em;    
   }
   .meGusta {
     float: left;
@@ -616,6 +622,10 @@ a:active {
     a.class1 {
       color: black;
       font-size: 1em;
+    }
+
+    .arrowToGoUp{
+      display: none;    
     }
  
     .meGusta {
