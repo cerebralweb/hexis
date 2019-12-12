@@ -1,5 +1,14 @@
 /*------------------------------------------ DESKTOP -----------------------------------------*/
 
+.radialGrandientDark {
+    width: 100%;
+    height: 35em;
+    top: 0px;
+    padding: 8em;
+    box-sizing: border-box;
+    background: repeating-radial-gradient(circle at -76px -9px, rgb(16, 77, 77) 10px, rgb(61, 19, 19) 20px);)
+}
+
 .linearGrandientFrenchFlag {
     width: 100%;
     height: 35em;
@@ -79,6 +88,15 @@
 
 @media screen and (min-width: 760px) and (max-width: 1024px) {
 
+    .radialGrandientDark {
+        width: 100%;
+        height: 30em;
+        top: 0px;
+        padding: 5em;
+        box-sizing: border-box;
+        background: repeating-radial-gradient(circle at -76px -9px, rgb(16, 77, 77) 10px, rgb(61, 19, 19) 20px);)
+    }
+
     .linearGrandientFrenchFlag {
         width: 100%;
         height: 30em;
@@ -153,6 +171,15 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
+
+    .radialGrandientDark {
+        width: 100%;
+        height: 15em;
+        top: 0px;
+        padding: 3em;
+        box-sizing: border-box;
+        background: repeating-radial-gradient(circle at -76px -9px, rgb(16, 77, 77) 10px, rgb(61, 19, 19) 20px);)
+    }
 
     .linearGrandientFrenchFlag {
         width: 100%;
