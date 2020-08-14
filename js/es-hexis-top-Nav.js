@@ -35,7 +35,7 @@ const miNavEs = `<div class="topnav" id="myTopnav">
 //render IN a container id
 document.getElementById('es-hexis-top-Nav').insertAdjacentHTML('afterbegin', miNavEs);
 //this use the var translation to charge a url
-document.getElementById('traducir').href = traducir;
+document.getElementById('traducir').href = translation;
 
 //Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon 
 function responsiveIcon() {
