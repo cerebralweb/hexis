@@ -5,9 +5,9 @@ const newsletter_es = `
 <p>Quincenalmente, el equipo editorial de Toc cura una lista con los mejores contenidos sobre
     el consumo online, producidos por Bloomberg, The Economist, YPulse, WARC y Hexis-Toc.
     Suscríbete y recíbela </p>
-<form name="contact" method="POST" netlify netlify-honeypot="bot-field">            
+<form name="contact" method="POST" netlify netlify-honeypot="bot-field" hidden>            
     <p><input type="email" name="email" placeholder="email"
-               pattern="[a-zA-Z0-9.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
+               pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
                />
     </p>            
     <p> <button type="submit">Hello Toc</button></p>
