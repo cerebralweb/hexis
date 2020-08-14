@@ -1,14 +1,162 @@
+
+
 * {box-sizing: border-box; margin: 0px;
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto", "Arial",sans-serif;
     font-size: 1em;
   }
 
+  .smallerFont{
+    font-size: .1rem;
+  }
 
-  /*==========================================HEADER ANIMATION===========================================*/
+
+/* TOPNAV
+  =====================================================================================================*/
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: 1px dotted black;
+}
+
+.logo1 {  
+  float: left;  
+  margin-top: 8px;  
+  margin-left: -60px;
+  height: 50px;
+  width: 15%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color:rgb(209, 209, 209);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  z-index: 4;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed; /*this is the problem in SAFARI*/
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(158, 158, 158);
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1074px) {
+  .logo1{
+    display: none;
+  }
+  .topnav a {
+    float: left;
+  }
+  .topnav a:not(:nth-child(3)), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-right: 1em;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
+ This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1074px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative; }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* DESKTOP
+  ================================================================================================================================================
+  ================================================================================================================================================*/
+
+  /**************** HEADER ANIMATION******************/
 
 /* #contenedorHeader ≠ .contenedorHeader. #contenedorHeader is for pages like insights.html, where the navBar is animated */
 
-  #contenedorHeader {   
+  .contenedorHeader {   
     width: 100%;
     height: 60px;
     top: -60px;
@@ -18,7 +166,7 @@
     } 
 
   .slogan {
-    animation: squaresBannerController 10s infinite;
+    animation: none;
     animation-iteration-count: 2;
     display: flex;
     flex-wrap: wrap;
@@ -62,15 +210,15 @@
   
   30% { background-color: rgb(239, 242, 243);}
   
-  40% { background-color: rgb(239, 242, 243);}       
+  40% { background-color: black;}       
   
-  50% { background-color: rgb(239, 242, 243);}
+  50% { background-color: black}
   
   60% { background-color: black;}
   
-  70% { background-color: black}
+  70% { background-color: rgb(239, 242, 243)}
   
-  80% { background-color: black;}
+  80% { background-color: rgb(239, 242, 243);}
 
   90% { background-color: rgb(239, 242, 243);}
   
@@ -85,7 +233,7 @@
 }
 
 .child {
-    animation: colorController 10s infinite;
+    animation: colorController 20s infinite;
     animation-iteration-count: 5;
     background-color: rgb(239, 242, 243);
     width: 10em;
@@ -180,7 +328,7 @@ p.bigTopRight {
 
 /*===============================================================some GENERAL STUFF========================================================*/
   h2{
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 5px;
   }
 
@@ -238,13 +386,12 @@ ol {
   margin: 2em .1em;
 }
     
-    ol li:before {
+    ol.triangle li:before {
       content: "►"; 
       color: rgb(14, 151, 241); 
       font-size: 1rem; 
       padding: 20px; 
-      margin-left: -60px;
-      
+      margin-left: -60px;      
     }
 
 ul {
@@ -331,15 +478,22 @@ a.class1:active {
   text-align: right;
   text-decoration: none;
   display: inline-block;
-  transition-duration: .6s;
-  border-right: 0px solid white;
-  cursor: pointer;}
+  border-right: 3px solid white;
+}
 
-.animatedButton:link  {text-decoration: none; padding: 3%; color: black}
+.animatedButton:link  {
+  text-decoration: none; padding: 3%; color: black;
+  border-right: 3px solid white;
+  transition-property: border-right;
+  transition-duration: 1s;
+  transition-delay: .1s;
+}
 .class4:visited { color:black;}
 .animatedButton:hover {
   border-right: 3px solid orange;
-  color: black;}  
+  
+  color: black;
+}  
 .animatedButton:active {color: black;}
 
   
@@ -363,35 +517,6 @@ a.class1:active {
   background-color: whitesmoke;   
   top: 0px; 
   }
-
-
-.logo1 {  
-  float: left; 
-  margin-left: -2%;  
-  margin-top: 8px;  
-  height: 50px;
-  width: 15%;
-}
-
-.logo {  
-  float: left; 
-  margin-left: -4%;  
-  margin-top: 8px;  
-  color: rgb(248, 156, 8);
-  font-size: 1.5rem;
-  font-weight: 300;   
-  width: 15%;
-}
-
-nav 
-{          
-    float: right;
-    padding: 1em 0em;
-    box-sizing: border-box;
-    width: 38%;
-   
-  } 
-
     
   .slogan-code {
     width: 100%;
@@ -494,7 +619,7 @@ nav
     font-size: 1.3em;
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 97%;
    margin: 30px auto;
   text-align: justify;
   }
@@ -570,7 +695,7 @@ a.section-button {
   font-size: .7em;
   color: rgb(14, 151, 241);
   border: 1px solid rgb(248, 156, 8);
-  padding: 3px;
+  padding: 4px;
   text-decoration: none; 
 }
 a.section-button-bigger {
@@ -583,71 +708,7 @@ a.section-button:active {
 
 a.section-button:hover{
   color: rgb(14, 151, 241);
-  background-color: rgb(247, 251, 253);
-}
-
-
-/* desktop Blog List BLOG
-============================================================================*/
-
-.contenedorEncabezado {
-  width: 100%; 
-  font-size: 4.2rem; 
-  border-bottom: 10px solid whitesmoke;
-  background: repeating-linear-gradient(80deg, whitesmoke, rgb(209, 211, 204) 3px);
-  text-align: center;
-  }
-
-
-.flexBlog {
-  display: flex;
-  flex-flow: row wrap;
-  margin: .5em;
-  width: 100%;
-  padding: 1em;
-  box-sizing: border-box;
-  align-items: baseline;
-  justify-content: center;    
-}
-
-.postPreviewTitleUnit {
-  width: 98%;
-  max-width: 98%;  
-  padding: 2em;
-  padding: 1em;
-  flex: none;
-}
-
-
-.postPreviewContentUnit {
-  width: 25em;
-  max-width: 30em;  
-  padding: 1em;
-  flex: auto;
-  font-weight: 300;
-}
-
-
-.imageInPostPreview {
-  width: 100%;
-  height: auto;
-}
-
-.imageInPostPreviewForSquares {
-  width: auto;
-  height: 15em;
-}
-
-
-.tituloPostPreview {
-  font-size: 1.7em;
-  font-weight: 400;
-  margin: 1em 0em;
-}
-
-.sectionButtonContainer{
-  width: 20em;
-  margin-top: 1em;
+  
 }
 
 
@@ -656,12 +717,124 @@ a.section-button:hover{
 
 
 .contenedorEncabezadoPodcast {  
+  animation: titleBlogMotion 10s infinite;
+  animation-iteration-count: infinite;
   width: 100%; 
-  height: 5em;
-  font-size: 4.2rem; 
+  height: 20em;
   background: repeating-linear-gradient(10deg, rgb(14, 151, 241), whitesmoke 2px);
-  padding: 2em;
-  text-align: center;
+  padding: 8em;  
+  }
+
+  @keyframes titleBlogMotion {
+    1% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    2% {background: repeating-linear-gradient(80.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    3% {background: repeating-linear-gradient(80.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    4% {background: repeating-linear-gradient(80.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    5% {background: repeating-linear-gradient(80.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    6% {background: repeating-linear-gradient(80.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    7% {background: repeating-linear-gradient(80.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    8% {background: repeating-linear-gradient(80.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    9% {background: repeating-linear-gradient(80.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    10% {background: repeating-linear-gradient(80.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    11% {background: repeating-linear-gradient(81deg, rgb(14, 151, 241), whitesmoke 3px);}
+    12% {background: repeating-linear-gradient(81.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    13% {background: repeating-linear-gradient(81.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    14% {background: repeating-linear-gradient(81.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    15% {background: repeating-linear-gradient(81.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    16% {background: repeating-linear-gradient(81.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    17% {background: repeating-linear-gradient(81.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    18% {background: repeating-linear-gradient(270deg, rgb(14, 151, 241), whitesmoke 3px);}
+    19% {background: repeating-linear-gradient(270deg, rgb(14, 151, 241), whitesmoke 3px);}
+    20% {background: repeating-linear-gradient(82   deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    21% {background: repeating-linear-gradient(82.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    22% {background: repeating-linear-gradient(82.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    23% {background: repeating-linear-gradient(82.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    24% {background: repeating-linear-gradient(82.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    25% {background: repeating-linear-gradient(82.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    26% {background: repeating-linear-gradient(82.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    27% {background: repeating-linear-gradient(82.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    28% {background: repeating-linear-gradient(82.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    29% {background: repeating-linear-gradient(82.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    30% {background: repeating-linear-gradient(83deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    31% {background: repeating-linear-gradient(83.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    32% {background: repeating-linear-gradient(83.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    33% {background: repeating-linear-gradient(83.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    34% {background: repeating-linear-gradient(83.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    35% {background: repeating-linear-gradient(83.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    36% {background: repeating-linear-gradient(83.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    37% {background: repeating-linear-gradient(83.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    38% {background: repeating-linear-gradient(83.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    39% {background: repeating-linear-gradient(83.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    40% {background: repeating-linear-gradient(84deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    41% {background: repeating-linear-gradient(84.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    42% {background: repeating-linear-gradient(84.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    43% {background: repeating-linear-gradient(130deg, rgb(14, 151, 241), whitesmoke 3px);}
+    44% {background: repeating-linear-gradient(130deg, rgb(14, 151, 241), whitesmoke 3px);}
+    45% {background: repeating-linear-gradient(84.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    46% {background: repeating-linear-gradient(84.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    47% {background: repeating-linear-gradient(84.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    48% {background: repeating-linear-gradient(84.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    49% {background: repeating-linear-gradient(84.9deg, rgb(14, 151, 241)(14, 151, 241)ack, whitesmoke 3px);}
+    50% {background: repeating-linear-gradient(85deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    51% {background: repeating-linear-gradient(85.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    52% {background: repeating-linear-gradient(85.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    53% {background: repeating-linear-gradient(85.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    54% {background: repeating-linear-gradient(85.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    55% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    56% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    57% {background: repeating-linear-gradient(85.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    58% {background: repeating-linear-gradient(85.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    59% {background: repeating-linear-gradient(85.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    60% {background: repeating-linear-gradient(86deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    61% {background: repeating-linear-gradient(86.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    62% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    63% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    64% {background: repeating-linear-gradient(86.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    65% {background: repeating-linear-gradient(86.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    66% {background: repeating-linear-gradient(86.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    67% {background: repeating-linear-gradient(86.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    68% {background: repeating-linear-gradient(86.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    69% {background: repeating-linear-gradient(86.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    70% {background: repeating-linear-gradient(87deg, rgb(14, 151, 241), whitesmoke 3px);}
+    
+    71% {background: repeating-linear-gradient(87.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    72% {background: repeating-linear-gradient(87.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    73% {background: repeating-linear-gradient(87.3deg, rgb(14, 151, 241), whitesmoke 3px);}
+    74% {background: repeating-linear-gradient(87.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    75% {background: repeating-linear-gradient(87.5deg, rgb(14, 151, 241), whitesmoke 3px);}
+    76% {background: repeating-linear-gradient(87.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    77% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    78% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    79% {background: repeating-linear-gradient(87.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    80% {background: repeating-linear-gradient(89deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    81% {background: repeating-linear-gradient(89.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    82% {background: repeating-linear-gradient(89.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    83% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    84% {background: repeating-linear-gradient(89.4deg, rgb(14, 151, 241), whitesmoke 3px);}
+    85% {background: repeating-linear-gradient(89.5deg, rgb(14, 151, 241)(14, 151, 241)ack, whitesmoke 3px);}
+    86% {background: repeating-linear-gradient(89.6deg, rgb(14, 151, 241), whitesmoke 3px);}
+    87% {background: repeating-linear-gradient(89.7deg, rgb(14, 151, 241), whitesmoke 3px);}
+    88% {background: repeating-linear-gradient(89.8deg, rgb(14, 151, 241), whitesmoke 3px);}
+    89% {background: repeating-linear-gradient(89.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    90% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+  
+    91% {background: repeating-linear-gradient(89.1deg, rgb(14, 151, 241), whitesmoke 3px);}
+    92% {background: repeating-linear-gradient(89.2deg, rgb(14, 151, 241), whitesmoke 3px);}
+    93% {background: repeating-linear-gradient(89.9deg, rgb(14, 151, 241), whitesmoke 3px);}
+    94% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+    95% {background: repeating-linear-gradient(80deg, rgb(14, 151, 241), whitesmoke 3px);}
+    96% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+    97% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+    98% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+    99% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
+    90% {background: repeating-linear-gradient(90deg, rgb(14, 151, 241), whitesmoke 3px);}
   }
 
 .modularEntryToPodcast{  
@@ -693,104 +866,67 @@ a.section-button:hover{
 }
 
 
-
-  /*FOOTER desktop
-  ====================================================================================================*/
+/*FOOTER desktop
+    ====================================================================================================*/
+ 
+    address {
+      font-style: normal;
+    }
+    form{
+      margin: 1em 0em;
+    }
+     
+      .contenedorFooter { 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-align: justify;
+        padding: 0em 0em;
+        line-height: .5em;
+        align-items: center;
+        border-top: 5px solid rgb(14, 151, 241);
+      }
+    
+      .caja-child-footer {
+        margin: 2em;   
+        color: rgb(14, 151, 241);
+      }
+        
+      .contenedorSubscribirse {    
+        max-width: 20em;
+        max-height: 10em;
+        padding: 1em 5em 1em 1em;
+        flex: 0 1 auto;
+        outline: 0.2rem solid rgb(14, 151, 241);
+        color: black;
+        line-height: 2em;
+      }
   
-  p.typo-for-footer {
-    font-size: 1.1em;
-    font-style: normal;
-  }
+      .contenedorSubscribirse > p {
+        line-height: 1.5em;
+      }
   
-  .contenedorFooter { 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: justify;
-    align-items: center;
-    border-top: 5px solid rgb(14, 151, 241);
-  }
-
-  .caja-child-footer {
-    margin: 4em;   
-  }
-
+      button{
+        margin: 1em 0em;
+      }    
+      
+    .contenedor-site-map {
+      flex: 0 1 auto;
+      padding-top: 0;
+    }
   
-  .contenedorSubscribirse {    
-    max-width: 22em;
-    max-height: 10em;
-    flex: 0 1 auto;
-    padding: 1em 5em 1em 1em;
-    outline: 0.2rem solid rgb(14, 151, 241);
-  }
+        
   
-.contenedor-site-map {
-  flex: 0 1 auto;
-  padding-top: 0;
-}
 
-  .redesFooter {  
-    margin: 2em;
+  .copyRights {  
     padding: .5em 1em;
-    border: .1rem solid  rgb(248, 156, 8);
-    color: rgb(14, 151, 241);  
+      background-color: rgb(241, 240, 240);
+      color: rgb(14, 151, 241);  
+      line-height: 1.5em;
+      text-align: center;
   }
   
-  .contenedorAdress {   
-    flex: 0 2 auto;
-    padding: .7rem;
-  }
-
-
-
-  /*BANNER telephone
-  ====================================================================================================*/
-  .bannerCall {width: 100%; clear: both;}
-
-  .bannerCallWallUp {width: 100%; height: 30px;
-  background-color: rgb(0, 0, 0);}
-  .bannerCallWallDown {width: 100%; height: 200px;
-    background-color:  rgb(151, 208, 246);}
-  .bannerCallDerecha {width: 60%; height: 500px; float: right; margin-top: -155px}
-  .bannerCallIzquierda {width: 40%; height: 500px; float: left; text-align: center; margin-top: 220px;}
-
-
-/*Convocatoria
-  ====================================================================================================*/
-
-.contenedorConvocatoria {text-align: center;}
-
-.botonParticipar {
-  margin-left: 45%;
-  margin-right: 45%;
-  min-height: 35px;
-  border: solid 1px orange;
-  margin-bottom: 80px;
-}
-.bannerObjetivo {padding: 3%;
-  margin-right: 20%;
-  margin-left: 20%;
-  background-color: rgb(248, 238, 220);
-}
-.contenedorPorqueHexis {
-  background-color: azure;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 2%;
-}
-.contenedorPerfiles {
-  background-color: azure;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 2%;
-}
-.bannerPerfil {
-  padding: 3%;
-  margin-right: 5%;
-  margin-left: 5%;
-  background-color: rgb(248, 238, 220);
-}
-
+ 
 
 
   /* MEDIA queries
@@ -822,7 +958,7 @@ a.section-button:hover{
     }
 
     .child {
-      animation: colorController 10s infinite;
+      animation: colorController 9s infinite;
       animation-iteration-count: 5;
       background-color: rgb(239, 242, 243);
       width: 9em;
@@ -893,33 +1029,12 @@ a.section-button:hover{
   }
 
 
-.logo1 { 
-  display: none; 
-
-}
-
-.logo {  
-  float: right;   
-  margin: 5px 30px 0px 0px;  
-  font-size: 2rem;
-  font-weight: 300;   
-  width: 20%;
-}
-
-nav {
-display: none;
-width: 100%;
-margin-top: 0px;
-margin-right: 0px;
-padding-right: 4px;
-text-align: right;
-font-size: .7rem;
-box-sizing: border-box;          
-background-color:whitesmoke;  
-}
-
 
 /*============================ @media MAIN================*/
+
+.contenedorMainIndexNegativeMarginTop{
+  margin-top: 2rem;
+}
 
     .contenedorMain {
       width: 100%;
@@ -974,7 +1089,8 @@ background-color:whitesmoke;
     .bannerFlotante {
       width: 100%;
       padding: 2%;
-      margin: 3% 0% 0%;
+      
+
   }
 
   .videoHexis {
@@ -1035,80 +1151,12 @@ background-color:whitesmoke;
 }
 
 .bannerTusPreguntas {
-  padding: 2%; width: 100%; margin-top: 10em; margin-bottom: 50px
-}
-
-
-
-
-
-
-/*@mediaBLOG
-  ====================================================================================================*/
-
-  .logo {  
-    float: right;   
-    margin: 5px 35px 0px 0px;  
-    font-size: 1.7rem;
-    font-weight: 300;   
-    width: 20%;
-  }
-/* -----------------------------------@media desktop Blog List BLOG ============================================================================*/
-
-.contenedorEncabezado {
+  padding: 2%; 
   width: 100%; 
-  font-size: 2.2rem; 
-  text-align: center;
-  box-sizing: border-box;
-  }
-
-
-.flexBlog {
-  display: flex;
-  flex-flow: row wrap;  
-  width: 100%;  
-  box-sizing: border-box;
-  justify-content: center;   
-  margin: 0em; 
-  padding: 1em; 
+  margin-top: 5em;
 }
 
 
-.postPreviewContentUnit {
-  width: 20em;
-  max-width: 21em;  
-  padding: 2em; 
-  flex: auto;
-  margin: 0em;
-  font-weight: 300;
-}
-
-
-.imageInPostPreview {
-  width: 100%;
-  height: auto;
-}
-
-.imageInPostPreviewForSquares {
-  width: auto;
-  height: 15em;
-}
-
-
-.tituloPostPreview {
-  font-size: 1.7em;
-  font-weight: 400;
-  margin: 1em 0em;
-  text-align: left;
-}
-
-.sectionButtonContainer{
-  width: 20em;
-  margin-top: 1em;
-}
-
- 
-  
 
 
 /*-------------------------------------- @media PODCAST -----------------=============================================*/
@@ -1150,25 +1198,6 @@ background-color:whitesmoke;
 
 
 
-
-          /*Convocatoria
-  ====================================================================================================*/
-
-.contenedorConvocatoria {text-align: center;}
-
-.botonParticipar {min-width: 180px; max-width: 90%; margin-left: 5%; margin-right: 5%; min-height: 35px; border: solid 1px orange; margin-bottom: 80px;}
-.bannerObjetivo {padding: 3%; margin-right: 4%; margin-left: 4%; background-color: rgb(248, 238, 220);}
-.contenedorPorqueHexis {background-color: azure; margin-right: 4%; margin-left: 4%;  padding: 2%;}
-.contenedorPerfiles {background-color: azure; margin-right: 4%; margin-left: 4%;  padding: 2%;}
-.bannerPerfil {padding: 3%; margin-right: 2%; margin-left: 2%; background-color: rgb(248, 238, 220);}
-
-/*Nosotros
-  ====================================================================================================*/
-
-  .bannerTusPreguntas {
-    padding: 3%; width: 100%; background-color: rgb(187, 227, 253); margin-top: 100px; margin-bottom: 50px
-  }
-
  /*FOOTER mobile MEDIA queries
   ====================================================================================================*/
   .contenedorFooter { 
@@ -1196,12 +1225,7 @@ background-color:whitesmoke;
     flex: 0 2 auto;
     padding: .7rem 0em;
   }  
-    .redesFooter {  
-      margin: 2em 1em;
-      padding: .5em 1em;
-      border: .1rem solid  rgb(248, 156, 8);
-      color: rgb(14, 151, 241);  
-    }
+
   }
 
   

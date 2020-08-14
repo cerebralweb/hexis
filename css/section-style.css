@@ -1,11 +1,23 @@
 @import url(/css/postStyle.css);
 
 
+
 * {
   background-color: whitesmoke;
 }
 p.typographyForButterBanner {
   background-color: rgb(255, 247, 153);
+}
+
+
+.titulosMain {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 1em 0em;
+  padding: 1.1em 0em 0em 0em;
 }
 
 
@@ -30,16 +42,7 @@ p.typographyForButterBanner {
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-}
-
-.titulosMain {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  color: black;
-  font-size: 4rem;
-  line-height: 1.2;
-  margin: 1em 0em;
-  padding: 1.1em 0em 0em 0em;
+  margin-top: 3.7rem;
 }
 
 
@@ -184,6 +187,10 @@ ul li {
 
 @media screen and (min-width: 760px) and (max-width: 1024px) {
 
+  .containerFlexRow {
+   margin-top: 3rem;
+  }
+
   .nestedContentUnit {
     flex: auto;  
     max-width: 90%;
@@ -229,15 +236,14 @@ ul li {
     width: 100%;
     height: auto;
     max-height: 450px;
-  }
-
-  
+  } 
 }
 
-
-
-
 @media screen and (min-width: 320px) and (max-width: 760px) {
+
+  .containerFlexRow {
+    margin-top: 3rem;
+   }
   
   .contentUnit {
     max-width: 100%;
@@ -269,6 +275,7 @@ ul li {
     line-height: 1.2;
     padding: 0em 0em .3em 0em;
   }
+  
 
   .contentUnitButter {
     width: 30em;

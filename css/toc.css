@@ -1,0 +1,486 @@
+@import url(/css/postStyle.css);
+
+/*******************************************************************************************
+                                      TYPOGRAPHY
+*******************************************************************************************/
+
+.header_typo{
+  align-items: flex-end;
+  background: white;
+  display: inline-block;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 900;
+  font-size: 10rem;
+  line-height: .7;
+  opacity: .8;    
+}
+@media screen and (max-width: 1125px){
+  .header_typo{
+    font-size: 3.5rem;
+    line-height: .8;
+}
+}
+.contenedorEncabezado {
+  animation: titleBlogMotion 10s infinite;
+  animation-iteration-count: infinite;
+  width: 100%; 
+  height:  18.5rem; 
+  background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);
+  padding: 2rem;
+  text-align: center;
+  }
+
+@media screen and (max-width: 1125px){
+  .contenedorEncabezado{
+    height:  14rem; 
+  }
+  }
+@keyframes titleBlogMotion {
+  1% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  2% {background: repeating-linear-gradient(80.1deg, black, rgb(209, 211, 204) 3px);}
+  3% {background: repeating-linear-gradient(80.2deg, black, rgb(209, 211, 204) 3px);}
+  4% {background: repeating-linear-gradient(80.3deg, black, rgb(209, 211, 204) 3px);}
+  5% {background: repeating-linear-gradient(80.4deg, black, rgb(209, 211, 204) 3px);}
+  6% {background: repeating-linear-gradient(80.5deg, black, rgb(209, 211, 204) 3px);}
+  7% {background: repeating-linear-gradient(80.6deg, black, rgb(209, 211, 204) 3px);}
+  8% {background: repeating-linear-gradient(80.7deg, black, rgb(209, 211, 204) 3px);}
+  9% {background: repeating-linear-gradient(80.8deg, black, rgb(209, 211, 204) 3px);}
+  10% {background: repeating-linear-gradient(80.9deg, black, rgb(209, 211, 204) 3px);}
+
+  11% {background: repeating-linear-gradient(81deg, black, rgb(209, 211, 204) 3px);}
+  12% {background: repeating-linear-gradient(81.1deg, black, rgb(209, 211, 204) 3px);}
+  13% {background: repeating-linear-gradient(81.2deg, black, rgb(209, 211, 204) 3px);}
+  14% {background: repeating-linear-gradient(81.3deg, black, rgb(209, 211, 204) 3px);}
+  15% {background: repeating-linear-gradient(81.4deg, black, rgb(209, 211, 204) 3px);}
+  16% {background: repeating-linear-gradient(81.5deg, black, rgb(209, 211, 204) 3px);}
+  17% {background: repeating-linear-gradient(81.6deg, black, rgb(209, 211, 204) 3px);}
+  18% {background: repeating-linear-gradient(270deg, black, rgb(209, 211, 204) 3px);}
+  19% {background: repeating-linear-gradient(270deg, black, rgb(209, 211, 204) 3px);}
+  20% {background: repeating-linear-gradient(82   deg, black, rgb(209, 211, 204) 3px);}
+
+  21% {background: repeating-linear-gradient(82.1deg, black, rgb(209, 211, 204) 3px);}
+  22% {background: repeating-linear-gradient(82.2deg, black, rgb(209, 211, 204) 3px);}
+  23% {background: repeating-linear-gradient(82.3deg, black, rgb(209, 211, 204) 3px);}
+  24% {background: repeating-linear-gradient(82.4deg, black, rgb(209, 211, 204) 3px);}
+  25% {background: repeating-linear-gradient(82.5deg, black, rgb(209, 211, 204) 3px);}
+  26% {background: repeating-linear-gradient(82.6deg, black, rgb(209, 211, 204) 3px);}
+  27% {background: repeating-linear-gradient(82.7deg, black, rgb(209, 211, 204) 3px);}
+  28% {background: repeating-linear-gradient(82.8deg, black, rgb(209, 211, 204) 3px);}
+  29% {background: repeating-linear-gradient(82.9deg, black, rgb(209, 211, 204) 3px);}
+  30% {background: repeating-linear-gradient(83deg, black, rgb(209, 211, 204) 3px);}
+
+  31% {background: repeating-linear-gradient(83.1deg, black, rgb(209, 211, 204) 3px);}
+  32% {background: repeating-linear-gradient(83.2deg, black, rgb(209, 211, 204) 3px);}
+  33% {background: repeating-linear-gradient(83.3deg, black, rgb(209, 211, 204) 3px);}
+  34% {background: repeating-linear-gradient(83.4deg, black, rgb(209, 211, 204) 3px);}
+  35% {background: repeating-linear-gradient(83.5deg, black, rgb(209, 211, 204) 3px);}
+  36% {background: repeating-linear-gradient(83.6deg, black, rgb(209, 211, 204) 3px);}
+  37% {background: repeating-linear-gradient(83.7deg, black, rgb(209, 211, 204) 3px);}
+  38% {background: repeating-linear-gradient(83.8deg, black, rgb(209, 211, 204) 3px);}
+  39% {background: repeating-linear-gradient(83.9deg, black, rgb(209, 211, 204) 3px);}
+  40% {background: repeating-linear-gradient(84deg, black, rgb(209, 211, 204) 3px);}
+
+  41% {background: repeating-linear-gradient(84.1deg, black, rgb(209, 211, 204) 3px);}
+  42% {background: repeating-linear-gradient(84.2deg, black, rgb(209, 211, 204) 3px);}
+  43% {background: repeating-linear-gradient(130deg, black, rgb(209, 211, 204) 3px);}
+  44% {background: repeating-linear-gradient(130deg, black, rgb(209, 211, 204) 3px);}
+  45% {background: repeating-linear-gradient(84.5deg, black, rgb(209, 211, 204) 3px);}
+  46% {background: repeating-linear-gradient(84.6deg, black, rgb(209, 211, 204) 3px);}
+  47% {background: repeating-linear-gradient(84.7deg, black, rgb(209, 211, 204) 3px);}
+  48% {background: repeating-linear-gradient(84.8deg, black, rgb(209, 211, 204) 3px);}
+  49% {background: repeating-linear-gradient(84.9deg, black, rgb(209, 211, 204) 3px);}
+  50% {background: repeating-linear-gradient(85deg, black, rgb(209, 211, 204) 3px);}
+
+  51% {background: repeating-linear-gradient(85.1deg, black, rgb(209, 211, 204) 3px);}
+  52% {background: repeating-linear-gradient(85.2deg, black, rgb(209, 211, 204) 3px);}
+  53% {background: repeating-linear-gradient(85.3deg, black, rgb(209, 211, 204) 3px);}
+  54% {background: repeating-linear-gradient(85.4deg, black, rgb(209, 211, 204) 3px);}
+  55% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  56% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  57% {background: repeating-linear-gradient(85.7deg, black, rgb(209, 211, 204) 3px);}
+  58% {background: repeating-linear-gradient(85.8deg, black, rgb(209, 211, 204) 3px);}
+  59% {background: repeating-linear-gradient(85.9deg, black, rgb(209, 211, 204) 3px);}
+  60% {background: repeating-linear-gradient(86deg, black, rgb(209, 211, 204) 3px);}
+
+  61% {background: repeating-linear-gradient(86.1deg, black, rgb(209, 211, 204) 3px);}
+  62% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  63% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  64% {background: repeating-linear-gradient(86.4deg, black, rgb(209, 211, 204) 3px);}
+  65% {background: repeating-linear-gradient(86.5deg, black, rgb(209, 211, 204) 3px);}
+  66% {background: repeating-linear-gradient(86.6deg, black, rgb(209, 211, 204) 3px);}
+  67% {background: repeating-linear-gradient(86.7deg, black, rgb(209, 211, 204) 3px);}
+  68% {background: repeating-linear-gradient(86.8deg, black, rgb(209, 211, 204) 3px);}
+  69% {background: repeating-linear-gradient(86.9deg, black, rgb(209, 211, 204) 3px);}
+  70% {background: repeating-linear-gradient(87deg, black, rgb(209, 211, 204) 3px);}
+  
+  71% {background: repeating-linear-gradient(87.1deg, black, rgb(209, 211, 204) 3px);}
+  72% {background: repeating-linear-gradient(87.2deg, black, rgb(209, 211, 204) 3px);}
+  73% {background: repeating-linear-gradient(87.3deg, black, rgb(209, 211, 204) 3px);}
+  74% {background: repeating-linear-gradient(87.4deg, black, rgb(209, 211, 204) 3px);}
+  75% {background: repeating-linear-gradient(87.5deg, black, rgb(209, 211, 204) 3px);}
+  76% {background: repeating-linear-gradient(87.6deg, black, rgb(209, 211, 204) 3px);}
+  77% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  78% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  79% {background: repeating-linear-gradient(87.9deg, black, rgb(209, 211, 204) 3px);}
+  80% {background: repeating-linear-gradient(89deg, black, rgb(209, 211, 204) 3px);}
+
+  81% {background: repeating-linear-gradient(89.1deg, black, rgb(209, 211, 204) 3px);}
+  82% {background: repeating-linear-gradient(89.2deg, black, rgb(209, 211, 204) 3px);}
+  83% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  84% {background: repeating-linear-gradient(89.4deg, black, rgb(209, 211, 204) 3px);}
+  85% {background: repeating-linear-gradient(89.5deg, black, rgb(209, 211, 204) 3px);}
+  86% {background: repeating-linear-gradient(89.6deg, black, rgb(209, 211, 204) 3px);}
+  87% {background: repeating-linear-gradient(89.7deg, black, rgb(209, 211, 204) 3px);}
+  88% {background: repeating-linear-gradient(89.8deg, black, rgb(209, 211, 204) 3px);}
+  89% {background: repeating-linear-gradient(89.9deg, black, rgb(209, 211, 204) 3px);}
+  90% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+
+  91% {background: repeating-linear-gradient(89.1deg, black, rgb(209, 211, 204) 3px);}
+  92% {background: repeating-linear-gradient(89.2deg, black, rgb(209, 211, 204) 3px);}
+  93% {background: repeating-linear-gradient(89.9deg, black, rgb(209, 211, 204) 3px);}
+  94% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+  95% {background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);}
+  96% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+  97% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+  98% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+  99% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+  90% {background: repeating-linear-gradient(90deg, black, rgb(209, 211, 204) 3px);}
+}
+
+/*******************************************************************************************
+                                      FLEX FOR TOP NAV
+*******************************************************************************************/
+
+.flex_topNav{
+  align-items: stretch;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  display: flex;
+  z-index: 5;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0rem;
+  padding: 0rem 3rem;
+  position: sticky;
+  overflow-x: scroll;
+  top: 0px;
+  width: 100%;
+}
+.buttonUnit_topNav{
+  flex: 10%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 1rem;
+}
+.dateButton_topNav{
+  min-width: 15rem;
+  font-size: 1.3em;
+}
+/* Use em: comes from style.css */  
+@media screen and (max-width: 1125px){
+  .dateButton_topNav{
+    min-width: 15rem;
+    font-size: 1em;
+  }
+} 
+
+
+/*******************************************************************************************
+                                      FLEX CONTAINER FOR BLOG
+*******************************************************************************************/
+
+.flexContainerForBlog{
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/*******************************************************************************************
+                                      FLEX showcase
+*******************************************************************************************/
+
+.flexShowcase{  
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0rem;
+  width: 85%;
+  min-height: 100%;
+  margin: 0px auto;
+  align-items: stretch;
+}
+@media screen and (max-width: 1125px){
+  .flexShowcase{
+    width: 97%;
+}
+}
+.flexShowcase h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0rem 1rem 1rem 0rem;
+}
+.flexShowcase p{
+  margin: 0rem 1rem 1rem 0rem;
+}
+.base_unit_for_flex{
+  box-sizing: border-box;
+}
+
+.featureArticle_Title{
+  background-color: white;
+  flex-basis: 15%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 3rem;
+  font-weight: 900;  
+  order: 0;
+}
+
+.featureArticle_Image_forFlex{  
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 34%;
+  margin: 1rem;
+  order: 1;
+  width: 40%;
+  height: 100%;
+}
+.listFeatureContent_forFlex{
+  overflow-y: scroll;
+  background-color: white;
+  flex-basis: 15%;
+  flex-grow: 1;
+  flex-shrink: 1;  
+  min-width: 16.5em;
+  max-height: 25em;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem 0rem 1rem 2rem;
+  order: 2;
+  box-shadow: 0px 0px black;
+  transition:  box-shadow .5s;
+}
+.listFeatureContent_forFlex:hover{
+  box-shadow: 4px 4px black;
+}
+.listFeatureContent_forFlex h4 {
+  font-style: italic;
+  font-weight: 600;
+  border-bottom: 1px dotted black;
+  margin: 0rem 0rem .5rem;
+  padding-bottom: .5rem;
+}
+.listFeatureContent_forFlex p{
+  margin: .3rem 0rem;
+}
+
+@media screen and (max-width: 1125px){
+  .listFeatureContent_forFlex{
+    margin: 1rem .5rem 1rem .5rem;
+}
+.listFeatureContent_forFlex p{
+  font-size: 1.5rem;
+}
+}
+
+
+/*******************************************************************************************
+                                      FLEX strap > article related content
+*******************************************************************************************/
+
+.postPreviewContentUnit_tituloGrande {
+  animation: titleBlogMotion 2s infinite;
+  animation-iteration-count: infinite;
+  background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);
+  flex-basis: 20%;
+  flex-grow: 1;  
+  order: 3;
+  margin: .5rem;
+} 
+@media screen and (max-width: 1125px){
+  .postPreviewContentUnit_tituloGrande{
+    margin: 1rem;
+  }
+}
+
+.postPreviewContentUnit_tituloMediano {
+  animation: titleBlogMotion 120s infinite;
+  animation-iteration-count: infinite;
+  background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);
+  flex-basis: 10%;
+  flex-grow: 1;  
+  order: 3;
+  margin: .5rem;
+} 
+
+.postPreviewContentUnit {
+  flex-basis: 33%;
+  flex-grow: 1;  
+  padding: .5rem;  
+  order: 3;
+} 
+.narrowFlexBasis{
+  flex-basis: 30%;
+}
+@media screen and (max-width: 1125px){
+  .postPreviewContentUnit{
+    flex-basis: 100%;
+}
+}
+
+.article_bigExtent {
+  flex-basis: 68%;
+  flex-grow: 0;  
+  flex-shrink: 1;
+  padding: 2rem 0rem;
+  margin: 2rem 0rem;
+  border-top: 1px dotted black;
+  order: 5;
+} 
+@media screen and (max-width: 1125px){
+  .article_bigExtent{
+    flex-basis: 100%;
+}
+}
+
+.order7 {
+  order: 7;
+}
+
+.article_bigExtent p{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 1125px){
+  .article_bigExtent p{
+    font-size: 1.3rem;
+}
+}
+.article_bigExtent h2{
+  font-style: italic;
+  font-weight: 700;
+}
+
+.newsletter_bigExtent_side{
+  border: 1px solid black;
+  box-shadow: 0px 0px black;
+  flex-basis: 25%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin: 2rem 0rem 0rem 2rem;
+  max-height: 23rem;
+  padding: 1rem 0rem 0rem 1rem;
+  order: 6;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+}
+@media screen and (max-width: 1125px){
+  .newsletter_bigExtent_side{
+    margin: 1rem .2rem;
+  }
+}
+.newsletter_bigExtent_side:hover{
+  box-shadow: 2px 2px black;
+}
+.newsletter_bigExtent_side h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  border-bottom: 1px dotted black;
+  margin: 0rem 0rem .5rem;
+  padding-bottom: .5rem;
+}
+
+.buyCoffee{
+  border: 1px solid black;
+  box-shadow: 0px 0px black;
+  flex-basis: 25%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin: 2rem 0rem 0rem 2rem;
+  min-height: 13rem;
+  max-height: 21rem;
+  padding: 1rem 0rem 0rem 1rem;
+  order: 8;
+}
+@media screen and (max-width: 1125px){
+  .buyCoffee{
+    margin: 1rem .2rem 3rem .2rem;
+    min-height: 15rem;
+    max-height: 20rem;
+  }
+}
+.buyCoffee h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  border-bottom: 1px dotted black;
+  margin: 0rem 0rem .5rem;
+  padding-bottom: .5rem;
+}
+
+
+.imageInPostPreview {
+  width: 100%;
+  height: auto;
+}
+
+.tituloPostPreview_grande {
+  align-items: flex-end;
+  background: white;
+  display: inline-block;
+  opacity: .8;      
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0em 0em;
+}
+
+@media screen and (max-width: 1125px){
+  .tituloPostPreview_grande{
+    font-size: 2.5rem ;
+  }
+}
+
+.tituloPostPreview_mediano {
+  align-items: flex-end;
+  background: white;
+  display: inline-block;
+  opacity: .6;      
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center
+}
+.tituloPostPreview {
+  font-size: 1.7em;
+  font-weight: 900;
+  margin: 0em 0em;
+}
+
+
+/*******************************************************************************************
+                                      PAGINATION
+*******************************************************************************************/
+.paginatorWrapper{
+  text-align: center;
+  margin: 2rem;
+}
+.paginator{
+  display: flex;
+  overflow-x: scroll;
+}
+.paginator a{
+  flex-basis: 10%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid grey;
+  color: black;
+  float: left;
+  margin: 2px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.paginator a.active{
+  background-color: rgb(202, 230, 250);
+}
+.paginator a:hover:not(.active){
+  background-color: whitesmoke;
+}

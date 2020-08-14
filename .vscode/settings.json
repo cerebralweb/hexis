@@ -7,17 +7,22 @@
     "butter",
     "coherentemente",
     "content",
+    "disqus",
     "empatía",
     "espeleólogo",
     "etnografías",
     "frameborder",
     "genéticamente",
     "grandiente",
+    "hexis",
     "hongkonesa",
     "ilustracion",
     "index",
     "main",
+    "my",
+    "scroll",
     "titulos",
+    "top",
     "unit",
     "veintitantos"
   ],
@@ -27,5 +32,6 @@
   
   
   ],
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "editor.tabSize": 2
 }
