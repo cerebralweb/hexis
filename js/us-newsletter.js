@@ -4,8 +4,9 @@ const newsletter_es = `
             
 <p>Every two weeks, the Toc editorial team curates a list of the best content on online consumption, 
 produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Subscribe and receive it. </p>
-<form name="contact" method="POST" netlify>            
-    <p><input type="email" name="email" placeholder="email"     
+<form name="contact" method="POST" netlify netlify-honeypot="bot-field">            
+    <p><input type="email" name="email" placeholder="email"
+               
                />
     </p>            
     <p> <button name="button" type="submit">Hello Toc</button></p>
@@ -13,5 +14,3 @@ produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Su
 `;
 document.getElementById('us-newsletter').insertAdjacentHTML('afterbegin', newsletter_es);
 //problem ? in the regex: an escaped dot (just erase the regex)
-
-//pattern="[a-zA-Z0-9.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
