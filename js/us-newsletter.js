@@ -9,7 +9,7 @@ produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Su
                pattern="[a-zA-Z0-9.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
                />
     </p>            
-    <p> <button type="submit">Hello Toc</button></p>
+    <p> <button name="button" type="submit">Hello Toc</button></p>
 </form>
 `;
 document.getElementById('us-newsletter').insertAdjacentHTML('afterbegin', newsletter_es);
