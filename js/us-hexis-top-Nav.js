@@ -10,8 +10,8 @@ const miNavEs = `<div class="topnav" id="myTopnav">
 
     <div class="dropdown-content">
         <a href="/us-technology.html">Technology</a>
-        <a href="us-consultancy.html">Consulting</a>
-        <a href="us-insights.html">Insights</a>
+        <a href="/us-consultancy.html">Consulting</a>
+        <a href="/us-insights.html">Insights</a>
     </div>
 </div>
 
@@ -20,7 +20,7 @@ const miNavEs = `<div class="topnav" id="myTopnav">
     </button>
 
     <div class="dropdown-content">
-        <a href="toc.html">Blog</a>
+        <a href="/toc.html">Blog</a>
         <a href="/us-podcast.html">Podcast</a>
         <a href="/us-infographics.html">Infographics</a>
     </div>
