@@ -6,7 +6,7 @@ const newsletter_es = `
 produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Subscribe and receive it. </p>
 <form name="contact" netlify netlify-honeypot="bot-field">            
     <p><input type="email" name="email" placeholder="email"
-               
+    pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
                />
     </p>            
     <p> <button name="button" type="submit">Hello Toc</button></p>
