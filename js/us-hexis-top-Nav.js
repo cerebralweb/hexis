@@ -2,7 +2,7 @@
 const miNavEs = `<div class="topnav" id="myTopnav">
 <img class="logo1" src="/favicon/logoHexis1.svg">
 <a href="" target="_self" id="traducir">ES</a>
-<a  href="us-home.html">Hexis</a>
+<a  href="/us-home.html">Hexis</a>
 <a href="/us-about.html">About</a>
 <div class="dropdown">
     <button class="dropbtn">Products <i class="fa fa-caret-down"></i>
