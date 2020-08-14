@@ -4,7 +4,7 @@ const newsletter_es = `
             
 <p>Every two weeks, the Toc editorial team curates a list of the best content on online consumption, 
 produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Subscribe and receive it. </p>
-<form name="newsletter" method="POST" data-netlify="true" action="/es-toc.html">            
+<form name="newsletter" method="POST" data-netlify="true" action="https://www.hexis.cc/toc.html">            
     <p><input type="email" name="email" placeholder="email"
                pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
                />
