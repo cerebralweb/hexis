@@ -367,7 +367,8 @@
   flex-grow: 1;
   flex-shrink: 0;
   margin: 2rem 0rem 0rem 2rem;
-  max-height: 23rem;
+  min-height: 25rem;
+  max-height: 25rem;
   padding: 1rem 0rem 0rem 1rem;
   order: 6;
   transition-property: box-shadow;
@@ -396,16 +397,14 @@
   flex-grow: 1;
   flex-shrink: 0;
   margin: 2rem 0rem 0rem 2rem;
-  min-height: 13rem;
-  max-height: 21rem;
+  min-height: 19rem;
+  max-height: 19rem;
   padding: 1rem 0rem 0rem 1rem;
   order: 8;
 }
 @media screen and (max-width: 1125px){
   .buyCoffee{
     margin: 1rem .2rem 3rem .2rem;
-    min-height: 15rem;
-    max-height: 20rem;
   }
 }
 .buyCoffee h4 {
