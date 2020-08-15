@@ -9,11 +9,11 @@ const newsletter_es = `
     <form 
     name="contact" 
     method="POST"
-    action="/success"
-    
+    action="/success"    
     netlify-honeypot="bot-field"
-    data-netlify-recaptcha="true" 
-    data-netlify="true">
+    
+    data-netlify="true"
+    >
   
   <input type="hidden" name="form-name" value="contact">  
   
