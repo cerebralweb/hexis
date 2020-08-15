@@ -11,7 +11,6 @@ const newsletter_es = `
     method="POST"
     action="/success"    
     netlify-honeypot="bot-field"
-    
     data-netlify="true"
     >
   
@@ -24,7 +23,6 @@ const newsletter_es = `
   </label>
   </p>
  
-  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Enviar</button>
   </p>
