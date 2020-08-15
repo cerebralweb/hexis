@@ -10,7 +10,7 @@ const newsletter_es = `
     name="contact" 
     method="POST"
     action="/success"
-    enctype="application/x-www-form-urlencoded"
+    
     netlify-honeypot="bot-field"
     data-netlify-recaptcha="true" 
     data-netlify="true">
