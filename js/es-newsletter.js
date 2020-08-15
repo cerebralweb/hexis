@@ -6,7 +6,7 @@ const newsletter_es = `
     el consumo online, producidos por Bloomberg, The Economist, YPulse, WARC y Hexis-Toc.
     Suscríbete y recíbela </p>
     
-    <form 
+<form 
     name="contact" 
     method="POST"
     action="/success"    
@@ -27,9 +27,6 @@ const newsletter_es = `
   </p>
 </form>
 
-
-
-</form>
 `
 document.getElementById('es-newsletter').insertAdjacentHTML('afterbegin', newsletter_es);
 //problem ? in the regex: an escaped dot (just erase the regex)

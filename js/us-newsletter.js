@@ -4,12 +4,25 @@ const newsletter_es = `
             
 <p>Every two weeks, the Toc editorial team curates a list of the best content on online consumption, 
 produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Subscribe and receive it. </p>
-<form name="contact" netlify netlify-honeypot="bot-field">            
-    <p><input type="email" name="email" placeholder="email"
-    pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
-               />
-    </p>            
-    <p> <button name="button" type="submit">Hello Toc</button></p>
+<form 
+    name="contact" 
+    method="POST"
+    action="/success"    
+    netlify-honeypot="bot-field"
+    data-netlify="true"
+    >
+  
+  <input type="hidden" name="form-name" value="contact">  
+  
+  <p>
+  <label for="email">Tu correo:
+    <input name="email" type="email" required>
+  </label>
+  </p>
+ 
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
 `;
 document.getElementById('us-newsletter').insertAdjacentHTML('afterbegin', newsletter_es);
