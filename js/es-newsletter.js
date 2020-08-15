@@ -6,20 +6,27 @@ const newsletter_es = `
     el consumo online, producidos por Bloomberg, The Economist, YPulse, WARC y Hexis-Toc.
     Suscríbete y recíbela </p>
     
-    <form name="contact" method="POST" action="/success" enctype="application/x-www-form-urlencoded" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+    <form 
+    name="contact" 
+    method="POST"
+    action="/success"
+    enctype="application/x-www-form-urlencoded"
+    netlify-honeypot="bot-field"
+    data-netlify-recaptcha="true" 
+    data-netlify="true">
   
-  <input type="hidden" name="form-name" value="contact">
-
+  <input type="hidden" name="form-name" value="contact">  
   
   
-  
-  <label for="email">What is your email address?
+  <p>
+  <label for="email">Tu correo:
     <input name="email" type="email" required>
   </label>
+  </p>
  
   <div data-netlify-recaptcha="true"></div>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit">Enviar</button>
   </p>
 </form>
 
