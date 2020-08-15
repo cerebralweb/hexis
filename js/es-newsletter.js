@@ -5,16 +5,25 @@ const newsletter_es = `
 <p>Quincenalmente, el equipo editorial de Toc cura una lista con los mejores contenidos sobre
     el consumo online, producidos por Bloomberg, The Economist, YPulse, WARC y Hexis-Toc.
     Suscríbete y recíbela </p>
-    <form name="contact" method="POST" data-netlify="true">
- 
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
+    
+    <form name="contact" method="POST" action="/success" enctype="application/x-www-form-urlencoded" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   
+  <input type="hidden" name="form-name" value="contact">
+
+  
+  
+  
+  <label for="email">What is your email address?
+    <input name="email" type="email" required>
+  </label>
+ 
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Send</button>
   </p>
 </form>
+
+
 
 </form>
 `
