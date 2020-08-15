@@ -19,7 +19,7 @@ produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Su
     <input 
     name="email"
     type="email"
-    required
+    
     pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
     >
     
