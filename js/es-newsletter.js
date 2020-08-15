@@ -16,7 +16,6 @@ const newsletter_es = `
   
   <input type="hidden" name="form-name" value="contact">  
   
-  
   <p>
   <label for="email">Tu correo:
     <input name="email" type="email" required>
