@@ -6,9 +6,7 @@ const newsletter_es = `
     el consumo online, producidos por Bloomberg, The Economist, YPulse, WARC y Hexis-Toc.
     Suscríbete y recíbela </p>
     <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
+ 
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
