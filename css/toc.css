@@ -162,7 +162,7 @@
   flex-wrap: nowrap;
   margin: 0rem;
   padding: 0rem 3rem;
-  
+  position: sticky;
   overflow-x: auto;
   top: 0px;
   width: 100%;
