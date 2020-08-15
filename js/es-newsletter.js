@@ -18,7 +18,13 @@ const newsletter_es = `
   
   <p>
   <label for="email">Tu correo:
-    <input name="email" type="email" required>
+    <input 
+    name="email" 
+    type="email" 
+    required
+    title="...pon un correo válido :) "
+    pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
+    >
   </label>
   </p>
  
