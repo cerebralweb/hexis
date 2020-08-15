@@ -12,14 +12,19 @@ produced by Bloomberg, The Economist, YPulse, WARC and, of course, Hexis-Toc. Su
     data-netlify="true"
     >
   
-  <input type="hidden" name="form-name" value="contact">  
+  <input 
+  type="hidden"
+  name="form-name"
+  value="contact"
+  pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
+  >  
   
   <p>
   <label for="email">Tu correo:
     <input 
     name="email"
     type="email"
-    
+    required
     pattern="[a-zA-Z0-9_.]{5,31}@(([a-zA-Z0-9]{2,6}\.)([a-zA-Z0-9]{2,4})){1}(\.[a-zA-Z0-9]{2,3})?"
     >
     
