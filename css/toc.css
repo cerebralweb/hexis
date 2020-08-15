@@ -151,19 +151,17 @@
                                       FLEX FOR TOP NAV
 *******************************************************************************************/
 
-.flex_topNav{
-  
+
+.flex_topNav{  
   background-color: rgb(255, 255, 255);
   border-bottom: 2px solid black;
   border-top: 2px solid black;
-  display: flex;
-  
-  
+  display: flex;  
   flex-wrap: nowrap;
   margin: 0rem;
   padding: 0rem 3rem;
   position: sticky;
-  overflow-x: auto;
+  overflow-x: scroll;
   top: 0px;
   width: 100%;
 }
