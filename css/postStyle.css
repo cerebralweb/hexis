@@ -106,7 +106,7 @@ a.fat_underline:hover{
 
 a.class1 {
   color: black;
-  font-size: 1.3em;
+  font-size: inherit;
 }
 
 a.class1:visited {  
