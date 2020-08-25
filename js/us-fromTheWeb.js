@@ -38,7 +38,7 @@ Health Care: Simulating Consumption Experiences
 class="class1"
 href="https://www.hexis.cc/pdfs/89258_Netnography_research_-_community_.pdf"
 >
-Netnography: ommunity insights in the cosmetic industry
+Netnography: community insights in the cosmetic industry
 </a>
 
   <p>The Guardian</p>
