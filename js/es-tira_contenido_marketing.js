@@ -10,47 +10,68 @@ const tira_contenido_marketing = `
 <div class="flexShowcase">
 
 <div class="postPreviewContentUnit">
-<h6># SEGMENTACIÓN</h6>
+<h6> # MARKETING </h6>
+  <a href="/insight/entrevista-jeisson-hurtado-director-mercadeo-mario-hernandez.html">
+    
+      <img src="/imagesToc/businessWomen.jpg" alt="Landscape" class="imageInPostPreview"
+           title="The Gender Spectrum Collection">
+  </a>
+  <h1 class="tituloPostPreview">
+    <a class="fat_underline"
+      href="/insight/entrevista-jeisson-hurtado-director-mercadeo-mario-hernandez.html">
+       No había contacto con el cliente final: entrevistamos al exDirector de mercadeo de Carrefour
+    </a>
+  </h1>
+  <p>
+    El episodio 4 de SmallData --el podcast de Hexis-- está dedicado a conversar con Jeisson Hurtado, director de mercadeo de Mario
+    Hernández, la marca colombiana número uno de productos de cuero.
+  </p>
+      <div class="sectionButtonContainer">
+        <a
+           href="/insight/entrevista-jeisson-hurtado-director-mercadeo-mario-hernandez.html"
+           class="section-button section-button-bigger">Seguir leyendo
+       </a>
+      </div>
+  </div>
 
-<img src="/imagenes5/speedo-gafas-gorros-natacion-ninos-3.jpg" alt="Gorro Speedo"
-     class="imageInPostPreviewForSquares" style="width: 97%; height: auto;">
+  <div class="postPreviewContentUnit">
+  <h6> # NETNOGRAFIA </h6>
+  <a href="/insight/el-exito-de-la-publicidad-disruptiva-kotex-nosotras-libresse.html">
 
-<h1 class="tituloPostPreview">La estrategia de Speedo en el segmento de niños</h1>
-<p>La estrategia de Speedo es relativamente segura pero está rezagada de algunas tendencias
-  del mercado. Esta fue nuestra conclusión luego de analizar la estrategia de género</p>
+    <img src="/imagesToc/womenInBathroom.jpg" alt="Landscape"
+         class="imageInPostPreview "></a>
+  <a href="/insight/el-exito-de-la-publicidad-disruptiva-kotex-nosotras-libresse.html"
+     class="fat_underline">
 
-  <a href="/insight/impulsos-de-consumo-nenes-natacion.html"
-     class="section-button section-button-bigger">Leer más</a>
-</div>
-
-<div class="postPreviewContentUnit">
-
-<h6># MARKETING</h6>
-<img src="/imagenes5/distroller-ksimeritos.jpg" alt="Ksimeritos Distroller" class="imageInPostPreview">
-
-<h1 class="tituloPostPreview">Distroller en Colombia: retos de marketing y branding</h1>
-<p>Distroller --la marca mexicana de juguetería-- ha llegado a Colombia. Su principal fortaleza es la
-  atracción que
-  muchos colombianos sienten por la cultura mexicana. Pero esa también es su principal debilidad </p>
-<div class="sectionButtonContainer">
-  <a href="/insight/brand-awareness-distroller-bogota.html"
-    class="section-button section-button-bigger">Leer más</a>
-</div>
+    <h1 class="tituloPostPreview"> El éxito de la publicidad disruptiva </h1>
+    <P>Las mujeres aman el vino, los hombres aman la cerveza. Eso es cierto para mí y falso para muchas mujeres que conozco para
+      quienes el vino y la cerveza están al mismo nivel. Por supuesto, beber alcohol es una forma de soltarse; por lo demás no tiene
+      caso pensar ahora mismo qué bebida es más "femenina". Quizás Pernod Ricard creía que las mujeres prefieren el vino, y por eso
+      hicieron este estudio.</P>
+  </a>
+  <div class="sectionButtonContainer">
+    <a href="/insight/el-exito-de-la-publicidad-disruptiva-kotex-nosotras-libresse.html"
+       class="section-button section-button-bigger">Seguir leyendo</a>
+  </div>
 </div>
   
 <div class="postPreviewContentUnit">
-
-        <h6># FIDELIZACIÓN</h6>
-        <img src="/imagenes5/xbox-mando-xbox-mexico.jpg" alt="Control de XBOX ONE" class="imageInPostPreview">
-
-        <h1 class="tituloPostPreview">Sony PS4 y Microsoft XBOX: fidelidad de marca</h1>
-        <p>El marketing de gaming en Latinoamérica no es particularmente ambicioso. La región
-          representa apenas el 4% de los ingresos mundiales de esta industria. Ese 4 %, sin embargo,
-          es mucho dinero </p>
-        <div class="sectionButtonContainer">
-          <a href="/insight/fidelidad-de-marca-sony-ps4.html" class="section-button section-button-bigger">Leer más</a>
+          <h6># VENTAS </h6>
+  
+          <img src="/imagenes5/blogBannerHeadMascotasEstadisticaHenriRousseau1910.jpg" alt="Landscape"
+               class="imageInPostPreview">
+  
+          <h1 class="tituloPostPreview">Bogotanos y mascotas (Entrega 1) </h1>
+          <p> Hoy en día, en Bogotá es común encontrar personas caminando con perros "de raza". La función de
+            Las mascotas en las familias también han cambiado. De guardianes externos se convirtieron
+            miembros de la familia. Una de las consecuencias es que la relación con las mascotas se vuelve
+            Un elemento a tener en cuenta para analizar las decisiones de consumo. </p>
+  
+          <div class="sectionButtonContainer">
+            <a href="/insight//estadistica-sobre-mascotas-y-gustos-alimenticios-en-bogota.html"
+               class="section-button section-button-bigger">Seguir leyendo</a>
+          </div>
         </div>
-      </div>
     </div>
 </section>`;
 document.getElementById('tira_contenido_marketing').insertAdjacentHTML('afterbegin', tira_contenido_marketing);

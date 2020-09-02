@@ -1,6 +1,14 @@
 //SIRVE lista de contenido hot EN ESPAÑOL
 const infoDeLa_web = ` 
 <h4>Hot Analysis</h4>
+
+<p>The Economist</p>
+<a 
+class="class1"
+href="https://www.economist.com/business/2020/08/31/staycationers-are-saving-hotels-and-airbnb-from-covid-19?fsrc=newsletter&utm_campaign=the-economist-today&utm_medium=newsletter&utm_source=salesforce-marketing-cloud&utm_term=2020-09-01&utm_content=article-link-2&etear=nl_today_2">
+Staycationers are saving hotels and Airbnb from covid-19
+</a>
+
 <p>Bloomberg</p>
 <a 
 class="class1"
@@ -41,12 +49,17 @@ href="https://www.hexis.cc/pdfs/89258_Netnography_research_-_community_.pdf"
 Netnography: community insights in the cosmetic industry
 </a>
 
-  <p>The Guardian</p>
+ 
+  `;
+  
+document.getElementById('es-infoDeLaWeb').insertAdjacentHTML('afterbegin', infoDeLa_web);
+
+/**
+ *  <p>The Guardian</p>
   <a 
   class="class1"
   href="https://www.theguardian.com/technology/2020/aug/19/facebook-funnelling-readers-towards-covid-misinformation-study"
   >
-  Facebook funnelling readers towards Covid misinformation - study</a>
-  `;
-  
-document.getElementById('es-infoDeLaWeb').insertAdjacentHTML('afterbegin', infoDeLa_web);
+  Facebook funnelling readers towards Covid misinformation - study
+  </a>
+ */
