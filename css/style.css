@@ -19,6 +19,7 @@
   top: 0px;
   width: 100%;
   border-bottom: 1px dotted black;
+  z-index: 15;
 }
 
 .logo1 {  
