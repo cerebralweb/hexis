@@ -292,7 +292,7 @@
   animation: titleBlogMotion 2s infinite;
   animation-iteration-count: infinite;
   background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);
-  flex-basis: 20%;
+  flex-basis: 35%;
   flex-grow: 1;  
   order: 3;
   margin: .5rem;
@@ -307,7 +307,7 @@
   animation: titleBlogMotion 120s infinite;
   animation-iteration-count: infinite;
   background: repeating-linear-gradient(80deg, black, rgb(209, 211, 204) 3px);
-  flex-basis: 10%;
+  flex-basis: 20%;
   flex-grow: 1;  
   order: 3;
   margin: .5rem;
@@ -424,9 +424,9 @@
 }
 
 .tituloPostPreview_grande {
-  align-items: flex-end;
-  background: white;
   display: inline-block;
+  align-items: flex-end;
+  background: white;  
   opacity: .8;      
   font-size: 4em;
   font-weight: 900;
