@@ -1,0 +1,284 @@
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Te contamos cómo una empresa de salud construye y testea un nuevo producto (y su app), combinando comunidades online e investigación cara a cara.">
+  <meta name="keywords"
+    content="marketing, antropología digital, etnografía digital, netnografía, UX research, navegador, navegación, Internet, en línea, ideas, científicos de datos, comportamiento del consumidor, marca, economía, tecnología">
+  <meta name="author" content="César Luhmann" />
+  
+
+  <!--<<<<<<<<<<< Global site tag (gtag.js) Google Analytics  >>>>>>>>>>>-->
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129024543-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-129024543-4');
+  </script>
+  <!--<<<<<<<<<<< Pop up  >>>>>>>>>>>-->
+
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+
+  <!--<<<<<<<<<<< The Open Graph protocol para Facebook  >>>>>>>>>>>-->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="El consumidor digital: testeando una app para healthcare" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:description" content="Te contamos cómo una empresa de salud construye y testea un nuevo producto (y su app), combinando comunidades online e investigación cara a cara." />
+  <meta property="og:url"
+    content="https://www.hexis.cc/insight/el-consumidor-digital-testeando-una-app-de-salud.html" />
+  <meta property="og:site_name" content="Hexis Soft & Insights" />
+  <meta property="og:image" content="https://www.hexis.cc/imagesToc/cards/digitalConsumerHealthEs.jpg" />
+
+
+  <!--<<<<<<<<<<< Twitter cards USAR URL ABSOLUTA  >>>>>>>>>>>-->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@HexisToc">
+  <meta name="twitter:creator" content="@HexisToc">
+  <meta name="twitter:title" content="El consumidor digital: testeando una app para healthcare">
+  <meta name="twitter:description" content="Te contamos cómo una empresa de salud construye y testea un nuevo producto (y su app), combinando comunidades online e investigación cara a cara.">
+  <meta name="twitter:image" content="https://www.hexis.cc/imagesToc/cards/digitalConsumerHealthEs.jpg">
+
+
+  <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
+
+  <link rel="stylesheet" href="/css/postStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,900;1,900&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+  <!--<<<<<<<<<<< Declaración: esta URL es la "original", cotejada con "duplicados" por spyders >>>>>>>>>>>-->
+
+  <link rel="canonical"
+    href="https://www.hexis.cc/insight/el-consumidor-digital-testeando-una-app-de-salud.html" />
+
+  <!-----------------------------------------------------------------------------------------------|
+                                                VARIABLES                                                           |
+ ------------------------------------------------------------------------------------------------>
+  <!-- inntopia share-link-generator/-->
+
+  <script> let translation = "/insight/us-the-digital-consumer-testing-a-health-app.html" 
+  </script>
+  <script> let twitterCard = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.hexis.cc%2Finsight%2Fel-consumidor-digital-testeando-una-app-de-salud.html&text=Te%20contamos%20c%C3%B3mo%20una%20empresa%20de%20salud%20construye%20y%20testea%20un%20nuevo%20producto%20(y%20su%20app)%2C%20combinando%20comunidades%20online%20e%20investigaci%C3%B3n%20cara%20a%20cara.%20%23health%20%23tech%20%40HexisToc";                    
+  </script>
+  <script> let linkedinCard = "http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hexis.cc%2Finsight%2Fel-consumidor-digital-testeando-una-app-de-salud.html&title=Te%20contamos%20c%C3%B3mo%20una%20empresa%20de%20salud%20construye%20y%20testea%20un%20nuevo%20producto%20(y%20su%20app)%2C%20combinando%20comunidades%20online%20e%20investigaci%C3%B3n%20cara%20a%20cara.%20%23health%20%23tech%20%40HexisToc";                    
+  </script>
+  <!--myCanonical is for Disqus setting (one for each page)-->
+  <script>let myCanonical = "https://www.hexis.cc/insight/el-consumidor-digital-testeando-una-app-de-salud.html";        
+  </script>
+  <script>let facebookCard = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hexis.cc%2Finsight%2Fel-consumidor-digital-testeando-una-app-de-salud.html";        
+  </script>
+
+  <!--<<<<<<<<<<< favicon >>>>>>>>>>>-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.hexis.cc/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.hexis.cc/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.hexis.cc/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.hexis.cc/favicon/site.webmanifest">
+  <link rel="mask-icon" href="https://www.hexis.cc/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://www.hexis.cc/favicon/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="https://www.hexis.cc">
+  <meta name="application-name" content="https://www.hexis.cc">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="https://www.hexis.cc/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--<<<<<<<<<<< title >>>>>>>>>>>-->
+
+  <title> El consumidor digital: testeando una app para healthcare </title>
+</head>
+
+<body>
+
+  <body <div class="contenedorBody">
+    <!-----------------------------------------------------------------------------------------------|
+                                                HEADER js
+     ------------------------------------------------------------------------------------------------>
+    <header id="es-hexis-top-Nav">
+    </header>
+
+    <script src="/js/es-hexis-top-Nav.js"></script>
+    <main class="contenedorMain">
+
+      <div class="titleFlexContainer">
+
+        <div class="shareInTitleFlex" id="compartirEnFlex">
+        </div>
+
+        <div class="articleTitleInFlex">
+          <h3>16 de septiembre de 2020 <a class="class2" href="https://www.linkedin.com/company/36013664/admin/"> ◦ LinkedIn</a>
+          </h3>
+
+          <h1 itemtype="about" itemtype="headline" class="titulosMainForArticles ">El consumidor digital: testeando una app para healthcare</h1>
+        </div>
+      </div>
+      <!------------------------------------------ FLEX LEFT, WRAPS THE ARTICLE ------------------------------------->
+
+      <div class="articleFlexContainer">
+
+        <div class="flex_LeftColumnContainerInArticle">
+
+          <div class="articleInfoInTheFlexContainer" id="infoArticulo">
+          </div>
+
+          <div class="webInfoInTheFlexContainer" id="es-infoDeLaWeb">
+          </div>
+
+          <script src="/js/es-infoDeLaWeb.js"></script>
+
+          <div class="extraInfoInTheFlexContainerIzq" id="contenedorOcultoIzquierda">
+            <!---------------------------------------------this component is HIDDEN------->
+          </div>
+        </div>
+
+        <script src="/js/es-infoArticulo.js"></script>
+        <!------------------------------------------ FLEX RIGHT, WRAPS THE ARTICLE ------------------------------------->
+
+        <div class="flex_RightColumnContainerInArticle">
+
+          <div class="newsletterInTheFlexContainer" id="es-newsletter">
+          </div>
+
+          <div class="extraInfoInTheFlexContainerDerecha" id="contenedorOcultoDerecha">
+            <!---------------------------------------------this component is HIDDEN------->
+          </div>
+        </div>
+
+        <script src="/js/es-newsletter.js"></script>
+        <!------------------------------------------ ARTICLE ------------------------------------->
+
+        <article itemscope itemtype="http://schema.org/Article" itemprop="articleBody" class="articleInTheFlexContainer">
+          <a class="class2" href="https://www.linkedin.com/in/cesarlpreactdev/">César Luhmann</a>
+          <p><em><span style="color: rgb(248, 156, 8);">In this article ❧ </span>Te contamos cómo una empresa de salud construye y testea un
+              nuevo producto (y su app), combinando comunidades online e investigación cara a cara. Aquí tenemos un caso donde el consumidor
+              digital se perfila como una nueva categoría que es muy importante para los investigadores de marketing (Ver la nota a pie de
+              página sobre las fuentes citadas) </em></p>
+        
+                <div class="publicidadEnArticulo" id="oculto_publicidadEnArticulo">
+                </div>
+                <script src="/js/us-publicidadEnArticulo.js"></script>
+        
+        <p>
+          Toda persona debe estar preparada para ver cosas que nunca esperó ver. Piense en mí, por ejemplo. Soy ingeniero de software: y
+          aquí estoy, escribiendo un artículo sobre consumo y marketing. Hoy en día, nada es extraño, un especialista en marketing está
+          aprendiendo a hacer software, un programador aprende cómo evaluar la experiencia de un usuario. ¿Sería extraño juzgar cuánto éxito
+          puede tener un producto para la salud analizando su contexto digital? No. Analicemos este caso para ilustrar mi punto. (Por favor,
+          lea la nota a pie de página sobre la fuente)
+        </p>
+        
+        <h2>Una marca de healthcare</h2>
+        <q>
+          Una empresa farmacéutica multinacional estaba empezando a desarrollar un <strong> nuevo producto sanitario </strong> que consistía
+          en un dispositivo y una aplicación. Como el desarrollo evolucionaría durante varios meses, los líderes del proyecto estaban
+          ansiosos por crear un recurso para que puedan validar sus ideas y <strong> obtener retroalimentación sobre los diseños </strong> a
+          medida que se creaban. El cliente estaba trabajando con una agencia digital para dar vida a las ideas y crear prototipos. La
+          agencia trabajó mediante sprints de diseño digital de dos semanas, que eran de naturaleza modular.
+        </q>
+        <p>
+          Por lo tanto, necesitaban un proyecto de investigación ágil para seguir el ritmo del plan de sprint:
+        </p>
+        
+        <ul>
+          <li> Era dificil <strong> testear una y otra vez </strong> las 'correcciones' realizadas en los módulos (habría sido demasiado
+            repetitivo / aburrido para la comunidad) </li>
+          <li> Dado que los módulos se probaron uno a la vez, fue difícil estar completamente seguro de qué tan bien se vincularían entre
+            sí los diferentes módulos. <strong> ¿Los usuarios entenderían el conjunto de la experiencia ? </strong> </li>
+        </ul>
+
+        <p> Entonces, los autores decidieron usar un diseño híbrido combinando la comunidad en línea con la investigación analógica:</p>
+<q> Recomendamos sesiones F2F (Face to Face) UX (Experiencia de usuario) para:</q>
+<ul>
+  <li> Darnos la oportunidad de volver a probar algunas de las "correcciones" realizadas. ¿Los cambios en los diseños habían ido
+    lo suficientemente buenos? </li>
+  <li> Había que probar los resultados de los sprints de manera holística (no módulo por módulo). </li>
+</ul>
+<q> También pensamos que un enfoque cara a cara sería útil para <strong> darle a los desarrolladores la oportunidad de observar a
+    los usuarios </strong> y ver las dificultades de primera mano, en vez de leerlo en un informe.</q>
+
+    <h2> El resultado </h2>
+    <p> Las sesiones cara a cara demostraron ser efectivas: </p>
+    <ul>
+      <li> Se confirmó que la experiencia de usuario funcionaba bien </li>
+      <li> Se confirmó que los usuarios experimentarían cierta confusión en determinados momentos del recorrido general </li>
+      <li> Se demostró la importancia de abordar estos problemas con el cliente y los desarrolladores al mismo tiempo </li>
+      <li> Se identificó algunos otros problemas con la empresa que hubieran sido difíciles de detectar con un enfoque puramente
+        online. </li>
+    </ul>
+
+                
+                      <div id="insight" class="bannerTwitero">
+                        <p> 
+                          Estos son algunos beneficios del enfoque híbrido: si bien la investigación en línea fue ágil y se puede aplicar en cualquier
+                          lugar, la investigación análofa es más <q> humana </q>; por otro lado, ambas metodologías producen una información precisa.
+                          Finalmente, pero no menos importante: <q> Al reclutar participantes para las comunidades online, es aconsejable considerar
+                            participantes que estén cerca: eso facilita que los participantes participen en la investigación cara a cara cuando sea
+                            necesario. </q>
+                        </p>
+                        <hr>
+                        
+                        <p>You liked this article ? Share it on 
+                          <a name="twitter-share" href="" class="blue-marker">Twitter</a>, 
+                          <a name="linkedIn-share"  href="" class="blue-marker">LinkedIn</a> or 
+                          <a name="facebook-share" href="" class="blue-marker">Facebook</a>
+                      </p>
+                      </div>
+      <h2 class="author">El documento citado es: Alex Johnson and Phillip Morrison, "Human Plus Digital Equals Agile and Accurate: How holistic communities can provide depth, rigour and quality to impatient stakeholders", ESOMAR Fusion, 2018</h2>
+
+                      <div itemtype="backstory" class="autor">
+                        <h2> Información bibliográfica </h2> <span> Autor: César Luhmann, </span> <time itemprop="datePublished"> <span
+                                itemtype="datePublished"> septiembre 16, 2020 </span> | <span itemtype="wordCount"> 1242 palabras </span> </time> |
+                        <span itemtype="isAccessibleForFree"> Acceso gratis </span> | <span itemtype="isBasedOn"> Fuentes: etnografía, comunidades en
+                          línea </span> | <span id = "comments" itemtype="keywords"> Marcas analizadas: R </span>
+                      </div>
+
+          <!-----------------------------------------------------------------------------------------------|
+                                                DISQUS
+                 ------------------------------------------------------------------------------------------------>
+
+          <div id="comentarios"></div>
+
+          <div id="disqus_thread"></div>
+
+          <script src="/js/es-disqus.js">
+                 </script>
+          <!------------------------------------------------ BANNER HEXIS ---------------------------------------------->
+
+          <div id="bannerFinal">
+          </div>
+        </article>
+      </div>
+
+      <div id="tira_contenido_marketing">
+      </div>
+
+      <script src="/js/es-tira_contenido_marketing.js"></script>
+    </main>
+    </div>
+    <!------------------------------------------------ FOOTER ---------------------------------------------->
+    <footer class="contenedorFooter" id="es-footer">
+    </footer>
+
+    <div class="copyRights" id="copyRights"></div>
+
+    <script src="/js/es-footer.js"></script>
+  </body>
+
+  <script src="/js/es-compartirEnFlex.js"></script>
+
+  <script src="/js/before_body_scripts.js"></script>
+</html>
